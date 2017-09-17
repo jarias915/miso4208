@@ -1,0 +1,2507 @@
+  bash arg: -p
+  bash arg: org.gnucash.android
+  bash arg: -v
+  bash arg: 10000
+:Monkey: seed=1505904791766 count=10000
+:AllowPackage: org.gnucash.android
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Event percentages:
+//   0: 15.0%
+//   1: 10.0%
+//   2: 2.0%
+//   3: 15.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 25.0%
+//   7: 15.0%
+//   8: 2.0%
+//   9: 2.0%
+//   10: 1.0%
+//   11: 13.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(481.0,1258.0)
+:Sending Touch (ACTION_UP): 0:(490.6106,1253.683)
+:Sending Touch (ACTION_DOWN): 0:(897.0,509.0)
+:Sending Touch (ACTION_UP): 0:(896.6144,522.2778)
+:Sending Touch (ACTION_DOWN): 0:(839.0,782.0)
+:Sending Touch (ACTION_UP): 0:(831.92456,779.2719)
+:Sending Touch (ACTION_DOWN): 0:(984.0,413.0)
+:Sending Touch (ACTION_UP): 0:(996.803,412.83722)
+:Sending Touch (ACTION_DOWN): 0:(463.0,861.0)
+:Sending Touch (ACTION_UP): 0:(449.4932,877.8499)
+:Sending Touch (ACTION_DOWN): 0:(954.0,845.0)
+:Sending Touch (ACTION_UP): 0:(940.24774,849.5222)
+:Sending Touch (ACTION_DOWN): 0:(427.0,400.0)
+:Sending Touch (ACTION_UP): 0:(406.49463,415.56445)
+:Sending Touch (ACTION_DOWN): 0:(498.0,758.0)
+:Sending Touch (ACTION_UP): 0:(494.13867,752.3745)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(161.0,1599.0)
+:Sending Touch (ACTION_UP): 0:(170.22725,1644.1266)
+:Sending Flip keyboardOpen=false
+:Sending Touch (ACTION_DOWN): 0:(541.0,1308.0)
+:Sending Touch (ACTION_UP): 0:(530.78735,1310.3931)
+:Sending Touch (ACTION_DOWN): 0:(706.0,1060.0)
+:Sending Touch (ACTION_UP): 0:(683.1382,1096.7218)
+:Sending Touch (ACTION_DOWN): 0:(256.0,476.0)
+:Sending Touch (ACTION_UP): 0:(230.92587,479.65375)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+    //[calendar_time:2017-09-17 11:17:12.918  system_uptime:7932076]
+    // Sending event #100
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity } in package com.google.android.apps.nexuslauncher
+:Sending Touch (ACTION_DOWN): 0:(331.0,1542.0)
+:Sending Touch (ACTION_UP): 0:(347.33173,1519.7659)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(581.0,1702.0)
+:Sending Touch (ACTION_UP): 0:(591.76526,1705.1941)
+:Sending Touch (ACTION_DOWN): 0:(150.0,399.0)
+:Sending Touch (ACTION_UP): 0:(207.48102,453.221)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(5.0,1673.0)
+:Sending Touch (ACTION_UP): 0:(5.84596,1697.3403)
+:Sending Touch (ACTION_DOWN): 0:(225.0,423.0)
+:Sending Touch (ACTION_UP): 0:(223.32379,441.72687)
+:Sending Touch (ACTION_DOWN): 0:(319.0,319.0)
+:Sending Touch (ACTION_UP): 0:(323.91293,318.1034)
+:Sending Touch (ACTION_DOWN): 0:(1023.0,984.0)
+:Sending Touch (ACTION_UP): 0:(1026.3911,985.98663)
+:Sending Touch (ACTION_DOWN): 0:(490.0,426.0)
+:Sending Touch (ACTION_UP): 0:(438.4589,463.4373)
+:Sending Touch (ACTION_DOWN): 0:(435.0,1555.0)
+:Sending Touch (ACTION_UP): 0:(419.1606,1537.9736)
+:Sending Touch (ACTION_DOWN): 0:(572.0,767.0)
+:Sending Touch (ACTION_UP): 0:(562.8606,755.13257)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Flip keyboardOpen=true
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+    //[calendar_time:2017-09-17 11:17:15.874  system_uptime:7935032]
+    // Sending event #200
+:Sending Touch (ACTION_DOWN): 0:(275.0,1386.0)
+:Sending Touch (ACTION_UP): 0:(426.8143,1341.4437)
+:Sending Touch (ACTION_DOWN): 0:(767.0,1131.0)
+:Sending Touch (ACTION_UP): 0:(763.01697,1133.0563)
+:Sending Flip keyboardOpen=false
+:Sending Touch (ACTION_DOWN): 0:(206.0,676.0)
+:Sending Touch (ACTION_UP): 0:(263.35873,694.06305)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(686.0,1682.0)
+:Sending Touch (ACTION_UP): 0:(701.3428,1679.7037)
+:Sending Touch (ACTION_DOWN): 0:(989.0,566.0)
+:Sending Touch (ACTION_UP): 0:(981.8959,602.1608)
+:Sending Touch (ACTION_DOWN): 0:(229.0,738.0)
+:Sending Touch (ACTION_UP): 0:(261.0177,783.0623)
+:Sending Touch (ACTION_DOWN): 0:(892.0,1420.0)
+:Sending Touch (ACTION_UP): 0:(811.6704,1504.944)
+:Sending Touch (ACTION_DOWN): 0:(811.0,1736.0)
+:Sending Touch (ACTION_UP): 0:(801.0049,1736.6531)
+    //[calendar_time:2017-09-17 11:17:18.630  system_uptime:7937787]
+    // Sending event #300
+    //[calendar_time:2017-09-17 11:17:18.630  system_uptime:7937788]
+    // Sending event #300
+:Sending Touch (ACTION_DOWN): 0:(182.0,185.0)
+:Sending Touch (ACTION_UP): 0:(182.1938,182.6518)
+:Sending Touch (ACTION_DOWN): 0:(344.0,166.0)
+:Sending Touch (ACTION_UP): 0:(337.1371,172.95322)
+:Sending Flip keyboardOpen=true
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.google.android.apps.maps/com.google.android.maps.MapsActivity } in package com.google.android.apps.maps
+    // Allowing start of Intent { cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(76.0,1527.0)
+:Sending Touch (ACTION_UP): 0:(76.35237,1517.9742)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Flip keyboardOpen=false
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(1067.0,1221.0)
+:Sending Touch (ACTION_UP): 0:(1036.4753,1216.6542)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+    //[calendar_time:2017-09-17 11:17:23.846  system_uptime:7943004]
+    // Sending event #400
+:Sending Touch (ACTION_DOWN): 0:(265.0,272.0)
+:Sending Touch (ACTION_UP): 0:(290.90857,292.62445)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(169.0,112.0)
+:Sending Touch (ACTION_UP): 0:(168.27887,104.55562)
+:Sending Touch (ACTION_DOWN): 0:(141.0,1752.0)
+:Sending Touch (ACTION_UP): 0:(128.85487,1750.8417)
+:Sending Touch (ACTION_DOWN): 0:(460.0,1733.0)
+:Sending Touch (ACTION_UP): 0:(476.14978,1749.6699)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(345.0,273.0)
+:Sending Touch (ACTION_UP): 0:(338.92703,268.46426)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(488.0,1442.0)
+:Sending Touch (ACTION_UP): 0:(477.098,1431.3135)
+:Sending Touch (ACTION_DOWN): 0:(556.0,627.0)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_UP): 0:(575.40546,628.24884)
+:Sending Touch (ACTION_DOWN): 0:(885.0,91.0)
+:Sending Touch (ACTION_UP): 0:(901.3616,78.64256)
+:Sending Touch (ACTION_DOWN): 0:(741.0,397.0)
+:Sending Touch (ACTION_UP): 0:(743.6838,385.73)
+:Sending Touch (ACTION_DOWN): 0:(430.0,4.0)
+:Sending Touch (ACTION_UP): 0:(421.16348,10.666391)
+:Sending Touch (ACTION_DOWN): 0:(939.0,550.0)
+    //[calendar_time:2017-09-17 11:17:26.851  system_uptime:7946008]
+    // Sending event #500
+:Sending Touch (ACTION_UP): 0:(1026.6938,573.801)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(164.0,897.0)
+:Sending Touch (ACTION_UP): 0:(172.9392,914.42175)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(479.0,1344.0)
+:Sending Touch (ACTION_UP): 0:(536.76263,1198.8707)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+    //[calendar_time:2017-09-17 11:17:29.432  system_uptime:7948590]
+    // Sending event #600
+:Sending Touch (ACTION_DOWN): 0:(613.0,1443.0)
+:Sending Touch (ACTION_UP): 0:(591.47064,1400.0907)
+:Sending Touch (ACTION_DOWN): 0:(640.0,461.0)
+:Sending Touch (ACTION_UP): 0:(636.28613,459.66708)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(698.0,521.0)
+:Sending Touch (ACTION_UP): 0:(705.6816,505.33627)
+:Sending Touch (ACTION_DOWN): 0:(409.0,1426.0)
+:Sending Touch (ACTION_UP): 0:(399.21484,1430.3387)
+:Sending Touch (ACTION_DOWN): 0:(363.0,647.0)
+:Sending Touch (ACTION_UP): 0:(412.36914,581.0224)
+:Sending Touch (ACTION_DOWN): 0:(283.0,348.0)
+:Sending Touch (ACTION_UP): 0:(213.80768,430.04745)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(895.0,676.0)
+:Sending Touch (ACTION_UP): 0:(896.4983,679.3013)
+:Sending Touch (ACTION_DOWN): 0:(700.0,352.0)
+:Sending Touch (ACTION_UP): 0:(629.9419,371.86462)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+    //[calendar_time:2017-09-17 11:17:32.065  system_uptime:7951223]
+    // Sending event #700
+:Sending Touch (ACTION_DOWN): 0:(1003.0,1562.0)
+:Sending Touch (ACTION_UP): 0:(994.0391,1575.6086)
+:Sending Touch (ACTION_DOWN): 0:(221.0,1568.0)
+:Sending Touch (ACTION_UP): 0:(252.08916,1567.8337)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(9.0,923.0)
+:Sending Touch (ACTION_UP): 0:(24.582369,922.4667)
+:Sending Touch (ACTION_DOWN): 0:(176.0,929.0)
+:Sending Touch (ACTION_UP): 0:(158.26263,944.6348)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(54.0,39.0)
+:Sending Touch (ACTION_UP): 0:(20.085987,30.502068)
+:Sending Touch (ACTION_DOWN): 0:(1066.0,1027.0)
+:Sending Touch (ACTION_UP): 0:(1060.3876,981.19446)
+:Sending Touch (ACTION_DOWN): 0:(591.0,1008.0)
+:Sending Touch (ACTION_UP): 0:(587.084,1012.11096)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(510.0,256.0)
+:Sending Touch (ACTION_UP): 0:(507.8663,236.08336)
+:Sending Touch (ACTION_DOWN): 0:(210.0,342.0)
+:Sending Touch (ACTION_UP): 0:(208.37717,329.48654)
+:Sending Touch (ACTION_DOWN): 0:(559.0,365.0)
+:Sending Touch (ACTION_UP): 0:(550.5545,359.975)
+:Sending Touch (ACTION_DOWN): 0:(449.0,1475.0)
+:Sending Touch (ACTION_UP): 0:(395.55173,1418.2482)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(853.0,727.0)
+    //[calendar_time:2017-09-17 11:17:35.634  system_uptime:7954792]
+    // Sending event #800
+:Sending Touch (ACTION_UP): 0:(773.5081,625.33514)
+:Sending Touch (ACTION_DOWN): 0:(988.0,254.0)
+:Sending Touch (ACTION_UP): 0:(950.6084,331.192)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(1062.0,1540.0)
+:Sending Touch (ACTION_UP): 0:(1074.0114,1542.3744)
+:Sending Touch (ACTION_DOWN): 0:(134.0,1409.0)
+:Sending Touch (ACTION_UP): 0:(139.2982,1411.1566)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(855.0,477.0)
+:Sending Touch (ACTION_UP): 0:(845.723,495.95926)
+:Sending Touch (ACTION_DOWN): 0:(102.0,827.0)
+:Sending Touch (ACTION_UP): 0:(100.49198,823.69763)
+:Sending Touch (ACTION_DOWN): 0:(797.0,283.0)
+:Sending Touch (ACTION_UP): 0:(793.86975,297.152)
+:Sending Touch (ACTION_DOWN): 0:(184.0,923.0)
+:Sending Touch (ACTION_UP): 0:(177.23074,920.2971)
+:Sending Flip keyboardOpen=true
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+    //[calendar_time:2017-09-17 11:17:39.313  system_uptime:7958471]
+    // Sending event #900
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    // Allowing start of Intent { cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(32.0,1454.0)
+:Sending Touch (ACTION_UP): 0:(32.713394,1451.0317)
+:Sending Touch (ACTION_DOWN): 0:(892.0,1386.0)
+:Sending Touch (ACTION_UP): 0:(903.80426,1390.0311)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(63.0,1366.0)
+:Sending Touch (ACTION_UP): 0:(66.727066,1383.3121)
+:Sending Touch (ACTION_DOWN): 0:(342.0,561.0)
+:Sending Touch (ACTION_UP): 0:(363.2901,559.3364)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(701.0,797.0)
+:Sending Touch (ACTION_UP): 0:(739.05066,864.121)
+:Sending Touch (ACTION_DOWN): 0:(837.0,712.0)
+:Sending Touch (ACTION_UP): 0:(825.7933,713.50134)
+:Sending Touch (ACTION_DOWN): 0:(238.0,500.0)
+:Sending Touch (ACTION_UP): 0:(234.92798,535.9867)
+    //[calendar_time:2017-09-17 11:17:41.824  system_uptime:7960982]
+    // Sending event #1000
+    //[calendar_time:2017-09-17 11:17:41.824  system_uptime:7960982]
+    // Sending event #1000
+:Sending Touch (ACTION_DOWN): 0:(839.0,1745.0)
+:Sending Touch (ACTION_UP): 0:(860.03876,1758.6803)
+:Sending Touch (ACTION_DOWN): 0:(963.0,1006.0)
+:Sending Touch (ACTION_UP): 0:(936.46027,967.6325)
+:Sending Touch (ACTION_DOWN): 0:(369.0,173.0)
+:Sending Touch (ACTION_UP): 0:(241.0783,265.2591)
+:Sending Touch (ACTION_DOWN): 0:(800.0,220.0)
+:Sending Touch (ACTION_UP): 0:(774.57367,197.69392)
+:Sending Touch (ACTION_DOWN): 0:(553.0,593.0)
+:Sending Touch (ACTION_UP): 0:(508.79517,546.99927)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(782.0,924.0)
+:Sending Touch (ACTION_UP): 0:(787.2891,937.24677)
+:Sending Touch (ACTION_DOWN): 0:(511.0,340.0)
+:Sending Touch (ACTION_UP): 0:(543.0526,409.7556)
+:Sending Touch (ACTION_DOWN): 0:(757.0,603.0)
+:Sending Touch (ACTION_UP): 0:(760.9478,593.79517)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+    //[calendar_time:2017-09-17 11:17:44.336  system_uptime:7963494]
+    // Sending event #1100
+:Sending Touch (ACTION_DOWN): 0:(286.0,1566.0)
+:Sending Touch (ACTION_UP): 0:(292.24847,1552.391)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity } in package com.google.android.apps.nexuslauncher
+:Sending Touch (ACTION_DOWN): 0:(1059.0,346.0)
+:Sending Touch (ACTION_UP): 0:(1058.4998,345.04614)
+:Sending Touch (ACTION_DOWN): 0:(199.0,1266.0)
+:Sending Touch (ACTION_UP): 0:(78.62774,1374.2678)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(506.0,1498.0)
+:Sending Touch (ACTION_UP): 0:(493.11295,1478.0192)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity } in package com.google.android.apps.nexuslauncher
+:Sending Flip keyboardOpen=false
+:Sending Touch (ACTION_DOWN): 0:(744.0,1704.0)
+:Sending Touch (ACTION_UP): 0:(737.5873,1704.3484)
+:Sending Touch (ACTION_DOWN): 0:(568.0,1542.0)
+:Sending Touch (ACTION_UP): 0:(561.882,1536.0396)
+:Sending Touch (ACTION_DOWN): 0:(1025.0,1180.0)
+:Sending Touch (ACTION_UP): 0:(1080.0,1151.4509)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(956.0,1513.0)
+:Sending Touch (ACTION_UP): 0:(938.18585,1513.0154)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+    //[calendar_time:2017-09-17 11:17:45.256  system_uptime:7964414]
+    // Sending event #1200
+:Sending Touch (ACTION_DOWN): 0:(482.0,316.0)
+:Sending Touch (ACTION_UP): 0:(468.58524,326.91742)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(814.0,294.0)
+:Sending Touch (ACTION_UP): 0:(728.9322,326.23593)
+:Sending Touch (ACTION_DOWN): 0:(21.0,884.0)
+:Sending Touch (ACTION_UP): 0:(103.26803,872.945)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(706.0,1780.0)
+:Sending Touch (ACTION_UP): 0:(692.1143,1780.7628)
+:Sending Touch (ACTION_DOWN): 0:(878.0,1700.0)
+:Sending Touch (ACTION_UP): 0:(871.66376,1682.5062)
+:Sending Touch (ACTION_DOWN): 0:(1024.0,1299.0)
+:Sending Touch (ACTION_UP): 0:(1009.4501,1305.0284)
+:Sending Touch (ACTION_DOWN): 0:(144.0,1743.0)
+:Sending Touch (ACTION_UP): 0:(91.435776,1766.2347)
+:Sending Touch (ACTION_DOWN): 0:(296.0,1453.0)
+:Sending Touch (ACTION_UP): 0:(300.3104,1459.6753)
+    //[calendar_time:2017-09-17 11:17:48.613  system_uptime:7967771]
+    // Sending event #1300
+    //[calendar_time:2017-09-17 11:17:48.632  system_uptime:7967790]
+    // Sending event #1300
+:Sending Touch (ACTION_DOWN): 0:(436.0,947.0)
+:Sending Touch (ACTION_UP): 0:(441.2502,944.618)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(469.0,496.0)
+    // Rejecting start of Intent { act=android.intent.action.CALL_BUTTON cmp=com.google.android.dialer/com.google.android.apps.dialer.extensions.GoogleDialtactsActivity } in package com.google.android.dialer
+:Sending Touch (ACTION_UP): 0:(463.14313,490.099)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(560.0,1266.0)
+:Sending Touch (ACTION_UP): 0:(553.3815,1278.6718)
+:Sending Touch (ACTION_DOWN): 0:(918.0,621.0)
+:Sending Touch (ACTION_UP): 0:(914.39526,603.8001)
+:Sending Touch (ACTION_DOWN): 0:(579.0,1742.0)
+:Sending Touch (ACTION_UP): 0:(574.65594,1742.9354)
+:Sending Touch (ACTION_DOWN): 0:(107.0,161.0)
+:Sending Touch (ACTION_UP): 0:(43.94922,50.30388)
+:Sending Touch (ACTION_DOWN): 0:(845.0,794.0)
+:Sending Touch (ACTION_UP): 0:(828.6513,779.0901)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(787.0,799.0)
+    //[calendar_time:2017-09-17 11:17:51.416  system_uptime:7970574]
+    // Sending event #1400
+:Sending Touch (ACTION_UP): 0:(789.37054,781.5567)
+:Sending Touch (ACTION_DOWN): 0:(353.0,1591.0)
+:Sending Touch (ACTION_UP): 0:(346.09326,1592.6661)
+:Sending Touch (ACTION_DOWN): 0:(160.0,917.0)
+:Sending Touch (ACTION_UP): 0:(160.15427,917.92834)
+:Sending Touch (ACTION_DOWN): 0:(719.0,1504.0)
+:Sending Touch (ACTION_UP): 0:(712.3595,1503.5153)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(815.0,695.0)
+:Sending Touch (ACTION_UP): 0:(794.1506,687.16943)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(52.0,430.0)
+:Sending Touch (ACTION_UP): 0:(56.549324,435.43216)
+:Sending Touch (ACTION_DOWN): 0:(682.0,235.0)
+:Sending Touch (ACTION_UP): 0:(759.8887,237.59529)
+:Sending Touch (ACTION_DOWN): 0:(724.0,37.0)
+:Sending Touch (ACTION_UP): 0:(761.599,0.0)
+:Sending Touch (ACTION_DOWN): 0:(138.0,1670.0)
+:Sending Touch (ACTION_UP): 0:(142.04922,1698.0061)
+:Sending Touch (ACTION_DOWN): 0:(924.0,488.0)
+:Sending Touch (ACTION_UP): 0:(939.66815,489.02478)
+:Sending Touch (ACTION_DOWN): 0:(195.0,704.0)
+:Sending Touch (ACTION_UP): 0:(181.60703,702.2978)
+:Sending Touch (ACTION_DOWN): 0:(301.0,1274.0)
+:Sending Touch (ACTION_UP): 0:(313.60773,1352.8779)
+:Sending Touch (ACTION_DOWN): 0:(265.0,365.0)
+:Sending Touch (ACTION_UP): 0:(266.8188,366.58148)
+    //[calendar_time:2017-09-17 11:17:54.532  system_uptime:7973690]
+    // Sending event #1500
+    //[calendar_time:2017-09-17 11:17:54.533  system_uptime:7973690]
+    // Sending event #1500
+:Sending Touch (ACTION_DOWN): 0:(163.0,1255.0)
+:Sending Touch (ACTION_UP): 0:(56.593925,1342.4459)
+:Sending Touch (ACTION_DOWN): 0:(990.0,758.0)
+:Sending Touch (ACTION_UP): 0:(993.4096,767.47296)
+:Sending Touch (ACTION_DOWN): 0:(947.0,1483.0)
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(894.62195,1414.7637)
+    // Injection Failed
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(660.0,703.0)
+:Sending Touch (ACTION_UP): 0:(635.3768,716.0685)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(796.0,1037.0)
+:Sending Touch (ACTION_UP): 0:(796.26996,1017.71436)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+    //[calendar_time:2017-09-17 11:17:56.985  system_uptime:7976143]
+    // Sending event #1600
+:Sending Touch (ACTION_DOWN): 0:(737.0,84.0)
+:Sending Touch (ACTION_UP): 0:(730.46375,84.71813)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+    // Allowing start of Intent { cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(447.0,1121.0)
+:Sending Touch (ACTION_UP): 0:(451.80563,1138.5322)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(975.0,1382.0)
+:Sending Touch (ACTION_UP): 0:(1078.2853,1453.0728)
+:Sending Touch (ACTION_DOWN): 0:(510.0,353.0)
+:Sending Touch (ACTION_UP): 0:(507.42712,348.0408)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(359.0,35.0)
+:Sending Touch (ACTION_UP): 0:(363.34335,41.50692)
+:Sending Touch (ACTION_DOWN): 0:(616.0,709.0)
+:Sending Touch (ACTION_UP): 0:(617.3944,699.21625)
+:Sending Touch (ACTION_DOWN): 0:(564.0,1343.0)
+:Sending Touch (ACTION_UP): 0:(546.3498,1346.2572)
+:Sending Touch (ACTION_DOWN): 0:(278.0,515.0)
+:Sending Touch (ACTION_UP): 0:(273.18326,508.145)
+:Sending Touch (ACTION_DOWN): 0:(229.0,852.0)
+:Sending Touch (ACTION_UP): 0:(228.0047,848.59515)
+:Sending Touch (ACTION_DOWN): 0:(706.0,852.0)
+:Sending Touch (ACTION_UP): 0:(661.3683,790.6315)
+:Sending Touch (ACTION_DOWN): 0:(122.0,253.0)
+:Sending Touch (ACTION_UP): 0:(118.19464,258.03586)
+:Sending Touch (ACTION_DOWN): 0:(435.0,1276.0)
+:Sending Touch (ACTION_UP): 0:(416.70383,1272.8701)
+    //[calendar_time:2017-09-17 11:18:01.059  system_uptime:7980217]
+    // Sending event #1700
+    //[calendar_time:2017-09-17 11:18:01.059  system_uptime:7980217]
+    // Sending event #1700
+:Sending Touch (ACTION_DOWN): 0:(672.0,1732.0)
+:Sending Touch (ACTION_UP): 0:(610.87854,1794.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(756.0,778.0)
+:Sending Touch (ACTION_UP): 0:(760.8635,778.00385)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(826.0,743.0)
+:Sending Touch (ACTION_UP): 0:(835.3654,761.3587)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(1038.0,1776.0)
+:Sending Touch (ACTION_UP): 0:(1049.7108,1794.0)
+    // Allowing start of Intent { act=android.intent.action.INSERT_OR_EDIT cmp=org.gnucash.android/.ui.common.FormActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(826.0,325.0)
+:Sending Touch (ACTION_UP): 0:(836.11456,324.98456)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(870.0,568.0)
+:Sending Touch (ACTION_UP): 0:(880.57117,573.30347)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+    //[calendar_time:2017-09-17 11:18:03.665  system_uptime:7982823]
+    // Sending event #1800
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(1041.0,873.0)
+:Sending Touch (ACTION_UP): 0:(1051.847,864.2048)
+:Sending Touch (ACTION_DOWN): 0:(577.0,1681.0)
+:Sending Touch (ACTION_UP): 0:(571.05896,1688.5887)
+:Sending Touch (ACTION_DOWN): 0:(82.0,1292.0)
+:Sending Touch (ACTION_UP): 0:(81.02172,1229.5566)
+:Sending Touch (ACTION_DOWN): 0:(488.0,691.0)
+:Sending Touch (ACTION_UP): 0:(478.43854,692.8759)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(477.0,977.0)
+:Sending Touch (ACTION_UP): 0:(474.8605,999.5521)
+:Sending Touch (ACTION_DOWN): 0:(791.0,570.0)
+:Sending Touch (ACTION_UP): 0:(718.94214,565.78015)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(743.0,175.0)
+:Sending Touch (ACTION_UP): 0:(768.3309,158.73907)
+    //[calendar_time:2017-09-17 11:18:05.650  system_uptime:7984808]
+    // Sending event #1900
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(1003.0,1062.0)
+:Sending Touch (ACTION_UP): 0:(1032.0962,1058.2367)
+:Sending Touch (ACTION_DOWN): 0:(553.0,1285.0)
+:Sending Touch (ACTION_UP): 0:(581.6859,1213.9718)
+:Sending Touch (ACTION_DOWN): 0:(527.0,1328.0)
+:Sending Touch (ACTION_UP): 0:(534.5231,1318.9408)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(715.0,1543.0)
+:Sending Touch (ACTION_UP): 0:(715.91925,1547.5369)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(49.0,50.0)
+:Sending Touch (ACTION_UP): 0:(45.77322,48.097954)
+:Sending Touch (ACTION_DOWN): 0:(1000.0,1424.0)
+:Sending Touch (ACTION_UP): 0:(973.3159,1438.7045)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(124.0,743.0)
+:Sending Touch (ACTION_UP): 0:(123.53769,742.86304)
+:Sending Touch (ACTION_DOWN): 0:(710.0,1442.0)
+:Sending Touch (ACTION_UP): 0:(722.5274,1426.1184)
+:Sending Touch (ACTION_DOWN): 0:(627.0,727.0)
+    //[calendar_time:2017-09-17 11:18:07.908  system_uptime:7987066]
+    // Sending event #2000
+:Sending Touch (ACTION_UP): 0:(581.9044,705.43463)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(679.0,1333.0)
+:Sending Touch (ACTION_UP): 0:(681.95703,1304.1292)
+:Sending Touch (ACTION_DOWN): 0:(812.0,591.0)
+:Sending Touch (ACTION_UP): 0:(900.6233,639.15265)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(910.0,767.0)
+:Sending Touch (ACTION_UP): 0:(915.6316,767.93115)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(368.0,1676.0)
+:Sending Touch (ACTION_UP): 0:(376.85208,1681.0427)
+:Sending Touch (ACTION_DOWN): 0:(77.0,534.0)
+:Sending Touch (ACTION_UP): 0:(77.412315,504.09866)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+    //[calendar_time:2017-09-17 11:18:10.402  system_uptime:7989559]
+    // Sending event #2100
+:Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(505.0,1278.0)
+:Sending Touch (ACTION_UP): 0:(512.17017,1275.1115)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(158.0,1633.0)
+    // Rejecting start of Intent { act=android.intent.action.CALL_BUTTON cmp=com.google.android.dialer/com.google.android.apps.dialer.extensions.GoogleDialtactsActivity } in package com.google.android.dialer
+:Sending Touch (ACTION_UP): 0:(117.577286,1655.3098)
+:Sending Touch (ACTION_DOWN): 0:(985.0,1091.0)
+:Sending Touch (ACTION_UP): 0:(839.06915,1069.9316)
+:Sending Touch (ACTION_DOWN): 0:(604.0,164.0)
+:Sending Touch (ACTION_UP): 0:(637.56195,249.69466)
+:Sending Touch (ACTION_DOWN): 0:(43.0,1600.0)
+:Sending Touch (ACTION_UP): 0:(7.7399325,1503.7324)
+:Sending Touch (ACTION_DOWN): 0:(815.0,171.0)
+    //[calendar_time:2017-09-17 11:18:12.578  system_uptime:7991736]
+    // Sending event #2200
+:Sending Touch (ACTION_UP): 0:(798.8346,156.92911)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(583.0,707.0)
+:Sending Touch (ACTION_UP): 0:(581.1893,710.9604)
+:Sending Touch (ACTION_DOWN): 0:(504.0,1007.0)
+:Sending Touch (ACTION_UP): 0:(499.80203,994.5126)
+:Sending Touch (ACTION_DOWN): 0:(871.0,1540.0)
+:Sending Touch (ACTION_UP): 0:(885.30786,1529.1548)
+:Sending Touch (ACTION_DOWN): 0:(763.0,1296.0)
+:Sending Touch (ACTION_UP): 0:(758.87494,1309.5415)
+:Sending Touch (ACTION_DOWN): 0:(608.0,1138.0)
+:Sending Touch (ACTION_UP): 0:(612.36304,1171.7946)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(884.0,784.0)
+:Sending Touch (ACTION_UP): 0:(886.20404,766.2514)
+:Sending Touch (ACTION_DOWN): 0:(612.0,1682.0)
+:Sending Touch (ACTION_UP): 0:(626.70746,1694.9297)
+:Sending Touch (ACTION_DOWN): 0:(900.0,55.0)
+:Sending Touch (ACTION_UP): 0:(888.8775,56.098976)
+:Sending Touch (ACTION_DOWN): 0:(418.0,119.0)
+:Sending Touch (ACTION_UP): 0:(413.72348,192.96825)
+    //[calendar_time:2017-09-17 11:18:14.516  system_uptime:7993674]
+    // Sending event #2300
+    //[calendar_time:2017-09-17 11:18:14.516  system_uptime:7993674]
+    // Sending event #2300
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(636.0,1688.0)
+:Sending Touch (ACTION_UP): 0:(598.6425,1594.7494)
+:Sending Touch (ACTION_DOWN): 0:(97.0,1603.0)
+:Sending Touch (ACTION_UP): 0:(99.82026,1610.7806)
+:Sending Touch (ACTION_DOWN): 0:(931.0,1099.0)
+:Sending Touch (ACTION_UP): 0:(852.73895,1092.4838)
+:Sending Touch (ACTION_DOWN): 0:(732.0,1479.0)
+:Sending Touch (ACTION_UP): 0:(733.38495,1470.8835)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(941.0,1497.0)
+:Sending Touch (ACTION_UP): 0:(918.9675,1513.3529)
+:Sending Flip keyboardOpen=true
+:Sending Touch (ACTION_DOWN): 0:(47.0,1543.0)
+:Sending Touch (ACTION_UP): 0:(47.712746,1555.8176)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity } in package com.google.android.apps.nexuslauncher
+:Sending Touch (ACTION_DOWN): 0:(587.0,61.0)
+    //[calendar_time:2017-09-17 11:18:16.491  system_uptime:7995649]
+    // Sending event #2400
+:Sending Touch (ACTION_UP): 0:(586.4348,63.114212)
+:Sending Touch (ACTION_DOWN): 0:(146.0,357.0)
+:Sending Touch (ACTION_UP): 0:(131.1697,392.73694)
+:Sending Touch (ACTION_DOWN): 0:(718.0,1461.0)
+:Sending Touch (ACTION_UP): 0:(720.78033,1460.53)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(910.0,409.0)
+:Sending Touch (ACTION_UP): 0:(908.2433,414.18582)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Flip keyboardOpen=false
+:Sending Touch (ACTION_DOWN): 0:(1057.0,738.0)
+:Sending Touch (ACTION_UP): 0:(1060.8286,718.30206)
+:Sending Touch (ACTION_DOWN): 0:(30.0,1320.0)
+:Sending Touch (ACTION_UP): 0:(24.433208,1324.8384)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.chrome/com.google.android.apps.chrome.Main } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(743.0,1650.0)
+:Sending Touch (ACTION_UP): 0:(745.7705,1656.2217)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+    //[calendar_time:2017-09-17 11:18:19.006  system_uptime:7998163]
+    // Sending event #2500
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(78.0,1684.0)
+:Sending Touch (ACTION_UP): 0:(70.79234,1681.3029)
+:Sending Touch (ACTION_DOWN): 0:(630.0,1017.0)
+:Sending Touch (ACTION_UP): 0:(627.29193,1002.81714)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(246.0,576.0)
+:Sending Touch (ACTION_UP): 0:(245.97739,584.104)
+:Sending Touch (ACTION_DOWN): 0:(865.0,956.0)
+:Sending Touch (ACTION_UP): 0:(864.90656,956.3603)
+:Sending Touch (ACTION_DOWN): 0:(128.0,682.0)
+:Sending Touch (ACTION_UP): 0:(132.19289,673.2568)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+    // Rejecting start of Intent { act=android.intent.action.CALL_BUTTON cmp=com.google.android.dialer/com.google.android.apps.dialer.extensions.GoogleDialtactsActivity } in package com.google.android.dialer
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(461.0,1418.0)
+:Sending Touch (ACTION_UP): 0:(458.3797,1423.066)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(826.0,956.0)
+:Sending Touch (ACTION_UP): 0:(909.499,903.1859)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    //[calendar_time:2017-09-17 11:18:23.782  system_uptime:8002940]
+    // Sending event #2600
+    //[calendar_time:2017-09-17 11:18:23.783  system_uptime:8002941]
+    // Sending event #2600
+:Sending Touch (ACTION_DOWN): 0:(98.0,1256.0)
+:Sending Touch (ACTION_UP): 0:(105.34535,1251.9469)
+:Sending Touch (ACTION_DOWN): 0:(44.0,437.0)
+:Sending Touch (ACTION_UP): 0:(53.17759,436.50668)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(795.0,547.0)
+:Sending Touch (ACTION_UP): 0:(792.75635,545.631)
+:Sending Touch (ACTION_DOWN): 0:(629.0,693.0)
+:Sending Touch (ACTION_UP): 0:(631.02686,686.1466)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(1051.0,510.0)
+:Sending Touch (ACTION_UP): 0:(1049.8687,509.76782)
+:Sending Touch (ACTION_DOWN): 0:(867.0,1666.0)
+:Sending Touch (ACTION_UP): 0:(869.31494,1672.7032)
+:Sending Touch (ACTION_DOWN): 0:(29.0,687.0)
+:Sending Touch (ACTION_UP): 0:(28.117924,684.9438)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(724.0,653.0)
+:Sending Touch (ACTION_UP): 0:(727.6093,644.2638)
+:Sending Touch (ACTION_DOWN): 0:(885.0,1563.0)
+:Sending Touch (ACTION_UP): 0:(898.6237,1583.6481)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+    //[calendar_time:2017-09-17 11:18:25.904  system_uptime:8005062]
+    // Sending event #2700
+:Sending Touch (ACTION_DOWN): 0:(254.0,1402.0)
+:Sending Touch (ACTION_UP): 0:(253.20413,1422.0607)
+:Sending Touch (ACTION_DOWN): 0:(1061.0,879.0)
+:Sending Touch (ACTION_UP): 0:(1058.5931,870.1926)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(80.0,504.0)
+:Sending Touch (ACTION_UP): 0:(28.293322,570.4887)
+:Sending Touch (ACTION_DOWN): 0:(645.0,1527.0)
+:Sending Touch (ACTION_UP): 0:(644.3065,1510.2278)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(472.0,357.0)
+:Sending Touch (ACTION_UP): 0:(475.47614,360.02307)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(273.0,1184.0)
+:Sending Touch (ACTION_UP): 0:(271.1039,1179.053)
+:Sending Touch (ACTION_DOWN): 0:(167.0,740.0)
+:Sending Touch (ACTION_UP): 0:(160.73802,744.9549)
+:Sending Touch (ACTION_DOWN): 0:(284.0,1396.0)
+:Sending Touch (ACTION_UP): 0:(272.9389,1400.321)
+:Sending Touch (ACTION_DOWN): 0:(337.0,459.0)
+:Sending Touch (ACTION_UP): 0:(358.90353,458.08466)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+    //[calendar_time:2017-09-17 11:18:27.699  system_uptime:8006857]
+    // Sending event #2800
+    //[calendar_time:2017-09-17 11:18:27.699  system_uptime:8006857]
+    // Sending event #2800
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.google.android.music/com.android.music.activitymanagement.TopLevelActivity } in package com.google.android.music
+:Sending Touch (ACTION_DOWN): 0:(80.0,943.0)
+:Sending Touch (ACTION_UP): 0:(96.21428,947.0664)
+:Sending Touch (ACTION_DOWN): 0:(138.0,1434.0)
+:Sending Touch (ACTION_UP): 0:(158.19487,1440.0216)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(1058.0,1066.0)
+:Sending Touch (ACTION_UP): 0:(975.1047,1048.8732)
+    // Rejecting start of Intent { act=com.android.intent.action.SHOW_BRIGHTNESS_DIALOG cmp=com.android.systemui/.settings.BrightnessDialog } in package com.android.systemui
+:Sending Touch (ACTION_DOWN): 0:(81.0,1152.0)
+:Sending Touch (ACTION_UP): 0:(75.553955,1156.5323)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(22.0,166.0)
+:Sending Touch (ACTION_UP): 0:(34.222816,172.20328)
+:Sending Touch (ACTION_DOWN): 0:(88.0,1240.0)
+:Sending Touch (ACTION_UP): 0:(87.25178,1223.8893)
+:Sending Touch (ACTION_DOWN): 0:(22.0,807.0)
+:Sending Touch (ACTION_UP): 0:(42.613583,823.4462)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+    // Allowing start of Intent { act=android.intent.action.INSERT_OR_EDIT cmp=org.gnucash.android/.ui.common.FormActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(238.0,1162.0)
+    //[calendar_time:2017-09-17 11:18:31.343  system_uptime:8010501]
+    // Sending event #2900
+:Sending Touch (ACTION_UP): 0:(238.767,1169.8489)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(818.0,235.0)
+    // Rejecting start of Intent { act=android.intent.action.CALL_BUTTON cmp=com.google.android.dialer/com.google.android.apps.dialer.extensions.GoogleDialtactsActivity } in package com.google.android.dialer
+:Sending Touch (ACTION_UP): 0:(815.40826,223.06015)
+:Sending Touch (ACTION_DOWN): 0:(147.0,634.0)
+:Sending Touch (ACTION_UP): 0:(152.13586,633.41486)
+:Sending Touch (ACTION_DOWN): 0:(496.0,193.0)
+:Sending Touch (ACTION_UP): 0:(500.24832,181.41905)
+:Sending Touch (ACTION_DOWN): 0:(226.0,1588.0)
+:Sending Touch (ACTION_UP): 0:(227.65918,1589.1849)
+:Sending Touch (ACTION_DOWN): 0:(1019.0,1634.0)
+:Sending Touch (ACTION_UP): 0:(1041.8174,1661.7056)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+    // Rejecting start of Intent { act=android.intent.action.CALL_BUTTON cmp=com.google.android.dialer/com.google.android.apps.dialer.extensions.GoogleDialtactsActivity } in package com.google.android.dialer
+:Sending Touch (ACTION_DOWN): 0:(330.0,103.0)
+:Sending Touch (ACTION_UP): 0:(342.35983,100.36285)
+:Sending Touch (ACTION_DOWN): 0:(917.0,1175.0)
+:Sending Touch (ACTION_UP): 0:(911.2368,1174.2462)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(314.0,931.0)
+    //[calendar_time:2017-09-17 11:18:33.220  system_uptime:8012378]
+    // Sending event #3000
+:Sending Touch (ACTION_UP): 0:(248.11887,915.4375)
+:Sending Touch (ACTION_DOWN): 0:(971.0,522.0)
+:Sending Touch (ACTION_UP): 0:(971.3701,521.24835)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(361.0,80.0)
+:Sending Touch (ACTION_UP): 0:(357.6213,92.03426)
+:Sending Touch (ACTION_DOWN): 0:(434.0,1436.0)
+:Sending Touch (ACTION_UP): 0:(425.83105,1424.4595)
+:Sending Touch (ACTION_DOWN): 0:(691.0,464.0)
+:Sending Touch (ACTION_UP): 0:(707.92114,485.15106)
+:Sending Touch (ACTION_DOWN): 0:(882.0,958.0)
+:Sending Touch (ACTION_UP): 0:(893.8471,958.5451)
+:Sending Touch (ACTION_DOWN): 0:(443.0,1188.0)
+:Sending Touch (ACTION_UP): 0:(431.1668,1186.3414)
+:Sending Touch (ACTION_DOWN): 0:(497.0,1305.0)
+:Sending Touch (ACTION_UP): 0:(566.1223,1300.3269)
+:Sending Touch (ACTION_DOWN): 0:(953.0,72.0)
+:Sending Touch (ACTION_UP): 0:(1056.4644,28.946913)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(712.0,758.0)
+:Sending Touch (ACTION_UP): 0:(743.9307,759.9323)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(548.0,991.0)
+:Sending Touch (ACTION_UP): 0:(568.7672,1047.3949)
+:Sending Touch (ACTION_DOWN): 0:(540.0,1656.0)
+:Sending Touch (ACTION_UP): 0:(541.16296,1663.3978)
+:Sending Touch (ACTION_DOWN): 0:(861.0,1447.0)
+:Sending Touch (ACTION_UP): 0:(870.2432,1446.9647)
+:Sending Touch (ACTION_DOWN): 0:(477.0,364.0)
+:Sending Touch (ACTION_UP): 0:(477.24677,368.48837)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+    //[calendar_time:2017-09-17 11:18:37.586  system_uptime:8016744]
+    // Sending event #3100
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(254.0,12.0)
+:Sending Touch (ACTION_UP): 0:(256.36636,13.879307)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(539.0,1303.0)
+:Sending Touch (ACTION_UP): 0:(619.48645,1292.321)
+:Sending Touch (ACTION_DOWN): 0:(658.0,165.0)
+:Sending Touch (ACTION_UP): 0:(660.4767,182.78378)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(69.0,1536.0)
+:Sending Touch (ACTION_UP): 0:(20.458012,1503.4731)
+:Sending Touch (ACTION_DOWN): 0:(726.0,987.0)
+:Sending Touch (ACTION_UP): 0:(734.60645,984.7863)
+:Sending Touch (ACTION_DOWN): 0:(192.0,1733.0)
+:Sending Touch (ACTION_UP): 0:(270.28296,1794.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+    //[calendar_time:2017-09-17 11:18:40.381  system_uptime:8019539]
+    // Sending event #3200
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(330.0,840.0)
+:Sending Touch (ACTION_UP): 0:(387.4178,859.6082)
+:Sending Touch (ACTION_DOWN): 0:(713.0,403.0)
+:Sending Touch (ACTION_UP): 0:(715.92596,416.75705)
+:Sending Touch (ACTION_DOWN): 0:(322.0,1644.0)
+:Sending Touch (ACTION_UP): 0:(315.87537,1593.364)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(65.0,1378.0)
+:Sending Touch (ACTION_UP): 0:(38.465466,1290.9016)
+:Sending Touch (ACTION_DOWN): 0:(28.0,405.0)
+:Sending Touch (ACTION_UP): 0:(75.540115,413.35898)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(1031.0,700.0)
+:Sending Touch (ACTION_UP): 0:(1037.0074,703.9013)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+    //[calendar_time:2017-09-17 11:18:43.792  system_uptime:8022950]
+    // Sending event #3300
+:Sending Touch (ACTION_DOWN): 0:(943.0,324.0)
+:Sending Touch (ACTION_UP): 0:(988.0987,339.57828)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(1023.0,640.0)
+:Sending Touch (ACTION_UP): 0:(1023.55975,656.66846)
+:Sending Touch (ACTION_DOWN): 0:(139.0,1210.0)
+:Sending Touch (ACTION_UP): 0:(130.7459,1211.4432)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(61.0,113.0)
+:Sending Touch (ACTION_UP): 0:(51.578102,115.91511)
+:Sending Touch (ACTION_DOWN): 0:(1076.0,451.0)
+:Sending Touch (ACTION_UP): 0:(1054.7108,369.98804)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(1011.0,1191.0)
+:Sending Touch (ACTION_UP): 0:(1007.7056,1190.9525)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+    //[calendar_time:2017-09-17 11:18:46.999  system_uptime:8026157]
+    // Sending event #3400
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(935.0,1319.0)
+:Sending Touch (ACTION_UP): 0:(915.09094,1324.816)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(877.0,1707.0)
+:Sending Touch (ACTION_UP): 0:(898.69116,1683.3911)
+:Sending Touch (ACTION_DOWN): 0:(580.0,1118.0)
+:Sending Touch (ACTION_UP): 0:(586.82446,1117.6353)
+:Sending Touch (ACTION_DOWN): 0:(67.0,1499.0)
+:Sending Touch (ACTION_UP): 0:(38.65506,1564.8326)
+:Sending Touch (ACTION_DOWN): 0:(156.0,358.0)
+    //[calendar_time:2017-09-17 11:18:50.623  system_uptime:8029781]
+    // Sending event #3500
+:Sending Touch (ACTION_UP): 0:(86.253365,294.54364)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(827.0,306.0)
+:Sending Touch (ACTION_UP): 0:(864.08234,328.28586)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+    // Allowing start of Intent { cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(839.0,1266.0)
+:Sending Touch (ACTION_UP): 0:(888.3124,1354.8401)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(825.0,372.0)
+:Sending Touch (ACTION_UP): 0:(809.21313,385.71207)
+:Sending Touch (ACTION_DOWN): 0:(956.0,619.0)
+:Sending Touch (ACTION_UP): 0:(961.66693,687.26434)
+    //[calendar_time:2017-09-17 11:18:51.506  system_uptime:8030664]
+    // Sending event #3600
+:Sending Touch (ACTION_DOWN): 0:(2.0,502.0)
+:Sending Touch (ACTION_UP): 0:(0.0,546.4788)
+:Sending Touch (ACTION_DOWN): 0:(64.0,793.0)
+:Sending Touch (ACTION_UP): 0:(62.240135,800.48334)
+:Sending Touch (ACTION_DOWN): 0:(9.0,1309.0)
+:Sending Touch (ACTION_UP): 0:(4.514143,1310.3063)
+    // Rejecting start of Intent { act=android.intent.action.ASSIST cmp=com.google.android.googlequicksearchbox/.SearchActivity } in package com.google.android.googlequicksearchbox
+:Sending Touch (ACTION_DOWN): 0:(893.0,1211.0)
+:Sending Touch (ACTION_UP): 0:(896.31903,1206.1926)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(258.0,712.0)
+:Sending Touch (ACTION_UP): 0:(255.23178,709.3686)
+:Sending Touch (ACTION_DOWN): 0:(208.0,243.0)
+:Sending Touch (ACTION_UP): 0:(207.02663,251.5803)
+:Sending Touch (ACTION_DOWN): 0:(669.0,744.0)
+:Sending Touch (ACTION_UP): 0:(678.33954,744.06274)
+:Sending Touch (ACTION_DOWN): 0:(423.0,744.0)
+:Sending Touch (ACTION_UP): 0:(397.77325,810.62634)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity } in package com.google.android.apps.nexuslauncher
+:Sending Touch (ACTION_DOWN): 0:(178.0,874.0)
+:Sending Touch (ACTION_UP): 0:(55.06039,871.63715)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(857.0,1457.0)
+:Sending Touch (ACTION_UP): 0:(875.3842,1456.0587)
+    //[calendar_time:2017-09-17 11:18:55.418  system_uptime:8034576]
+    // Sending event #3700
+    //[calendar_time:2017-09-17 11:18:55.418  system_uptime:8034576]
+    // Sending event #3700
+:Sending Touch (ACTION_DOWN): 0:(880.0,441.0)
+:Sending Touch (ACTION_UP): 0:(880.0345,422.67126)
+:Sending Touch (ACTION_DOWN): 0:(874.0,1731.0)
+:Sending Touch (ACTION_UP): 0:(913.37103,1734.9221)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(705.0,1256.0)
+:Sending Touch (ACTION_UP): 0:(750.4017,1233.8027)
+    // Rejecting start of Intent { act=android.speech.action.WEB_SEARCH cmp=com.google.android.googlequicksearchbox/.SearchActivity } in package com.google.android.googlequicksearchbox
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(867.0,1018.0)
+:Sending Touch (ACTION_UP): 0:(862.84534,1009.6891)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity } in package com.google.android.apps.nexuslauncher
+:Sending Touch (ACTION_DOWN): 0:(357.0,462.0)
+:Sending Touch (ACTION_UP): 0:(359.58707,465.84256)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+    // Rejecting start of Intent { act=android.intent.action.OPEN_DOCUMENT cat=[android.intent.category.OPENABLE] typ=text/*|application/* cmp=com.android.documentsui/.picker.PickActivity } in package com.android.documentsui
+:Sending Touch (ACTION_DOWN): 0:(4.0,1052.0)
+:Sending Touch (ACTION_UP): 0:(22.381565,1061.4269)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(565.0,1466.0)
+    //[calendar_time:2017-09-17 11:18:58.111  system_uptime:8037269]
+    // Sending event #3800
+:Sending Touch (ACTION_UP): 0:(521.01495,1475.5172)
+:Sending Touch (ACTION_DOWN): 0:(366.0,1758.0)
+:Sending Touch (ACTION_UP): 0:(387.29947,1758.4657)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(515.0,1166.0)
+:Sending Touch (ACTION_UP): 0:(502.17813,1165.9747)
+:Sending Touch (ACTION_DOWN): 0:(282.0,247.0)
+:Sending Touch (ACTION_UP): 0:(263.95145,327.30322)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity } in package com.google.android.apps.nexuslauncher
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(404.0,1722.0)
+:Sending Touch (ACTION_UP): 0:(405.80685,1700.3348)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(338.0,905.0)
+:Sending Touch (ACTION_UP): 0:(325.5801,914.37744)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(204.0,734.0)
+:Sending Touch (ACTION_UP): 0:(165.01015,832.10223)
+    //[calendar_time:2017-09-17 11:19:01.298  system_uptime:8040456]
+    // Sending event #3900
+:Sending Touch (ACTION_DOWN): 0:(436.0,958.0)
+:Sending Touch (ACTION_UP): 0:(433.3156,961.8872)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(1061.0,1138.0)
+:Sending Touch (ACTION_UP): 0:(1080.0,1015.0274)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(411.0,1297.0)
+:Sending Touch (ACTION_UP): 0:(412.38467,1307.78)
+:Sending Touch (ACTION_DOWN): 0:(783.0,574.0)
+:Sending Touch (ACTION_UP): 0:(804.9696,587.3138)
+:Sending Touch (ACTION_DOWN): 0:(510.0,527.0)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_UP): 0:(527.9429,511.82733)
+    // Rejecting start of Intent { act=android.intent.action.CALL_BUTTON cmp=com.google.android.dialer/com.google.android.apps.dialer.extensions.GoogleDialtactsActivity } in package com.google.android.dialer
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(528.0,791.0)
+:Sending Touch (ACTION_UP): 0:(510.16412,794.25836)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(794.0,729.0)
+:Sending Touch (ACTION_UP): 0:(833.4244,784.6263)
+:Sending Touch (ACTION_DOWN): 0:(833.0,6.0)
+:Sending Touch (ACTION_UP): 0:(825.9503,0.0)
+:Sending Touch (ACTION_DOWN): 0:(805.0,293.0)
+    //[calendar_time:2017-09-17 11:19:07.733  system_uptime:8046890]
+    // Sending event #4000
+:Sending Touch (ACTION_UP): 0:(757.5436,249.19583)
+:Sending Touch (ACTION_DOWN): 0:(226.0,989.0)
+:Sending Touch (ACTION_UP): 0:(240.59007,973.7724)
+:Sending Touch (ACTION_DOWN): 0:(442.0,279.0)
+:Sending Touch (ACTION_UP): 0:(428.8764,285.05807)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(44.0,12.0)
+:Sending Touch (ACTION_UP): 0:(34.33557,4.359649)
+:Sending Touch (ACTION_DOWN): 0:(334.0,150.0)
+:Sending Touch (ACTION_UP): 0:(295.76392,142.23569)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+    // Rejecting start of Intent { act=android.intent.action.ASSIST cmp=com.google.android.googlequicksearchbox/.SearchActivity } in package com.google.android.googlequicksearchbox
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(765.0,1399.0)
+:Sending Touch (ACTION_UP): 0:(804.43005,1416.1512)
+:Sending Touch (ACTION_DOWN): 0:(933.0,969.0)
+:Sending Touch (ACTION_UP): 0:(913.82184,944.81354)
+:Sending Touch (ACTION_DOWN): 0:(764.0,1708.0)
+:Sending Touch (ACTION_UP): 0:(728.5137,1735.1979)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+    //[calendar_time:2017-09-17 11:19:09.881  system_uptime:8049039]
+    // Sending event #4100
+:Sending Touch (ACTION_DOWN): 0:(173.0,984.0)
+:Sending Touch (ACTION_UP): 0:(173.64725,983.9929)
+    // activityResuming(org.gnucash.android)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(136.0,1543.0)
+:Sending Touch (ACTION_UP): 0:(150.80855,1523.5558)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(407.0,330.0)
+:Sending Touch (ACTION_UP): 0:(417.83658,341.58734)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(398.0,591.0)
+:Sending Touch (ACTION_UP): 0:(407.9113,592.04095)
+:Sending Touch (ACTION_DOWN): 0:(207.0,1165.0)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_UP): 0:(221.96959,1210.6307)
+    // Allowing start of Intent { act=android.intent.action.INSERT_OR_EDIT cmp=org.gnucash.android/.ui.common.FormActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(618.0,1022.0)
+:Sending Touch (ACTION_UP): 0:(600.61914,1020.36725)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+    //[calendar_time:2017-09-17 11:19:17.550  system_uptime:8056708]
+    // Sending event #4200
+:Sending Touch (ACTION_DOWN): 0:(96.0,1717.0)
+:Sending Touch (ACTION_UP): 0:(219.97993,1718.9036)
+:Sending Touch (ACTION_DOWN): 0:(140.0,1167.0)
+:Sending Touch (ACTION_UP): 0:(134.88077,1160.1982)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(438.0,986.0)
+:Sending Touch (ACTION_UP): 0:(444.6519,977.39246)
+:Sending Touch (ACTION_DOWN): 0:(373.0,376.0)
+:Sending Touch (ACTION_UP): 0:(374.34518,374.17157)
+:Sending Touch (ACTION_DOWN): 0:(686.0,1472.0)
+:Sending Touch (ACTION_UP): 0:(757.1671,1450.9572)
+:Sending Touch (ACTION_DOWN): 0:(59.0,1510.0)
+:Sending Touch (ACTION_UP): 0:(56.34982,1513.4379)
+:Sending Touch (ACTION_DOWN): 0:(715.0,1010.0)
+:Sending Touch (ACTION_UP): 0:(717.0294,1006.1534)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(406.0,586.0)
+:Sending Touch (ACTION_UP): 0:(424.68155,584.8781)
+:Sending Touch (ACTION_DOWN): 0:(559.0,1780.0)
+:Sending Touch (ACTION_UP): 0:(556.8466,1775.168)
+:Sending Touch (ACTION_DOWN): 0:(669.0,1400.0)
+:Sending Touch (ACTION_UP): 0:(679.12775,1395.7407)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity } in package com.google.android.apps.nexuslauncher
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity } in package com.google.android.apps.nexuslauncher
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    // Injection Failed
+    //[calendar_time:2017-09-17 11:19:21.425  system_uptime:8060583]
+    // Sending event #4300
+    //[calendar_time:2017-09-17 11:19:21.425  system_uptime:8060583]
+    // Sending event #4300
+:Sending Touch (ACTION_DOWN): 0:(588.0,13.0)
+:Sending Touch (ACTION_UP): 0:(588.9946,49.24759)
+:Sending Touch (ACTION_DOWN): 0:(1020.0,1150.0)
+:Sending Touch (ACTION_UP): 0:(1077.8689,1189.5978)
+:Sending Touch (ACTION_DOWN): 0:(962.0,7.0)
+:Sending Touch (ACTION_UP): 0:(956.60657,14.734133)
+:Sending Touch (ACTION_DOWN): 0:(901.0,1363.0)
+:Sending Touch (ACTION_UP): 0:(831.29034,1403.7032)
+:Sending Touch (ACTION_DOWN): 0:(207.0,1541.0)
+:Sending Touch (ACTION_UP): 0:(222.82994,1540.3226)
+:Sending Touch (ACTION_DOWN): 0:(998.0,634.0)
+:Sending Touch (ACTION_UP): 0:(1011.3453,644.28345)
+:Sending Touch (ACTION_DOWN): 0:(206.0,349.0)
+:Sending Touch (ACTION_UP): 0:(202.51703,350.789)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(24.0,1107.0)
+:Sending Touch (ACTION_UP): 0:(80.428055,1155.9208)
+:Sending Touch (ACTION_DOWN): 0:(226.0,1768.0)
+:Sending Touch (ACTION_UP): 0:(216.9827,1760.4542)
+:Sending Touch (ACTION_DOWN): 0:(194.0,1616.0)
+:Sending Touch (ACTION_UP): 0:(196.1228,1615.8834)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.google.android.calendar/com.android.calendar.AllInOneActivity } in package com.google.android.calendar
+:Sending Touch (ACTION_DOWN): 0:(469.0,948.0)
+:Sending Touch (ACTION_UP): 0:(466.47604,937.98)
+:Sending Touch (ACTION_DOWN): 0:(248.0,1102.0)
+:Sending Touch (ACTION_UP): 0:(241.51256,1096.1619)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(68.0,1411.0)
+    //[calendar_time:2017-09-17 11:19:23.629  system_uptime:8062787]
+    // Sending event #4400
+:Sending Touch (ACTION_UP): 0:(71.8576,1492.2053)
+:Sending Touch (ACTION_DOWN): 0:(588.0,253.0)
+:Sending Touch (ACTION_UP): 0:(610.1766,320.95776)
+:Sending Flip keyboardOpen=true
+    // Allowing start of Intent { act=android.intent.action.INSERT_OR_EDIT cmp=org.gnucash.android/.ui.common.FormActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(743.0,575.0)
+:Sending Touch (ACTION_UP): 0:(637.25964,598.7642)
+:Sending Touch (ACTION_DOWN): 0:(936.0,792.0)
+:Sending Touch (ACTION_UP): 0:(944.15173,793.2604)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(280.0,204.0)
+:Sending Touch (ACTION_UP): 0:(271.34488,193.75334)
+:Sending Touch (ACTION_DOWN): 0:(870.0,169.0)
+:Sending Touch (ACTION_UP): 0:(864.3021,166.83661)
+:Sending Touch (ACTION_DOWN): 0:(657.0,1200.0)
+:Sending Touch (ACTION_UP): 0:(642.2255,1200.2341)
+:Sending Touch (ACTION_DOWN): 0:(752.0,1776.0)
+:Sending Touch (ACTION_UP): 0:(792.4667,1794.0)
+:Sending Flip keyboardOpen=false
+:Sending Touch (ACTION_DOWN): 0:(394.0,210.0)
+:Sending Touch (ACTION_UP): 0:(392.49643,200.14127)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(1069.0,1660.0)
+:Sending Touch (ACTION_UP): 0:(1080.0,1650.7136)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+    //[calendar_time:2017-09-17 11:19:25.558  system_uptime:8064715]
+    // Sending event #4500
+:Sending Touch (ACTION_DOWN): 0:(862.0,1657.0)
+:Sending Touch (ACTION_UP): 0:(759.615,1563.6704)
+:Sending Touch (ACTION_DOWN): 0:(1074.0,696.0)
+:Sending Touch (ACTION_UP): 0:(1070.4667,705.01904)
+:Sending Touch (ACTION_DOWN): 0:(420.0,117.0)
+:Sending Touch (ACTION_UP): 0:(422.60593,120.25304)
+:Sending Touch (ACTION_DOWN): 0:(917.0,925.0)
+:Sending Touch (ACTION_UP): 0:(918.46545,869.77295)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(252.0,87.0)
+:Sending Touch (ACTION_UP): 0:(265.77206,89.62698)
+:Sending Touch (ACTION_DOWN): 0:(557.0,1453.0)
+:Sending Touch (ACTION_UP): 0:(562.07526,1496.4747)
+:Sending Touch (ACTION_DOWN): 0:(480.0,1422.0)
+:Sending Touch (ACTION_UP): 0:(477.3499,1411.2056)
+:Sending Touch (ACTION_DOWN): 0:(989.0,433.0)
+:Sending Touch (ACTION_UP): 0:(960.72943,480.48868)
+    // activityResuming(org.gnucash.android)
+    //[calendar_time:2017-09-17 11:19:28.319  system_uptime:8067476]
+    // Sending event #4600
+    //[calendar_time:2017-09-17 11:19:28.319  system_uptime:8067477]
+    // Sending event #4600
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(511.0,333.0)
+:Sending Touch (ACTION_UP): 0:(533.5168,284.05762)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(197.0,1317.0)
+:Sending Touch (ACTION_UP): 0:(195.21613,1320.8633)
+:Sending Touch (ACTION_DOWN): 0:(964.0,567.0)
+:Sending Touch (ACTION_UP): 0:(968.46014,566.17163)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+    // Allowing start of Intent { act=android.intent.action.INSERT_OR_EDIT cmp=org.gnucash.android/.ui.common.FormActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+    //[calendar_time:2017-09-17 11:19:30.677  system_uptime:8069835]
+    // Sending event #4700
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(797.0,743.0)
+:Sending Touch (ACTION_UP): 0:(798.45917,751.3976)
+:Sending Touch (ACTION_DOWN): 0:(392.0,482.0)
+:Sending Touch (ACTION_UP): 0:(406.12756,493.2463)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(600.0,1010.0)
+:Sending Touch (ACTION_UP): 0:(596.84436,1017.91504)
+:Sending Touch (ACTION_DOWN): 0:(883.0,809.0)
+:Sending Touch (ACTION_UP): 0:(868.5996,806.12836)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(802.0,1468.0)
+:Sending Touch (ACTION_UP): 0:(781.3884,1480.0393)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(416.0,1223.0)
+:Sending Touch (ACTION_UP): 0:(415.6206,1222.8236)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+    // Allowing start of Intent { act=android.intent.action.INSERT_OR_EDIT cmp=org.gnucash.android/.ui.common.FormActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+    //[calendar_time:2017-09-17 11:19:34.012  system_uptime:8073170]
+    // Sending event #4800
+:Sending Touch (ACTION_DOWN): 0:(35.0,250.0)
+:Sending Touch (ACTION_UP): 0:(33.635845,252.83394)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(469.0,946.0)
+:Sending Touch (ACTION_UP): 0:(434.83817,987.89)
+:Sending Touch (ACTION_DOWN): 0:(625.0,1429.0)
+:Sending Touch (ACTION_UP): 0:(680.5131,1476.3933)
+:Sending Touch (ACTION_DOWN): 0:(635.0,1380.0)
+:Sending Touch (ACTION_UP): 0:(686.7361,1464.3895)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(83.0,177.0)
+:Sending Touch (ACTION_UP): 0:(82.93593,176.52568)
+    // activityResuming(org.gnucash.android)
+:Sending Touch (ACTION_DOWN): 0:(814.0,390.0)
+:Sending Touch (ACTION_UP): 0:(812.49,255.38376)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(987.0,442.0)
+:Sending Touch (ACTION_UP): 0:(979.88165,433.22083)
+:Sending Touch (ACTION_DOWN): 0:(546.0,1286.0)
+:Sending Touch (ACTION_UP): 0:(542.15894,1259.6674)
+:Sending Touch (ACTION_DOWN): 0:(122.0,237.0)
+:Sending Touch (ACTION_UP): 0:(151.58803,206.7211)
+    //[calendar_time:2017-09-17 11:19:36.086  system_uptime:8075243]
+    // Sending event #4900
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(1056.0,431.0)
+:Sending Touch (ACTION_UP): 0:(992.4541,528.0373)
+:Sending Touch (ACTION_DOWN): 0:(846.0,728.0)
+:Sending Touch (ACTION_UP): 0:(845.2575,726.70465)
+:Sending Touch (ACTION_DOWN): 0:(1010.0,1528.0)
+:Sending Touch (ACTION_UP): 0:(937.49927,1473.0303)
+:Sending Flip keyboardOpen=true
+    // Rejecting start of Intent { cmp=com.android.systemui/.recents.RecentsActivity } in package com.android.systemui
+:Sending Touch (ACTION_DOWN): 0:(285.0,1015.0)
+:Sending Touch (ACTION_UP): 0:(290.99805,1010.4014)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(551.0,1532.0)
+:Sending Touch (ACTION_UP): 0:(556.70056,1531.4653)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+    //[calendar_time:2017-09-17 11:19:38.076  system_uptime:8077234]
+    // Sending event #5000
+:Sending Touch (ACTION_DOWN): 0:(326.0,717.0)
+:Sending Touch (ACTION_UP): 0:(283.73184,788.64435)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(861.0,959.0)
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(771.48645,938.3628)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(176.0,586.0)
+:Sending Touch (ACTION_UP): 0:(194.80899,586.7081)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+    // Allowing start of Intent { act=android.intent.action.INSERT_OR_EDIT cmp=org.gnucash.android/.ui.common.FormActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+    // activityResuming(org.gnucash.android)
+:Sending Touch (ACTION_DOWN): 0:(353.0,1542.0)
+:Sending Touch (ACTION_UP): 0:(349.81558,1524.7368)
+:Sending Touch (ACTION_DOWN): 0:(305.0,310.0)
+:Sending Touch (ACTION_UP): 0:(313.40466,321.37192)
+    //[calendar_time:2017-09-17 11:19:41.202  system_uptime:8080360]
+    // Sending event #5100
+    //[calendar_time:2017-09-17 11:19:41.203  system_uptime:8080361]
+    // Sending event #5100
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+    // activityResuming(org.gnucash.android)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(641.0,1412.0)
+:Sending Touch (ACTION_UP): 0:(598.02313,1399.6132)
+:Sending Touch (ACTION_DOWN): 0:(608.0,1412.0)
+:Sending Touch (ACTION_UP): 0:(613.3632,1411.2863)
+:Sending Touch (ACTION_DOWN): 0:(58.0,483.0)
+:Sending Touch (ACTION_UP): 0:(137.65115,439.7522)
+:Sending Touch (ACTION_DOWN): 0:(151.0,960.0)
+:Sending Touch (ACTION_UP): 0:(162.76201,940.62054)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(946.0,1550.0)
+:Sending Touch (ACTION_UP): 0:(949.34973,1539.5447)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+    //[calendar_time:2017-09-17 11:19:44.238  system_uptime:8083396]
+    // Sending event #5200
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(782.0,418.0)
+:Sending Touch (ACTION_UP): 0:(766.66315,393.59552)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(841.0,162.0)
+:Sending Touch (ACTION_UP): 0:(899.90265,71.011314)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(17.0,1737.0)
+:Sending Touch (ACTION_UP): 0:(17.11206,1738.6428)
+:Sending Touch (ACTION_DOWN): 0:(1020.0,1552.0)
+:Sending Touch (ACTION_UP): 0:(1080.0,1574.4109)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+    //[calendar_time:2017-09-17 11:19:47.594  system_uptime:8086752]
+    // Sending event #5300
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(773.0,784.0)
+:Sending Touch (ACTION_UP): 0:(767.7076,777.16705)
+:Sending Touch (ACTION_DOWN): 0:(886.0,1536.0)
+:Sending Touch (ACTION_UP): 0:(982.1105,1611.7222)
+:Sending Touch (ACTION_DOWN): 0:(293.0,1228.0)
+:Sending Touch (ACTION_UP): 0:(292.99442,1228.6627)
+:Sending Touch (ACTION_DOWN): 0:(218.0,1139.0)
+:Sending Touch (ACTION_UP): 0:(236.53998,1124.6636)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(292.0,1268.0)
+:Sending Touch (ACTION_UP): 0:(174.46204,1230.8821)
+    // Allowing start of Intent { act=android.intent.action.INSERT_OR_EDIT cmp=org.gnucash.android/.ui.common.FormActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(747.0,127.0)
+:Sending Touch (ACTION_UP): 0:(747.55914,127.59883)
+:Sending Touch (ACTION_DOWN): 0:(363.0,548.0)
+:Sending Touch (ACTION_UP): 0:(357.92072,538.441)
+:Sending Touch (ACTION_DOWN): 0:(718.0,873.0)
+:Sending Touch (ACTION_UP): 0:(719.48425,867.24054)
+:Sending Flip keyboardOpen=false
+:Sending Touch (ACTION_DOWN): 0:(158.0,977.0)
+:Sending Touch (ACTION_UP): 0:(161.92775,973.155)
+:Sending Touch (ACTION_DOWN): 0:(421.0,886.0)
+:Sending Touch (ACTION_UP): 0:(445.3275,864.4797)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+    //[calendar_time:2017-09-17 11:19:52.319  system_uptime:8091477]
+    // Sending event #5400
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(437.0,821.0)
+:Sending Touch (ACTION_UP): 0:(386.96487,783.2376)
+:Sending Touch (ACTION_DOWN): 0:(779.0,496.0)
+:Sending Touch (ACTION_UP): 0:(778.1667,486.43915)
+:Sending Touch (ACTION_DOWN): 0:(998.0,834.0)
+:Sending Touch (ACTION_UP): 0:(995.35913,849.242)
+:Sending Touch (ACTION_DOWN): 0:(322.0,1207.0)
+:Sending Touch (ACTION_UP): 0:(310.63742,1205.3135)
+:Sending Touch (ACTION_DOWN): 0:(816.0,538.0)
+:Sending Touch (ACTION_UP): 0:(820.8133,537.763)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-1.0)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(285.0,670.0)
+:Sending Touch (ACTION_UP): 0:(283.28873,659.97736)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(878.0,1377.0)
+:Sending Touch (ACTION_UP): 0:(892.89716,1396.3997)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(396.0,1300.0)
+    //[calendar_time:2017-09-17 11:19:55.550  system_uptime:8094708]
+    // Sending event #5500
+:Sending Touch (ACTION_UP): 0:(381.30942,1249.7861)
+:Sending Touch (ACTION_DOWN): 0:(380.0,1468.0)
+:Sending Touch (ACTION_UP): 0:(379.31757,1465.1929)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(389.0,1106.0)
+:Sending Touch (ACTION_UP): 0:(381.46948,1095.8407)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(430.0,528.0)
+:Sending Touch (ACTION_UP): 0:(420.00018,536.77075)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(135.0,604.0)
+:Sending Touch (ACTION_UP): 0:(228.63701,558.3138)
+:Sending Flip keyboardOpen=true
+    // Allowing start of Intent { act=android.intent.action.INSERT_OR_EDIT cmp=org.gnucash.android/.ui.common.FormActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+    //[calendar_time:2017-09-17 11:19:58.351  system_uptime:8097508]
+    // Sending event #5600
+:Sending Touch (ACTION_DOWN): 0:(810.0,1030.0)
+:Sending Touch (ACTION_UP): 0:(779.57526,1051.0063)
+:Sending Touch (ACTION_DOWN): 0:(818.0,339.0)
+:Sending Touch (ACTION_UP): 0:(830.92944,388.62088)
+:Sending Touch (ACTION_DOWN): 0:(562.0,689.0)
+:Sending Touch (ACTION_UP): 0:(566.46075,673.528)
+:Sending Touch (ACTION_DOWN): 0:(939.0,447.0)
+:Sending Touch (ACTION_UP): 0:(947.77124,434.279)
+:Sending Touch (ACTION_DOWN): 0:(94.0,184.0)
+:Sending Touch (ACTION_UP): 0:(190.83684,269.02243)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(98.0,785.0)
+:Sending Touch (ACTION_UP): 0:(112.16346,792.14276)
+:Sending Touch (ACTION_DOWN): 0:(985.0,1187.0)
+:Sending Touch (ACTION_UP): 0:(974.9114,1189.033)
+:Sending Touch (ACTION_DOWN): 0:(456.0,1793.0)
+:Sending Touch (ACTION_UP): 0:(387.95477,1747.5496)
+:Sending Touch (ACTION_DOWN): 0:(904.0,690.0)
+:Sending Touch (ACTION_UP): 0:(905.9364,689.41296)
+:Sending Touch (ACTION_DOWN): 0:(407.0,1017.0)
+    //[calendar_time:2017-09-17 11:20:00.948  system_uptime:8100106]
+    // Sending event #5700
+:Sending Touch (ACTION_UP): 0:(487.0962,1132.9557)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(880.0,1646.0)
+:Sending Touch (ACTION_UP): 0:(895.03253,1651.4618)
+:Sending Touch (ACTION_DOWN): 0:(501.0,1590.0)
+:Sending Touch (ACTION_UP): 0:(599.60376,1651.7777)
+:Sending Touch (ACTION_DOWN): 0:(190.0,1086.0)
+:Sending Touch (ACTION_UP): 0:(203.4669,1089.3685)
+:Sending Touch (ACTION_DOWN): 0:(870.0,1136.0)
+:Sending Touch (ACTION_UP): 0:(876.42377,1100.3413)
+:Sending Touch (ACTION_DOWN): 0:(862.0,929.0)
+:Sending Touch (ACTION_UP): 0:(858.4611,926.24927)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+    //[calendar_time:2017-09-17 11:20:02.566  system_uptime:8101724]
+    // Sending event #5800
+:Sending Touch (ACTION_DOWN): 0:(1066.0,1024.0)
+:Sending Touch (ACTION_UP): 0:(1064.042,1027.9429)
+:Sending Touch (ACTION_DOWN): 0:(284.0,931.0)
+:Sending Touch (ACTION_UP): 0:(330.79868,947.8674)
+:Sending Touch (ACTION_DOWN): 0:(882.0,191.0)
+:Sending Touch (ACTION_UP): 0:(889.55725,183.11522)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Flip keyboardOpen=false
+:Sending Touch (ACTION_DOWN): 0:(326.0,873.0)
+:Sending Touch (ACTION_UP): 0:(323.59525,872.508)
+:Sending Flip keyboardOpen=true
+:Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(572.0,342.0)
+:Sending Touch (ACTION_UP): 0:(500.7374,315.05264)
+:Sending Touch (ACTION_DOWN): 0:(751.0,603.0)
+:Sending Touch (ACTION_UP): 0:(742.66064,567.34796)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(1074.0,1501.0)
+:Sending Touch (ACTION_UP): 0:(1062.4595,1520.1182)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(878.0,550.0)
+:Sending Touch (ACTION_UP): 0:(879.8717,569.0912)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+    //[calendar_time:2017-09-17 11:20:04.442  system_uptime:8103600]
+    // Sending event #5900
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(53.0,777.0)
+:Sending Touch (ACTION_UP): 0:(74.08659,773.4415)
+:Sending Touch (ACTION_DOWN): 0:(730.0,522.0)
+:Sending Touch (ACTION_UP): 0:(731.57733,517.5783)
+:Sending Touch (ACTION_DOWN): 0:(491.0,1056.0)
+:Sending Touch (ACTION_UP): 0:(492.0503,1052.5186)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(380.0,1097.0)
+:Sending Touch (ACTION_UP): 0:(388.89236,1093.7784)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(455.0,1166.0)
+:Sending Touch (ACTION_UP): 0:(445.00732,1199.2107)
+:Sending Touch (ACTION_DOWN): 0:(960.0,1644.0)
+:Sending Touch (ACTION_UP): 0:(952.5946,1641.33)
+    // Allowing start of Intent { act=android.intent.action.INSERT_OR_EDIT cmp=org.gnucash.android/.ui.common.FormActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(233.0,1082.0)
+:Sending Touch (ACTION_UP): 0:(231.8842,1097.6904)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(340.0,36.0)
+:Sending Touch (ACTION_UP): 0:(339.2528,34.761646)
+:Sending Touch (ACTION_DOWN): 0:(16.0,1211.0)
+:Sending Touch (ACTION_UP): 0:(52.29811,1163.4197)
+:Sending Touch (ACTION_DOWN): 0:(377.0,1501.0)
+:Sending Touch (ACTION_UP): 0:(377.8775,1492.605)
+:Sending Touch (ACTION_DOWN): 0:(62.0,788.0)
+:Sending Touch (ACTION_UP): 0:(52.009445,781.3082)
+:Sending Touch (ACTION_DOWN): 0:(285.0,1266.0)
+:Sending Touch (ACTION_UP): 0:(288.42865,1266.5726)
+    //[calendar_time:2017-09-17 11:20:09.467  system_uptime:8108625]
+    // Sending event #6000
+    //[calendar_time:2017-09-17 11:20:09.468  system_uptime:8108626]
+    // Sending event #6000
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(58.0,1142.0)
+:Sending Touch (ACTION_UP): 0:(56.21608,1137.8633)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(1020.0,1237.0)
+:Sending Touch (ACTION_UP): 0:(1013.9941,1237.4751)
+:Sending Touch (ACTION_DOWN): 0:(751.0,1064.0)
+:Sending Touch (ACTION_UP): 0:(752.07294,1060.2611)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(367.0,769.0)
+:Sending Touch (ACTION_UP): 0:(360.24512,759.7096)
+:Sending Touch (ACTION_DOWN): 0:(1060.0,1416.0)
+:Sending Touch (ACTION_UP): 0:(1058.7509,1419.238)
+:Sending Touch (ACTION_DOWN): 0:(428.0,451.0)
+:Sending Touch (ACTION_UP): 0:(428.4492,434.88367)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(768.0,905.0)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_UP): 0:(728.29944,889.35126)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+    //[calendar_time:2017-09-17 11:20:11.784  system_uptime:8110942]
+    // Sending event #6100
+:Sending Touch (ACTION_DOWN): 0:(755.0,1572.0)
+:Sending Touch (ACTION_UP): 0:(844.23456,1564.3837)
+    // Rejecting start of Intent { act=android.intent.action.CALL_BUTTON cmp=com.google.android.dialer/com.google.android.apps.dialer.extensions.GoogleDialtactsActivity } in package com.google.android.dialer
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+    // Allowing start of Intent { act=android.intent.action.INSERT_OR_EDIT cmp=org.gnucash.android/.ui.common.FormActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(902.0,419.0)
+:Sending Touch (ACTION_UP): 0:(921.53015,417.2016)
+:Sending Touch (ACTION_DOWN): 0:(386.0,604.0)
+:Sending Touch (ACTION_UP): 0:(405.40338,609.5292)
+:Sending Touch (ACTION_DOWN): 0:(212.0,1427.0)
+:Sending Touch (ACTION_UP): 0:(225.35695,1417.8174)
+:Sending Touch (ACTION_DOWN): 0:(270.0,886.0)
+:Sending Touch (ACTION_UP): 0:(227.25287,935.70416)
+:Sending Touch (ACTION_DOWN): 0:(530.0,1213.0)
+:Sending Touch (ACTION_UP): 0:(509.828,1093.7709)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity } in package com.google.android.apps.nexuslauncher
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(234.0,423.0)
+:Sending Touch (ACTION_UP): 0:(236.72867,415.3485)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+    //[calendar_time:2017-09-17 11:20:13.929  system_uptime:8113087]
+    // Sending event #6200
+:Sending Touch (ACTION_DOWN): 0:(989.0,139.0)
+:Sending Touch (ACTION_UP): 0:(1007.4757,142.01471)
+    // activityResuming(org.gnucash.android)
+:Sending Touch (ACTION_DOWN): 0:(407.0,1741.0)
+:Sending Touch (ACTION_UP): 0:(406.32257,1732.4117)
+    // activityResuming(org.gnucash.android)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(1004.0,914.0)
+:Sending Touch (ACTION_UP): 0:(1004.3419,932.48346)
+:Sending Touch (ACTION_DOWN): 0:(494.0,1228.0)
+:Sending Touch (ACTION_UP): 0:(507.50677,1226.4772)
+:Sending Touch (ACTION_DOWN): 0:(243.0,1709.0)
+:Sending Touch (ACTION_UP): 0:(242.2793,1713.3564)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(768.0,1793.0)
+:Sending Touch (ACTION_UP): 0:(761.7919,1789.4327)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(443.0,381.0)
+:Sending Touch (ACTION_UP): 0:(433.70575,382.80392)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(105.0,662.0)
+:Sending Touch (ACTION_UP): 0:(98.823944,658.1523)
+:Sending Touch (ACTION_DOWN): 0:(704.0,1675.0)
+:Sending Touch (ACTION_UP): 0:(710.06506,1662.0621)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+    //[calendar_time:2017-09-17 11:20:18.571  system_uptime:8117729]
+    // Sending event #6300
+    //[calendar_time:2017-09-17 11:20:18.571  system_uptime:8117729]
+    // Sending event #6300
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(186.0,1401.0)
+:Sending Touch (ACTION_UP): 0:(183.07042,1417.8906)
+:Sending Touch (ACTION_DOWN): 0:(528.0,1633.0)
+:Sending Touch (ACTION_UP): 0:(526.75415,1633.0859)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(1042.0,641.0)
+:Sending Touch (ACTION_UP): 0:(1038.6959,639.60815)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(227.0,1164.0)
+:Sending Touch (ACTION_UP): 0:(230.20384,1142.1122)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(145.0,1531.0)
+:Sending Touch (ACTION_UP): 0:(144.89032,1534.394)
+    // Allowing start of Intent { cmp=org.gnucash.android/.ui.settings.PreferenceActivity } in package org.gnucash.android
+:Sending Flip keyboardOpen=false
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(217.0,372.0)
+:Sending Touch (ACTION_UP): 0:(214.99806,371.44406)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+    //[calendar_time:2017-09-17 11:20:22.145  system_uptime:8121303]
+    // Sending event #6400
+:Sending Touch (ACTION_DOWN): 0:(889.0,1011.0)
+:Sending Touch (ACTION_UP): 0:(918.9529,995.9344)
+:Sending Touch (ACTION_DOWN): 0:(495.0,1052.0)
+:Sending Touch (ACTION_UP): 0:(512.9874,1083.8721)
+:Sending Touch (ACTION_DOWN): 0:(954.0,1609.0)
+:Sending Touch (ACTION_UP): 0:(956.6871,1617.8041)
+:Sending Touch (ACTION_DOWN): 0:(1039.0,597.0)
+:Sending Touch (ACTION_UP): 0:(1015.05975,544.25464)
+:Sending Touch (ACTION_DOWN): 0:(308.0,155.0)
+:Sending Touch (ACTION_UP): 0:(298.2024,147.07745)
+:Sending Touch (ACTION_DOWN): 0:(432.0,1459.0)
+:Sending Touch (ACTION_UP): 0:(453.22556,1448.032)
+:Sending Touch (ACTION_DOWN): 0:(353.0,1764.0)
+:Sending Touch (ACTION_UP): 0:(354.63992,1773.4998)
+    // Rejecting start of Intent { act=android.intent.action.CALL_BUTTON cmp=com.google.android.dialer/com.google.android.apps.dialer.extensions.GoogleDialtactsActivity } in package com.google.android.dialer
+:Sending Touch (ACTION_DOWN): 0:(335.0,1704.0)
+:Sending Touch (ACTION_UP): 0:(413.07654,1694.0596)
+:Sending Touch (ACTION_DOWN): 0:(176.0,161.0)
+:Sending Touch (ACTION_UP): 0:(197.568,159.57097)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(805.0,1682.0)
+:Sending Touch (ACTION_UP): 0:(782.3515,1665.9462)
+:Sending Touch (ACTION_DOWN): 0:(736.0,552.0)
+:Sending Touch (ACTION_UP): 0:(739.7437,538.2975)
+    //[calendar_time:2017-09-17 11:20:23.323  system_uptime:8122480]
+    // Sending event #6500
+:Sending Touch (ACTION_DOWN): 0:(882.0,1540.0)
+:Sending Touch (ACTION_UP): 0:(893.1886,1562.4233)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(476.0,108.0)
+:Sending Touch (ACTION_UP): 0:(478.49094,123.29067)
+:Sending Touch (ACTION_DOWN): 0:(509.0,719.0)
+:Sending Touch (ACTION_UP): 0:(509.1422,710.2121)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity } in package com.google.android.apps.nexuslauncher
+:Sending Touch (ACTION_DOWN): 0:(72.0,1161.0)
+:Sending Touch (ACTION_UP): 0:(83.64335,1148.1805)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(430.0,1045.0)
+:Sending Touch (ACTION_UP): 0:(432.18982,1044.8857)
+    //[calendar_time:2017-09-17 11:20:25.187  system_uptime:8124344]
+    // Sending event #6600
+    //[calendar_time:2017-09-17 11:20:25.187  system_uptime:8124345]
+    // Sending event #6600
+:Sending Touch (ACTION_DOWN): 0:(533.0,176.0)
+:Sending Touch (ACTION_UP): 0:(533.30524,176.00958)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Flip keyboardOpen=true
+:Sending Touch (ACTION_DOWN): 0:(200.0,482.0)
+:Sending Touch (ACTION_UP): 0:(199.13853,447.34085)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(847.0,732.0)
+:Sending Touch (ACTION_UP): 0:(860.0708,743.6653)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(241.0,204.0)
+:Sending Touch (ACTION_UP): 0:(252.8361,153.3464)
+:Sending Touch (ACTION_DOWN): 0:(494.0,118.0)
+:Sending Touch (ACTION_UP): 0:(385.3366,122.24438)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+    //[calendar_time:2017-09-17 11:20:27.150  system_uptime:8126307]
+    // Sending event #6700
+    //[calendar_time:2017-09-17 11:20:27.150  system_uptime:8126308]
+    // Sending event #6700
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(400.0,662.0)
+:Sending Touch (ACTION_UP): 0:(381.27963,654.46265)
+:Sending Touch (ACTION_DOWN): 0:(294.0,127.0)
+:Sending Touch (ACTION_UP): 0:(291.7755,124.83962)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(952.0,603.0)
+:Sending Touch (ACTION_UP): 0:(961.91785,604.8824)
+:Sending Touch (ACTION_DOWN): 0:(673.0,1347.0)
+:Sending Touch (ACTION_UP): 0:(624.3445,1343.995)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(26.0,1666.0)
+:Sending Touch (ACTION_UP): 0:(26.542055,1675.5151)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(238.0,176.0)
+:Sending Touch (ACTION_UP): 0:(227.38518,175.2682)
+:Sending Touch (ACTION_DOWN): 0:(701.0,745.0)
+:Sending Touch (ACTION_UP): 0:(702.1768,732.09436)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(306.0,1430.0)
+:Sending Touch (ACTION_UP): 0:(304.86584,1433.5549)
+:Sending Touch (ACTION_DOWN): 0:(417.0,65.0)
+:Sending Touch (ACTION_UP): 0:(418.88617,61.504265)
+:Sending Touch (ACTION_DOWN): 0:(464.0,1300.0)
+    //[calendar_time:2017-09-17 11:20:28.861  system_uptime:8128019]
+    // Sending event #6800
+:Sending Touch (ACTION_UP): 0:(366.90125,1374.3882)
+:Sending Flip keyboardOpen=false
+:Sending Touch (ACTION_DOWN): 0:(520.0,1588.0)
+:Sending Touch (ACTION_UP): 0:(505.26434,1597.8658)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(940.0,1740.0)
+:Sending Touch (ACTION_UP): 0:(950.92865,1735.3204)
+:Sending Touch (ACTION_DOWN): 0:(185.0,1550.0)
+:Sending Touch (ACTION_UP): 0:(182.46405,1544.568)
+:Sending Touch (ACTION_DOWN): 0:(958.0,650.0)
+:Sending Touch (ACTION_UP): 0:(1003.00854,622.947)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(633.0,202.0)
+:Sending Touch (ACTION_UP): 0:(621.3172,195.26567)
+:Sending Touch (ACTION_DOWN): 0:(252.0,793.0)
+:Sending Touch (ACTION_UP): 0:(251.89261,805.0499)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(394.0,897.0)
+:Sending Touch (ACTION_UP): 0:(389.53705,892.47766)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(66.0,1038.0)
+:Sending Touch (ACTION_UP): 0:(57.292583,1047.5002)
+:Sending Touch (ACTION_DOWN): 0:(781.0,831.0)
+:Sending Touch (ACTION_UP): 0:(780.70374,832.8033)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+    //[calendar_time:2017-09-17 11:20:32.658  system_uptime:8131816]
+    // Sending event #6900
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(641.0,460.0)
+:Sending Touch (ACTION_UP): 0:(646.7961,405.31244)
+:Sending Touch (ACTION_DOWN): 0:(496.0,893.0)
+:Sending Touch (ACTION_UP): 0:(479.1069,898.161)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(970.0,271.0)
+:Sending Touch (ACTION_UP): 0:(978.2321,269.32263)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    // Allowing start of Intent { cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(47.0,1391.0)
+:Sending Touch (ACTION_UP): 0:(42.369858,1385.4385)
+:Sending Touch (ACTION_DOWN): 0:(368.0,1696.0)
+:Sending Touch (ACTION_UP): 0:(343.09604,1728.704)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    //[calendar_time:2017-09-17 11:20:35.587  system_uptime:8134745]
+    // Sending event #7000
+    //[calendar_time:2017-09-17 11:20:35.587  system_uptime:8134745]
+    // Sending event #7000
+:Sending Touch (ACTION_DOWN): 0:(752.0,20.0)
+:Sending Touch (ACTION_UP): 0:(692.04474,0.0)
+:Sending Touch (ACTION_DOWN): 0:(56.0,1116.0)
+:Sending Touch (ACTION_UP): 0:(196.08023,1065.3876)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(809.0,737.0)
+:Sending Touch (ACTION_UP): 0:(834.9831,788.49664)
+    // Rejecting start of Intent { act=com.android.intent.action.SHOW_BRIGHTNESS_DIALOG cmp=com.android.systemui/.settings.BrightnessDialog } in package com.android.systemui
+    // Allowing start of Intent { act=android.intent.action.INSERT_OR_EDIT cmp=org.gnucash.android/.ui.common.FormActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(99.0,391.0)
+:Sending Touch (ACTION_UP): 0:(72.90021,467.1416)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Flip keyboardOpen=true
+:Sending Touch (ACTION_DOWN): 0:(921.0,607.0)
+:Sending Touch (ACTION_UP): 0:(920.7168,618.6597)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+    //[calendar_time:2017-09-17 11:20:39.597  system_uptime:8138755]
+    // Sending event #7100
+:Sending Touch (ACTION_DOWN): 0:(659.0,133.0)
+:Sending Touch (ACTION_UP): 0:(606.88446,126.778725)
+:Sending Touch (ACTION_DOWN): 0:(1016.0,519.0)
+:Sending Touch (ACTION_UP): 0:(1014.84576,506.42126)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(767.0,889.0)
+:Sending Touch (ACTION_UP): 0:(780.5736,900.9394)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(605.0,915.0)
+:Sending Touch (ACTION_UP): 0:(610.4088,911.3563)
+:Sending Touch (ACTION_DOWN): 0:(577.0,2.0)
+:Sending Touch (ACTION_UP): 0:(576.11304,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(211.0,938.0)
+:Sending Touch (ACTION_UP): 0:(207.53925,937.222)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+    //[calendar_time:2017-09-17 11:20:43.376  system_uptime:8142534]
+    // Sending event #7200
+:Sending Touch (ACTION_DOWN): 0:(622.0,713.0)
+:Sending Touch (ACTION_UP): 0:(576.10754,721.59)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(631.0,791.0)
+:Sending Touch (ACTION_UP): 0:(618.90094,791.6075)
+:Sending Touch (ACTION_DOWN): 0:(195.0,615.0)
+:Sending Touch (ACTION_UP): 0:(183.7453,607.25446)
+:Sending Touch (ACTION_DOWN): 0:(580.0,971.0)
+:Sending Touch (ACTION_UP): 0:(597.4174,971.10876)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(556.0,950.0)
+:Sending Touch (ACTION_UP): 0:(561.8978,950.9249)
+:Sending Touch (ACTION_DOWN): 0:(790.0,209.0)
+:Sending Touch (ACTION_UP): 0:(792.16266,211.32303)
+:Sending Touch (ACTION_DOWN): 0:(831.0,510.0)
+:Sending Touch (ACTION_UP): 0:(803.94965,548.7407)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity } in package com.google.android.apps.nexuslauncher
+:Sending Touch (ACTION_DOWN): 0:(626.0,1536.0)
+:Sending Touch (ACTION_UP): 0:(635.7722,1543.3854)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(718.0,194.0)
+:Sending Touch (ACTION_UP): 0:(735.18115,272.1062)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(862.0,1637.0)
+:Sending Touch (ACTION_UP): 0:(853.9355,1646.7666)
+:Sending Touch (ACTION_DOWN): 0:(61.0,423.0)
+:Sending Touch (ACTION_UP): 0:(61.479744,428.0969)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(593.0,1509.0)
+:Sending Touch (ACTION_UP): 0:(597.0496,1508.2115)
+:Sending Touch (ACTION_DOWN): 0:(862.0,936.0)
+:Sending Touch (ACTION_UP): 0:(872.525,935.43085)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(736.0,220.0)
+    //[calendar_time:2017-09-17 11:20:46.598  system_uptime:8145756]
+    // Sending event #7300
+:Sending Touch (ACTION_UP): 0:(732.37103,219.45291)
+:Sending Touch (ACTION_DOWN): 0:(783.0,1076.0)
+:Sending Touch (ACTION_UP): 0:(779.66626,1074.3179)
+:Sending Touch (ACTION_DOWN): 0:(306.0,738.0)
+:Sending Touch (ACTION_UP): 0:(346.00125,759.89453)
+:Sending Touch (ACTION_DOWN): 0:(726.0,1401.0)
+:Sending Touch (ACTION_UP): 0:(811.2962,1317.8937)
+:Sending Touch (ACTION_DOWN): 0:(137.0,622.0)
+:Sending Touch (ACTION_UP): 0:(75.66727,585.7575)
+:Sending Touch (ACTION_DOWN): 0:(1073.0,1454.0)
+:Sending Touch (ACTION_UP): 0:(1063.8107,1449.829)
+:Sending Touch (ACTION_DOWN): 0:(691.0,369.0)
+:Sending Touch (ACTION_UP): 0:(694.0221,369.65)
+:Sending Touch (ACTION_DOWN): 0:(790.0,1777.0)
+:Sending Touch (ACTION_UP): 0:(852.5001,1776.9828)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(924.0,1538.0)
+:Sending Touch (ACTION_UP): 0:(917.6027,1527.048)
+:Sending Touch (ACTION_DOWN): 0:(1022.0,371.0)
+:Sending Touch (ACTION_UP): 0:(1015.85016,370.57852)
+    //[calendar_time:2017-09-17 11:20:50.080  system_uptime:8149238]
+    // Sending event #7400
+    //[calendar_time:2017-09-17 11:20:50.082  system_uptime:8149240]
+    // Sending event #7400
+:Sending Touch (ACTION_DOWN): 0:(733.0,453.0)
+:Sending Touch (ACTION_UP): 0:(739.5412,443.2035)
+:Sending Flip keyboardOpen=false
+:Sending Touch (ACTION_DOWN): 0:(119.0,1246.0)
+:Sending Touch (ACTION_UP): 0:(129.67839,1361.3451)
+:Sending Touch (ACTION_DOWN): 0:(1040.0,447.0)
+:Sending Touch (ACTION_UP): 0:(1026.2458,449.21463)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(745.0,928.0)
+:Sending Touch (ACTION_UP): 0:(725.4644,924.5293)
+:Sending Touch (ACTION_DOWN): 0:(90.0,1146.0)
+:Sending Touch (ACTION_UP): 0:(0.0,1172.7749)
+:Sending Touch (ACTION_DOWN): 0:(472.0,1736.0)
+:Sending Touch (ACTION_UP): 0:(458.60455,1738.3835)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(271.0,1390.0)
+:Sending Touch (ACTION_UP): 0:(277.83173,1392.5112)
+:Sending Touch (ACTION_DOWN): 0:(309.0,1446.0)
+:Sending Touch (ACTION_UP): 0:(306.18185,1481.0582)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+    //[calendar_time:2017-09-17 11:20:52.985  system_uptime:8152143]
+    // Sending event #7500
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(266.0,441.0)
+:Sending Touch (ACTION_UP): 0:(266.13663,442.89725)
+:Sending Touch (ACTION_DOWN): 0:(66.0,610.0)
+:Sending Touch (ACTION_UP): 0:(43.408268,630.11053)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(211.0,1318.0)
+:Sending Touch (ACTION_UP): 0:(214.14699,1324.6611)
+:Sending Touch (ACTION_DOWN): 0:(1067.0,585.0)
+:Sending Touch (ACTION_UP): 0:(1080.0,645.04944)
+    // Allowing start of Intent { act=android.intent.action.INSERT_OR_EDIT cmp=org.gnucash.android/.ui.common.FormActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(205.0,330.0)
+    //[calendar_time:2017-09-17 11:20:58.173  system_uptime:8157331]
+    // Sending event #7600
+:Sending Touch (ACTION_UP): 0:(192.80205,324.29782)
+:Sending Touch (ACTION_DOWN): 0:(51.0,1125.0)
+:Sending Touch (ACTION_UP): 0:(53.923717,1120.7546)
+:Sending Touch (ACTION_DOWN): 0:(1069.0,1646.0)
+:Sending Touch (ACTION_UP): 0:(1060.4019,1640.7113)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(886.0,781.0)
+:Sending Touch (ACTION_UP): 0:(856.84485,808.13416)
+:Sending Touch (ACTION_DOWN): 0:(927.0,545.0)
+:Sending Touch (ACTION_UP): 0:(932.5387,544.19525)
+:Sending Touch (ACTION_DOWN): 0:(274.0,1448.0)
+:Sending Touch (ACTION_UP): 0:(266.42108,1446.9656)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(524.0,759.0)
+:Sending Touch (ACTION_UP): 0:(520.60583,751.8409)
+:Sending Touch (ACTION_DOWN): 0:(188.0,1495.0)
+:Sending Touch (ACTION_UP): 0:(197.98416,1492.4053)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(315.0,871.0)
+:Sending Touch (ACTION_UP): 0:(327.97974,876.61554)
+    //[calendar_time:2017-09-17 11:21:00.387  system_uptime:8159545]
+    // Sending event #7700
+:Sending Touch (ACTION_DOWN): 0:(1069.0,408.0)
+:Sending Touch (ACTION_UP): 0:(1068.9645,409.6494)
+:Sending Touch (ACTION_DOWN): 0:(272.0,747.0)
+:Sending Touch (ACTION_UP): 0:(225.80685,783.3258)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(447.0,1393.0)
+:Sending Touch (ACTION_UP): 0:(503.56927,1450.1283)
+:Sending Touch (ACTION_DOWN): 0:(84.0,298.0)
+:Sending Touch (ACTION_UP): 0:(64.872116,290.27994)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+:Sending Flip keyboardOpen=true
+:Sending Touch (ACTION_DOWN): 0:(409.0,1023.0)
+:Sending Touch (ACTION_UP): 0:(406.4436,1068.3607)
+:Sending Touch (ACTION_DOWN): 0:(284.0,156.0)
+:Sending Touch (ACTION_UP): 0:(348.35825,130.36201)
+:Sending Touch (ACTION_DOWN): 0:(511.0,883.0)
+:Sending Touch (ACTION_UP): 0:(523.6775,875.0157)
+:Sending Touch (ACTION_DOWN): 0:(473.0,726.0)
+:Sending Touch (ACTION_UP): 0:(473.81024,731.33954)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(1070.0,1397.0)
+:Sending Touch (ACTION_UP): 0:(1028.3892,1304.9822)
+    //[calendar_time:2017-09-17 11:21:03.491  system_uptime:8162649]
+    // Sending event #7800
+    //[calendar_time:2017-09-17 11:21:03.495  system_uptime:8162653]
+    // Sending event #7800
+:Sending Touch (ACTION_DOWN): 0:(885.0,228.0)
+:Sending Touch (ACTION_UP): 0:(884.26495,234.43762)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(290.0,1666.0)
+:Sending Touch (ACTION_UP): 0:(308.40317,1658.2385)
+:Sending Touch (ACTION_DOWN): 0:(1059.0,478.0)
+:Sending Touch (ACTION_UP): 0:(974.5745,380.33218)
+:Sending Touch (ACTION_DOWN): 0:(286.0,1132.0)
+:Sending Touch (ACTION_UP): 0:(287.2575,1127.9606)
+:Sending Touch (ACTION_DOWN): 0:(907.0,183.0)
+:Sending Touch (ACTION_UP): 0:(973.2177,117.638535)
+:Sending Touch (ACTION_DOWN): 0:(42.0,1740.0)
+:Sending Touch (ACTION_UP): 0:(37.897,1740.7417)
+:Sending Touch (ACTION_DOWN): 0:(203.0,1427.0)
+:Sending Touch (ACTION_UP): 0:(168.1662,1413.5186)
+:Sending Touch (ACTION_DOWN): 0:(432.0,1680.0)
+:Sending Touch (ACTION_UP): 0:(433.44376,1657.9669)
+:Sending Touch (ACTION_DOWN): 0:(64.0,723.0)
+:Sending Touch (ACTION_UP): 0:(60.883125,720.0749)
+:Sending Touch (ACTION_DOWN): 0:(221.0,254.0)
+:Sending Touch (ACTION_UP): 0:(221.41385,270.2359)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    //[calendar_time:2017-09-17 11:21:05.872  system_uptime:8165030]
+    // Sending event #7900
+:Sending Touch (ACTION_DOWN): 0:(429.0,1023.0)
+:Sending Touch (ACTION_UP): 0:(431.75024,992.139)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(1075.0,68.0)
+:Sending Touch (ACTION_UP): 0:(1076.4742,58.48834)
+:Sending Touch (ACTION_DOWN): 0:(177.0,1177.0)
+:Sending Touch (ACTION_UP): 0:(181.65033,1185.3802)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+    // Allowing start of Intent { cmp=org.gnucash.android/.ui.common.FormActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+    // Rejecting start of Intent { act=android.intent.action.CREATE_DOCUMENT cat=[android.intent.category.OPENABLE] typ=application/zip cmp=com.android.documentsui/.picker.PickActivity } in package com.android.documentsui
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(310.0,843.0)
+:Sending Touch (ACTION_UP): 0:(305.9061,825.20496)
+:Sending Touch (ACTION_DOWN): 0:(964.0,964.0)
+:Sending Touch (ACTION_UP): 0:(990.08075,1048.9108)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(797.0,1591.0)
+:Sending Touch (ACTION_UP): 0:(838.61395,1566.4067)
+    //[calendar_time:2017-09-17 11:21:09.325  system_uptime:8168483]
+    // Sending event #8000
+    //[calendar_time:2017-09-17 11:21:09.326  system_uptime:8168485]
+    // Sending event #8000
+:Sending Touch (ACTION_DOWN): 0:(850.0,109.0)
+:Sending Touch (ACTION_UP): 0:(854.9311,104.86869)
+:Sending Touch (ACTION_DOWN): 0:(900.0,306.0)
+:Sending Touch (ACTION_UP): 0:(899.868,310.69986)
+:Sending Touch (ACTION_DOWN): 0:(988.0,305.0)
+:Sending Touch (ACTION_UP): 0:(1002.2126,305.38632)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Flip keyboardOpen=false
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(483.0,925.0)
+:Sending Touch (ACTION_UP): 0:(487.79907,920.83685)
+:Sending Touch (ACTION_DOWN): 0:(618.0,954.0)
+:Sending Touch (ACTION_UP): 0:(617.04706,948.1707)
+:Sending Touch (ACTION_DOWN): 0:(366.0,802.0)
+:Sending Touch (ACTION_UP): 0:(340.55103,903.2816)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(59.0,655.0)
+:Sending Touch (ACTION_UP): 0:(45.559647,662.399)
+:Sending Touch (ACTION_DOWN): 0:(163.0,1095.0)
+:Sending Touch (ACTION_UP): 0:(204.32898,1159.573)
+:Sending Touch (ACTION_DOWN): 0:(481.0,306.0)
+:Sending Touch (ACTION_UP): 0:(487.2428,300.62518)
+:Sending Touch (ACTION_DOWN): 0:(755.0,1592.0)
+:Sending Touch (ACTION_UP): 0:(746.7724,1584.9875)
+:Sending Touch (ACTION_DOWN): 0:(801.0,935.0)
+:Sending Touch (ACTION_UP): 0:(796.6612,921.7234)
+:Sending Touch (ACTION_DOWN): 0:(561.0,1386.0)
+:Sending Touch (ACTION_UP): 0:(554.77545,1388.939)
+    //[calendar_time:2017-09-17 11:21:12.912  system_uptime:8172069]
+    // Sending event #8100
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    // Allowing start of Intent { act=android.intent.action.INSERT_OR_EDIT cmp=org.gnucash.android/.ui.common.FormActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+    // activityResuming(org.gnucash.android)
+    // Allowing start of Intent { act=android.intent.action.INSERT_OR_EDIT cmp=org.gnucash.android/.ui.common.FormActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(99.0,1034.0)
+:Sending Touch (ACTION_UP): 0:(95.1906,1017.59467)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(167.0,371.0)
+:Sending Touch (ACTION_UP): 0:(163.02188,353.2975)
+:Sending Touch (ACTION_DOWN): 0:(717.0,1374.0)
+:Sending Touch (ACTION_UP): 0:(721.16815,1384.8134)
+:Sending Touch (ACTION_DOWN): 0:(607.0,1629.0)
+:Sending Touch (ACTION_UP): 0:(607.0628,1628.8015)
+:Sending Touch (ACTION_DOWN): 0:(387.0,472.0)
+    //[calendar_time:2017-09-17 11:21:16.544  system_uptime:8175702]
+    // Sending event #8200
+:Sending Touch (ACTION_UP): 0:(406.40018,533.74695)
+:Sending Touch (ACTION_DOWN): 0:(771.0,667.0)
+:Sending Touch (ACTION_UP): 0:(761.8979,669.1)
+:Sending Touch (ACTION_DOWN): 0:(23.0,539.0)
+:Sending Touch (ACTION_UP): 0:(69.002106,490.86414)
+:Sending Touch (ACTION_DOWN): 0:(861.0,23.0)
+:Sending Touch (ACTION_UP): 0:(862.24976,24.652208)
+    // Rejecting start of Intent { act=android.intent.action.ASSIST cmp=com.google.android.googlequicksearchbox/.SearchActivity } in package com.google.android.googlequicksearchbox
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(395.0,663.0)
+:Sending Touch (ACTION_UP): 0:(389.6165,684.1004)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(535.0,136.0)
+:Sending Touch (ACTION_UP): 0:(463.5458,0.0)
+:Sending Touch (ACTION_DOWN): 0:(394.0,123.0)
+:Sending Touch (ACTION_UP): 0:(396.73868,121.34973)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+    //[calendar_time:2017-09-17 11:21:19.068  system_uptime:8178226]
+    // Sending event #8300
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(1031.0,210.0)
+:Sending Touch (ACTION_UP): 0:(1026.3326,204.91232)
+:Sending Touch (ACTION_DOWN): 0:(621.0,1566.0)
+:Sending Touch (ACTION_UP): 0:(654.30194,1527.7673)
+:Sending Touch (ACTION_DOWN): 0:(751.0,831.0)
+:Sending Touch (ACTION_UP): 0:(685.8124,876.58014)
+:Sending Touch (ACTION_DOWN): 0:(649.0,617.0)
+:Sending Touch (ACTION_UP): 0:(645.4969,623.17456)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(1012.0,457.0)
+:Sending Touch (ACTION_UP): 0:(1013.2236,460.08905)
+:Sending Touch (ACTION_DOWN): 0:(488.0,1099.0)
+:Sending Touch (ACTION_UP): 0:(408.38742,1173.5918)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(569.0,946.0)
+:Sending Touch (ACTION_UP): 0:(546.09015,972.46936)
+:Sending Touch (ACTION_DOWN): 0:(757.0,187.0)
+:Sending Touch (ACTION_UP): 0:(701.7658,125.80144)
+:Sending Touch (ACTION_DOWN): 0:(509.0,188.0)
+    //[calendar_time:2017-09-17 11:21:21.584  system_uptime:8180742]
+    // Sending event #8400
+:Sending Touch (ACTION_UP): 0:(522.86914,189.59575)
+:Sending Touch (ACTION_DOWN): 0:(894.0,482.0)
+:Sending Touch (ACTION_UP): 0:(894.39575,496.87277)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(233.0,1250.0)
+:Sending Touch (ACTION_UP): 0:(226.60161,1241.659)
+:Sending Touch (ACTION_DOWN): 0:(645.0,410.0)
+:Sending Touch (ACTION_UP): 0:(635.7058,400.91092)
+:Sending Touch (ACTION_DOWN): 0:(248.0,1624.0)
+:Sending Touch (ACTION_UP): 0:(174.47348,1648.907)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(62.0,238.0)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(60.7797,233.80212)
+    // Injection Failed
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+    // Rejecting start of Intent { cmp=com.android.systemui/.recents.RecentsActivity } in package com.android.systemui
+:Sending Touch (ACTION_DOWN): 0:(133.0,503.0)
+:Sending Touch (ACTION_UP): 0:(132.71135,499.8234)
+:Sending Touch (ACTION_DOWN): 0:(374.0,1559.0)
+:Sending Touch (ACTION_UP): 0:(368.19824,1570.4897)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(114.0,445.0)
+:Sending Touch (ACTION_UP): 0:(119.14932,445.67288)
+    //[calendar_time:2017-09-17 11:21:24.801  system_uptime:8183959]
+    // Sending event #8500
+    //[calendar_time:2017-09-17 11:21:24.808  system_uptime:8183966]
+    // Sending event #8500
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(314.0,286.0)
+:Sending Touch (ACTION_UP): 0:(309.42593,287.7987)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(589.0,88.0)
+:Sending Touch (ACTION_UP): 0:(588.2554,88.60246)
+:Sending Touch (ACTION_DOWN): 0:(638.0,1401.0)
+:Sending Touch (ACTION_UP): 0:(643.5068,1413.4825)
+:Sending Touch (ACTION_DOWN): 0:(1043.0,1364.0)
+:Sending Touch (ACTION_UP): 0:(1037.1055,1364.1226)
+:Sending Touch (ACTION_DOWN): 0:(472.0,1389.0)
+:Sending Touch (ACTION_UP): 0:(469.3659,1465.8184)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(760.0,942.0)
+:Sending Touch (ACTION_UP): 0:(757.0202,934.14124)
+:Sending Touch (ACTION_DOWN): 0:(388.0,1741.0)
+:Sending Touch (ACTION_UP): 0:(373.20227,1744.9607)
+:Sending Touch (ACTION_DOWN): 0:(619.0,1491.0)
+:Sending Touch (ACTION_UP): 0:(635.22186,1491.0929)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+    //[calendar_time:2017-09-17 11:21:28.952  system_uptime:8188110]
+    // Sending event #8600
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(392.0,535.0)
+:Sending Touch (ACTION_UP): 0:(390.55264,524.5014)
+:Sending Touch (ACTION_DOWN): 0:(336.0,6.0)
+:Sending Touch (ACTION_UP): 0:(325.59518,114.4264)
+:Sending Touch (ACTION_DOWN): 0:(579.0,540.0)
+:Sending Touch (ACTION_UP): 0:(580.27216,551.89594)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(1037.0,1533.0)
+:Sending Touch (ACTION_UP): 0:(1052.6747,1542.3491)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(368.0,568.0)
+:Sending Touch (ACTION_UP): 0:(368.044,559.0041)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+    //[calendar_time:2017-09-17 11:21:31.818  system_uptime:8190976]
+    // Sending event #8700
+:Sending Touch (ACTION_DOWN): 0:(146.0,1106.0)
+:Sending Touch (ACTION_UP): 0:(81.492905,1129.1084)
+:Sending Touch (ACTION_DOWN): 0:(495.0,1261.0)
+:Sending Touch (ACTION_UP): 0:(503.99643,1259.1847)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.google.android.calendar/com.android.calendar.AllInOneActivity } in package com.google.android.calendar
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(857.0,364.0)
+:Sending Touch (ACTION_UP): 0:(855.41486,359.46713)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(338.0,970.0)
+:Sending Touch (ACTION_UP): 0:(295.96542,918.931)
+    //[calendar_time:2017-09-17 11:21:34.003  system_uptime:8193161]
+    // Sending event #8800
+:Sending Touch (ACTION_DOWN): 0:(229.0,276.0)
+:Sending Touch (ACTION_UP): 0:(183.67775,341.34482)
+:Sending Touch (ACTION_DOWN): 0:(409.0,570.0)
+:Sending Touch (ACTION_UP): 0:(408.5123,565.9391)
+:Sending Touch (ACTION_DOWN): 0:(303.0,1011.0)
+:Sending Touch (ACTION_UP): 0:(286.31827,990.31354)
+:Sending Touch (ACTION_DOWN): 0:(470.0,1749.0)
+:Sending Touch (ACTION_UP): 0:(472.01,1752.5732)
+:Sending Touch (ACTION_DOWN): 0:(503.0,1379.0)
+:Sending Touch (ACTION_UP): 0:(504.34265,1376.667)
+:Sending Touch (ACTION_DOWN): 0:(82.0,312.0)
+:Sending Touch (ACTION_UP): 0:(103.95091,431.95364)
+:Sending Touch (ACTION_DOWN): 0:(1033.0,44.0)
+:Sending Touch (ACTION_UP): 0:(957.6928,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(49.0,1116.0)
+:Sending Touch (ACTION_UP): 0:(46.468834,1119.467)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(851.0,179.0)
+:Sending Touch (ACTION_UP): 0:(959.4294,133.35698)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(88.0,1655.0)
+:Sending Touch (ACTION_UP): 0:(103.84317,1655.9727)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+    //[calendar_time:2017-09-17 11:21:36.574  system_uptime:8195732]
+    // Sending event #8900
+:Sending Touch (ACTION_DOWN): 0:(607.0,1106.0)
+:Sending Touch (ACTION_UP): 0:(587.8691,1126.4094)
+:Sending Touch (ACTION_DOWN): 0:(101.0,110.0)
+:Sending Touch (ACTION_UP): 0:(83.228806,84.272285)
+:Sending Touch (ACTION_DOWN): 0:(332.0,351.0)
+:Sending Touch (ACTION_UP): 0:(345.98712,332.63162)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(262.0,978.0)
+:Sending Touch (ACTION_UP): 0:(265.3074,963.6331)
+:Sending Touch (ACTION_DOWN): 0:(186.0,855.0)
+:Sending Touch (ACTION_UP): 0:(184.91023,857.7851)
+:Sending Touch (ACTION_DOWN): 0:(1071.0,972.0)
+:Sending Touch (ACTION_UP): 0:(1070.8844,994.5603)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(570.0,868.0)
+:Sending Touch (ACTION_UP): 0:(563.129,848.1227)
+:Sending Touch (ACTION_DOWN): 0:(518.0,1558.0)
+:Sending Touch (ACTION_UP): 0:(492.4153,1569.6116)
+:Sending Touch (ACTION_DOWN): 0:(302.0,1610.0)
+:Sending Touch (ACTION_UP): 0:(305.72366,1610.1907)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(1065.0,1058.0)
+:Sending Touch (ACTION_UP): 0:(1044.4176,1080.9974)
+:Sending Touch (ACTION_DOWN): 0:(76.0,1135.0)
+:Sending Touch (ACTION_UP): 0:(76.97273,1145.639)
+:Sending Touch (ACTION_DOWN): 0:(747.0,1533.0)
+:Sending Touch (ACTION_UP): 0:(720.2886,1505.3145)
+    //[calendar_time:2017-09-17 11:21:39.279  system_uptime:8198437]
+    // Sending event #9000
+    //[calendar_time:2017-09-17 11:21:39.279  system_uptime:8198438]
+    // Sending event #9000
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(240.0,400.0)
+:Sending Touch (ACTION_UP): 0:(244.59108,404.81274)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,4.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(1030.0,1090.0)
+:Sending Touch (ACTION_UP): 0:(1026.6901,1098.105)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(168.0,1559.0)
+:Sending Touch (ACTION_UP): 0:(134.02078,1585.8639)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+    //[calendar_time:2017-09-17 11:21:43.305  system_uptime:8202463]
+    // Sending event #9100
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(1014.0,792.0)
+:Sending Touch (ACTION_UP): 0:(1002.14215,798.62836)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(95.0,1788.0)
+:Sending Touch (ACTION_UP): 0:(90.855064,1794.0)
+:Sending Touch (ACTION_DOWN): 0:(797.0,1304.0)
+:Sending Touch (ACTION_UP): 0:(779.4025,1264.8652)
+:Sending Flip keyboardOpen=true
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(816.0,1372.0)
+    //[calendar_time:2017-09-17 11:21:45.373  system_uptime:8204531]
+    // Sending event #9200
+:Sending Touch (ACTION_UP): 0:(776.7904,1385.4542)
+:Sending Touch (ACTION_DOWN): 0:(1069.0,125.0)
+:Sending Touch (ACTION_UP): 0:(1070.9775,127.9879)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-2.0)
+    // Rejecting start of Intent { act=android.intent.action.CALL_BUTTON cmp=com.google.android.dialer/com.google.android.apps.dialer.extensions.GoogleDialtactsActivity } in package com.google.android.dialer
+:Sending Touch (ACTION_DOWN): 0:(803.0,1052.0)
+:Sending Touch (ACTION_UP): 0:(749.5198,1093.4058)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(855.0,330.0)
+:Sending Touch (ACTION_UP): 0:(855.64233,322.15955)
+:Sending Touch (ACTION_DOWN): 0:(349.0,1446.0)
+:Sending Touch (ACTION_UP): 0:(435.96783,1579.0012)
+:Sending Touch (ACTION_DOWN): 0:(467.0,217.0)
+:Sending Touch (ACTION_UP): 0:(394.65945,351.5803)
+:Sending Touch (ACTION_DOWN): 0:(927.0,1714.0)
+:Sending Touch (ACTION_UP): 0:(924.958,1717.4827)
+    // Allowing start of Intent { act=android.intent.action.INSERT_OR_EDIT cmp=org.gnucash.android/.ui.common.FormActivity } in package org.gnucash.android
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+    //[calendar_time:2017-09-17 11:21:49.143  system_uptime:8208301]
+    // Sending event #9300
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity } in package com.google.android.apps.nexuslauncher
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(36.0,1239.0)
+:Sending Touch (ACTION_UP): 0:(31.023294,1223.5193)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(3.0,861.0)
+:Sending Touch (ACTION_UP): 0:(4.820698,861.281)
+:Sending Touch (ACTION_DOWN): 0:(626.0,1164.0)
+:Sending Touch (ACTION_UP): 0:(642.6814,1152.7534)
+:Sending Touch (ACTION_DOWN): 0:(132.0,1250.0)
+:Sending Touch (ACTION_UP): 0:(135.73291,1243.595)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(913.0,275.0)
+:Sending Touch (ACTION_UP): 0:(917.98804,275.44073)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(613.0,799.0)
+:Sending Touch (ACTION_UP): 0:(575.3205,846.2163)
+:Sending Touch (ACTION_DOWN): 0:(56.0,544.0)
+:Sending Touch (ACTION_UP): 0:(45.278233,533.9378)
+    //[calendar_time:2017-09-17 11:21:50.531  system_uptime:8209689]
+    // Sending event #9400
+    //[calendar_time:2017-09-17 11:21:50.532  system_uptime:8209689]
+    // Sending event #9400
+:Sending Touch (ACTION_DOWN): 0:(999.0,11.0)
+:Sending Touch (ACTION_UP): 0:(1003.9596,26.095062)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(895.0,1078.0)
+:Sending Touch (ACTION_UP): 0:(889.4031,1081.9238)
+:Sending Touch (ACTION_DOWN): 0:(374.0,169.0)
+:Sending Touch (ACTION_UP): 0:(331.44196,86.80859)
+:Sending Touch (ACTION_DOWN): 0:(78.0,485.0)
+:Sending Touch (ACTION_UP): 0:(77.71532,468.06586)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(804.0,282.0)
+:Sending Touch (ACTION_UP): 0:(808.73,281.48672)
+:Sending Touch (ACTION_DOWN): 0:(855.0,1656.0)
+:Sending Touch (ACTION_UP): 0:(853.48444,1649.138)
+:Sending Touch (ACTION_DOWN): 0:(271.0,1387.0)
+:Sending Touch (ACTION_UP): 0:(318.67194,1459.7689)
+    //[calendar_time:2017-09-17 11:21:51.815  system_uptime:8210973]
+    // Sending event #9500
+    //[calendar_time:2017-09-17 11:21:51.815  system_uptime:8210973]
+    // Sending event #9500
+:Sending Touch (ACTION_DOWN): 0:(658.0,887.0)
+:Sending Touch (ACTION_UP): 0:(618.8382,811.6526)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(767.0,16.0)
+:Sending Touch (ACTION_UP): 0:(766.49646,17.616539)
+:Sending Touch (ACTION_DOWN): 0:(676.0,1156.0)
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(615.45953,1149.3309)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(195.0,25.0)
+:Sending Touch (ACTION_UP): 0:(194.63754,73.638245)
+:Sending Touch (ACTION_DOWN): 0:(756.0,1381.0)
+:Sending Touch (ACTION_UP): 0:(770.01825,1328.4226)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+    //[calendar_time:2017-09-17 11:21:52.513  system_uptime:8211671]
+    // Sending event #9600
+    //[calendar_time:2017-09-17 11:21:52.513  system_uptime:8211671]
+    // Sending event #9600
+:Sending Touch (ACTION_DOWN): 0:(622.0,786.0)
+:Sending Touch (ACTION_UP): 0:(629.7258,767.703)
+:Sending Touch (ACTION_DOWN): 0:(662.0,967.0)
+:Sending Touch (ACTION_UP): 0:(588.5105,1016.0309)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(486.0,1454.0)
+:Sending Touch (ACTION_UP): 0:(461.11038,1389.9397)
+:Sending Touch (ACTION_DOWN): 0:(95.0,1423.0)
+:Sending Touch (ACTION_UP): 0:(86.006584,1404.1125)
+:Sending Touch (ACTION_DOWN): 0:(85.0,804.0)
+:Sending Touch (ACTION_UP): 0:(99.52629,800.9083)
+:Sending Touch (ACTION_DOWN): 0:(962.0,648.0)
+:Sending Touch (ACTION_UP): 0:(966.78125,633.64935)
+:Sending Touch (ACTION_DOWN): 0:(240.0,494.0)
+:Sending Touch (ACTION_UP): 0:(284.8828,560.6232)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(549.0,1298.0)
+:Sending Touch (ACTION_UP): 0:(666.56256,1223.3606)
+:Sending Touch (ACTION_DOWN): 0:(855.0,1328.0)
+:Sending Touch (ACTION_UP): 0:(854.98236,1230.3597)
+:Sending Touch (ACTION_DOWN): 0:(637.0,533.0)
+:Sending Touch (ACTION_UP): 0:(634.0456,513.86414)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+    //[calendar_time:2017-09-17 11:21:53.001  system_uptime:8212159]
+    // Sending event #9700
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(596.0,182.0)
+:Sending Touch (ACTION_UP): 0:(581.85126,172.15201)
+:Sending Touch (ACTION_DOWN): 0:(545.0,343.0)
+:Sending Touch (ACTION_UP): 0:(576.85974,340.58206)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,4.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.gnucash.android/.ui.account.AccountsActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.gnucash.android/.ui.account.AccountsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(334.0,71.0)
+:Sending Touch (ACTION_UP): 0:(287.16547,148.31857)
+:Sending Touch (ACTION_DOWN): 0:(473.0,818.0)
+:Sending Touch (ACTION_UP): 0:(493.24945,812.6645)
+:Sending Touch (ACTION_DOWN): 0:(895.0,985.0)
+:Sending Touch (ACTION_UP): 0:(923.09247,937.2767)
+:Sending Touch (ACTION_DOWN): 0:(684.0,713.0)
+:Sending Touch (ACTION_UP): 0:(712.6639,708.6544)
+:Sending Touch (ACTION_DOWN): 0:(1057.0,214.0)
+:Sending Touch (ACTION_UP): 0:(1060.044,216.82234)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(879.0,178.0)
+:Sending Touch (ACTION_UP): 0:(897.83984,182.14131)
+:Sending Touch (ACTION_DOWN): 0:(334.0,974.0)
+    //[calendar_time:2017-09-17 11:21:54.954  system_uptime:8214112]
+    // Sending event #9800
+:Sending Touch (ACTION_UP): 0:(324.83392,897.6251)
+:Sending Touch (ACTION_DOWN): 0:(890.0,1377.0)
+:Sending Touch (ACTION_UP): 0:(850.46484,1392.3186)
+:Sending Touch (ACTION_DOWN): 0:(1037.0,982.0)
+:Sending Touch (ACTION_UP): 0:(1045.053,988.5693)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(1079.0,755.0)
+:Sending Touch (ACTION_UP): 0:(1076.891,755.69415)
+:Sending Touch (ACTION_DOWN): 0:(310.0,877.0)
+:Sending Touch (ACTION_UP): 0:(327.21732,886.6134)
+:Sending Touch (ACTION_DOWN): 0:(816.0,145.0)
+:Sending Touch (ACTION_UP): 0:(797.43787,175.35141)
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=org.gnucash.android/.ui.transaction.TransactionsActivity } in package org.gnucash.android
+:Sending Touch (ACTION_DOWN): 0:(697.0,1078.0)
+:Sending Touch (ACTION_UP): 0:(713.01245,1083.7233)
+:Sending Touch (ACTION_DOWN): 0:(279.0,880.0)
+:Sending Touch (ACTION_UP): 0:(276.47992,882.8768)
+:Sending Touch (ACTION_DOWN): 0:(81.0,19.0)
+:Sending Touch (ACTION_UP): 0:(117.22416,0.0)
+:Sending Touch (ACTION_DOWN): 0:(382.0,1536.0)
+:Sending Touch (ACTION_UP): 0:(374.75006,1522.539)
+    //[calendar_time:2017-09-17 11:21:59.349  system_uptime:8218506]
+    // Sending event #9900
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(1019.0,483.0)
+:Sending Touch (ACTION_UP): 0:(1080.0,434.94263)
+:Sending Flip keyboardOpen=false
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(74.0,1558.0)
+:Sending Touch (ACTION_UP): 0:(47.128452,1589.292)
+:Sending Touch (ACTION_DOWN): 0:(561.0,1621.0)
+:Sending Touch (ACTION_UP): 0:(572.72516,1626.3564)
+:Sending Touch (ACTION_DOWN): 0:(20.0,1767.0)
+:Sending Touch (ACTION_UP): 0:(19.626556,1779.0077)
+:Sending Touch (ACTION_DOWN): 0:(686.0,1772.0)
+:Sending Touch (ACTION_UP): 0:(695.7977,1775.6592)
+:Sending Touch (ACTION_DOWN): 0:(798.0,839.0)
+:Sending Touch (ACTION_UP): 0:(806.8166,839.4952)
+:Sending Touch (ACTION_DOWN): 0:(128.0,1063.0)
+:Sending Touch (ACTION_UP): 0:(122.7344,1048.826)
+:Sending Touch (ACTION_DOWN): 0:(33.0,38.0)
+:Sending Touch (ACTION_UP): 0:(0.0,0.0)
+Events injected: 10000
+:Sending rotation degree=0, persist=false
+:Dropped: keys=12 pointers=23 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=288542ms (0ms mobile, 0ms wifi, 288542ms not connected)
+// Monkey finished
