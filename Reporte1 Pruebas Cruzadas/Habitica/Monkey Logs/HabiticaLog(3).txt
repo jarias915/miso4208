@@ -1,0 +1,967 @@
+  bash arg: -p
+  bash arg: com.habitrpg.android.habitica
+  bash arg: -v
+  bash arg: 10000
+:Monkey: seed=1505743199291 count=10000
+:AllowPackage: com.habitrpg.android.habitica
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Event percentages:
+//   0: 15.0%
+//   1: 10.0%
+//   2: 2.0%
+//   3: 15.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 25.0%
+//   7: 15.0%
+//   8: 2.0%
+//   9: 2.0%
+//   10: 1.0%
+//   11: 13.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.habitrpg.android.habitica/.ui.activities.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.habitrpg.android.habitica/.ui.activities.MainActivity } in package com.habitrpg.android.habitica
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+    // Allowing start of Intent { cmp=com.habitrpg.android.habitica/.ui.activities.IntroActivity } in package com.habitrpg.android.habitica
+:Sending Touch (ACTION_DOWN): 0:(1079.0,690.0)
+:Sending Touch (ACTION_UP): 0:(1080.0,685.4815)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.habitrpg.android.habitica/.ui.activities.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.habitrpg.android.habitica/.ui.activities.MainActivity } in package com.habitrpg.android.habitica
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(91.0,15.0)
+:Sending Touch (ACTION_UP): 0:(109.23305,10.493254)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.habitrpg.android.habitica/.ui.activities.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.habitrpg.android.habitica/.ui.activities.MainActivity } in package com.habitrpg.android.habitica
+:Sending Touch (ACTION_DOWN): 0:(756.0,1534.0)
+:Sending Touch (ACTION_UP): 0:(743.24335,1544.4037)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+    // Rejecting start of Intent { act=com.android.intent.action.SHOW_BRIGHTNESS_DIALOG cmp=com.android.systemui/.settings.BrightnessDialog } in package com.android.systemui
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(900.0,1192.0)
+:Sending Touch (ACTION_UP): 0:(889.72217,1181.0885)
+:Sending Touch (ACTION_DOWN): 0:(265.0,77.0)
+:Sending Touch (ACTION_UP): 0:(256.26633,75.32581)
+:Sending Touch (ACTION_DOWN): 0:(705.0,1118.0)
+:Sending Touch (ACTION_UP): 0:(696.8318,1117.3328)
+:Sending Touch (ACTION_DOWN): 0:(367.0,334.0)
+:Sending Touch (ACTION_UP): 0:(383.59033,335.62946)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+    //[calendar_time:2017-09-17 09:24:32.986  system_uptime:1172144]
+    // Sending event #100
+    //[calendar_time:2017-09-17 09:24:32.987  system_uptime:1172145]
+    // Sending event #100
+:Sending Touch (ACTION_DOWN): 0:(709.0,743.0)
+:Sending Touch (ACTION_UP): 0:(710.5946,745.04443)
+:Sending Touch (ACTION_DOWN): 0:(975.0,376.0)
+:Sending Touch (ACTION_UP): 0:(981.89905,368.02917)
+:Sending Touch (ACTION_DOWN): 0:(217.0,662.0)
+:Sending Touch (ACTION_UP): 0:(216.19307,664.3019)
+:Sending Touch (ACTION_DOWN): 0:(689.0,2.0)
+:Sending Touch (ACTION_UP): 0:(812.76917,94.06271)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(1000.0,71.0)
+:Sending Touch (ACTION_UP): 0:(981.3001,46.0204)
+:Sending Touch (ACTION_DOWN): 0:(733.0,612.0)
+:Sending Touch (ACTION_UP): 0:(739.93384,613.1904)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(756.0,725.0)
+:Sending Touch (ACTION_UP): 0:(755.5146,718.9063)
+:Sending Touch (ACTION_DOWN): 0:(1048.0,458.0)
+:Sending Touch (ACTION_UP): 0:(1053.2909,459.84802)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.habitrpg.android.habitica/.ui.activities.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.habitrpg.android.habitica/.ui.activities.MainActivity } in package com.habitrpg.android.habitica
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(97.0,779.0)
+:Sending Touch (ACTION_UP): 0:(106.866844,788.5474)
+:Sending Touch (ACTION_DOWN): 0:(969.0,1298.0)
+:Sending Touch (ACTION_UP): 0:(969.87555,1306.7712)
+:Sending Touch (ACTION_DOWN): 0:(566.0,1662.0)
+:Sending Touch (ACTION_UP): 0:(566.4864,1660.989)
+:Sending Touch (ACTION_DOWN): 0:(381.0,521.0)
+:Sending Touch (ACTION_UP): 0:(380.07233,502.7093)
+    //[calendar_time:2017-09-17 09:24:34.725  system_uptime:1173882]
+    // Sending event #200
+:Sending Touch (ACTION_DOWN): 0:(829.0,1694.0)
+:Sending Touch (ACTION_UP): 0:(824.279,1694.438)
+    // Allowing start of Intent { cmp=com.habitrpg.android.habitica/.ui.activities.LoginActivity } in package com.habitrpg.android.habitica
+    // activityResuming(com.habitrpg.android.habitica)
+:Sending Touch (ACTION_DOWN): 0:(577.0,863.0)
+:Sending Touch (ACTION_UP): 0:(574.86865,877.98096)
+:Sending Touch (ACTION_DOWN): 0:(64.0,1262.0)
+:Sending Touch (ACTION_UP): 0:(67.6317,1262.1002)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+:Sending Flip keyboardOpen=false
+    // Rejecting start of Intent { cmp=com.android.systemui/.recents.RecentsActivity } in package com.android.systemui
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.habitrpg.android.habitica/.ui.activities.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.habitrpg.android.habitica/.ui.activities.MainActivity } in package com.habitrpg.android.habitica
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.habitrpg.android.habitica/.ui.activities.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.habitrpg.android.habitica/.ui.activities.MainActivity } in package com.habitrpg.android.habitica
+:Sending Touch (ACTION_DOWN): 0:(552.0,1413.0)
+:Sending Touch (ACTION_UP): 0:(511.67142,1495.5625)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(127.0,1743.0)
+:Sending Touch (ACTION_UP): 0:(123.08102,1751.9156)
+:Sending Touch (ACTION_DOWN): 0:(587.0,297.0)
+:Sending Touch (ACTION_UP): 0:(584.4845,273.87137)
+:Sending Touch (ACTION_DOWN): 0:(8.0,742.0)
+:Sending Touch (ACTION_UP): 0:(18.36333,739.0452)
+:Sending Touch (ACTION_DOWN): 0:(88.0,197.0)
+    //[calendar_time:2017-09-17 09:24:41.066  system_uptime:1180224]
+    // Sending event #300
+:Sending Touch (ACTION_UP): 0:(83.61959,202.09482)
+:Sending Touch (ACTION_DOWN): 0:(133.0,1438.0)
+:Sending Touch (ACTION_UP): 0:(164.16544,1480.8479)
+:Sending Touch (ACTION_DOWN): 0:(246.0,1191.0)
+:Sending Touch (ACTION_UP): 0:(255.05249,1194.0112)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(549.0,161.0)
+:Sending Touch (ACTION_UP): 0:(544.9355,155.45364)
+:Sending Touch (ACTION_DOWN): 0:(412.0,1564.0)
+:Sending Touch (ACTION_UP): 0:(423.95892,1561.5513)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+    // Rejecting start of Intent { act=com.google.android.gms.common.account.CHOOSE_ACCOUNT pkg=com.google.android.gms cmp=com.google.android.gms/.common.account.SimpleAccountPickerActivity } in package com.google.android.gms
+:Sending Touch (ACTION_DOWN): 0:(70.0,633.0)
+:Sending Touch (ACTION_UP): 0:(69.03601,636.30963)
+:Sending Touch (ACTION_DOWN): 0:(370.0,640.0)
+:Sending Touch (ACTION_UP): 0:(303.16965,580.9771)
+:Sending Touch (ACTION_DOWN): 0:(138.0,174.0)
+:Sending Touch (ACTION_UP): 0:(127.589035,172.26813)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+:Sending Flip keyboardOpen=true
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(480.0,869.0)
+:Sending Touch (ACTION_UP): 0:(473.4152,870.90985)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+    //[calendar_time:2017-09-17 09:24:44.604  system_uptime:1183761]
+    // Sending event #400
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(767.0,898.0)
+:Sending Touch (ACTION_UP): 0:(768.09143,899.69385)
+:Sending Touch (ACTION_DOWN): 0:(542.0,395.0)
+:Sending Touch (ACTION_UP): 0:(534.85175,393.11707)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(643.0,954.0)
+:Sending Touch (ACTION_UP): 0:(646.01215,984.18146)
+    // Rejecting start of Intent { act=android.intent.action.CALL_BUTTON cmp=com.google.android.dialer/com.google.android.apps.dialer.extensions.GoogleDialtactsActivity } in package com.google.android.dialer
+:Sending Touch (ACTION_DOWN): 0:(751.0,1780.0)
+:Sending Touch (ACTION_UP): 0:(764.8699,1794.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(65.0,1467.0)
+:Sending Touch (ACTION_UP): 0:(56.84288,1472.805)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+    //[calendar_time:2017-09-17 09:24:49.262  system_uptime:1188419]
+    // Sending event #500
+:Sending Touch (ACTION_DOWN): 0:(494.0,1241.0)
+:Sending Touch (ACTION_UP): 0:(476.5601,1260.3744)
+:Sending Touch (ACTION_DOWN): 0:(602.0,1042.0)
+:Sending Touch (ACTION_UP): 0:(704.667,1047.9564)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(945.0,910.0)
+:Sending Touch (ACTION_UP): 0:(943.5787,906.74646)
+:Sending Touch (ACTION_DOWN): 0:(592.0,1776.0)
+:Sending Touch (ACTION_UP): 0:(626.854,1781.3225)
+:Sending Touch (ACTION_DOWN): 0:(882.0,623.0)
+:Sending Touch (ACTION_UP): 0:(873.9242,626.09406)
+:Sending Touch (ACTION_DOWN): 0:(337.0,1396.0)
+:Sending Touch (ACTION_UP): 0:(365.3787,1432.129)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+    //[calendar_time:2017-09-17 09:24:53.095  system_uptime:1192253]
+    // Sending event #600
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(259.0,781.0)
+:Sending Touch (ACTION_UP): 0:(258.79132,799.65234)
+:Sending Touch (ACTION_DOWN): 0:(880.0,768.0)
+:Sending Touch (ACTION_UP): 0:(898.2859,784.9952)
+:Sending Touch (ACTION_DOWN): 0:(482.0,990.0)
+:Sending Touch (ACTION_UP): 0:(478.82385,989.06757)
+:Sending Flip keyboardOpen=false
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(639.0,410.0)
+:Sending Touch (ACTION_UP): 0:(641.7977,395.92365)
+:Sending Touch (ACTION_DOWN): 0:(552.0,364.0)
+:Sending Touch (ACTION_UP): 0:(576.7115,499.8069)
+:Sending Touch (ACTION_DOWN): 0:(223.0,329.0)
+:Sending Touch (ACTION_UP): 0:(150.67929,276.5776)
+:Sending Touch (ACTION_DOWN): 0:(1015.0,884.0)
+    //[calendar_time:2017-09-17 09:24:56.743  system_uptime:1195901]
+    // Sending event #700
+:Sending Touch (ACTION_UP): 0:(1001.6913,848.33856)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.habitrpg.android.habitica/.ui.activities.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.habitrpg.android.habitica/.ui.activities.MainActivity } in package com.habitrpg.android.habitica
+:Sending Touch (ACTION_DOWN): 0:(719.0,1151.0)
+:Sending Touch (ACTION_UP): 0:(718.78314,1153.0858)
+:Sending Touch (ACTION_DOWN): 0:(11.0,429.0)
+:Sending Touch (ACTION_UP): 0:(0.0,429.00266)
+:Sending Touch (ACTION_DOWN): 0:(348.0,356.0)
+:Sending Touch (ACTION_UP): 0:(361.28006,358.0458)
+:Sending Touch (ACTION_DOWN): 0:(780.0,1183.0)
+:Sending Touch (ACTION_UP): 0:(787.1423,1195.1648)
+:Sending Touch (ACTION_DOWN): 0:(429.0,655.0)
+:Sending Touch (ACTION_UP): 0:(401.03696,703.85)
+:Sending Touch (ACTION_DOWN): 0:(1036.0,494.0)
+:Sending Touch (ACTION_UP): 0:(1064.682,489.30792)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(490.0,455.0)
+:Sending Touch (ACTION_UP): 0:(489.64874,454.43298)
+:Sending Touch (ACTION_DOWN): 0:(403.0,1027.0)
+:Sending Touch (ACTION_UP): 0:(403.54306,1027.0225)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.habitrpg.android.habitica/.ui.activities.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.habitrpg.android.habitica/.ui.activities.MainActivity } in package com.habitrpg.android.habitica
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+    //[calendar_time:2017-09-17 09:25:01.363  system_uptime:1200521]
+    // Sending event #800
+:Sending Touch (ACTION_DOWN): 0:(945.0,1465.0)
+:Sending Touch (ACTION_UP): 0:(942.44446,1464.1862)
+:Sending Touch (ACTION_DOWN): 0:(70.0,253.0)
+:Sending Touch (ACTION_UP): 0:(46.580856,200.54855)
+:Sending Touch (ACTION_DOWN): 0:(583.0,241.0)
+:Sending Touch (ACTION_UP): 0:(585.3782,241.3932)
+:Sending Touch (ACTION_DOWN): 0:(53.0,1354.0)
+:Sending Touch (ACTION_UP): 0:(49.402336,1341.8582)
+:Sending Touch (ACTION_DOWN): 0:(968.0,1569.0)
+:Sending Touch (ACTION_UP): 0:(988.06537,1615.0946)
+:Sending Touch (ACTION_DOWN): 0:(934.0,1061.0)
+:Sending Touch (ACTION_UP): 0:(942.8134,1061.8762)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(689.0,881.0)
+:Sending Touch (ACTION_UP): 0:(682.0346,882.5476)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(765.0,1113.0)
+:Sending Touch (ACTION_UP): 0:(771.5794,1122.8335)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(167.0,355.0)
+    //[calendar_time:2017-09-17 09:25:10.588  system_uptime:1209746]
+    // Sending event #900
+:Sending Touch (ACTION_UP): 0:(92.617966,400.94205)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(842.0,1331.0)
+:Sending Touch (ACTION_UP): 0:(828.9188,1322.3367)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(356.0,1177.0)
+:Sending Touch (ACTION_UP): 0:(353.9588,1176.846)
+:Sending Touch (ACTION_DOWN): 0:(847.0,1218.0)
+:Sending Touch (ACTION_UP): 0:(850.19214,1227.5099)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(201.0,430.0)
+:Sending Touch (ACTION_UP): 0:(161.45552,422.35397)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(987.0,404.0)
+:Sending Touch (ACTION_UP): 0:(991.5871,411.72662)
+:Sending Touch (ACTION_DOWN): 0:(601.0,1042.0)
+:Sending Touch (ACTION_UP): 0:(583.8381,1040.9847)
+:Sending Touch (ACTION_DOWN): 0:(343.0,1053.0)
+:Sending Touch (ACTION_UP): 0:(343.65295,1051.2858)
+:Sending Touch (ACTION_DOWN): 0:(101.0,1427.0)
+:Sending Touch (ACTION_UP): 0:(102.352,1430.2693)
+    //[calendar_time:2017-09-17 09:25:14.907  system_uptime:1214065]
+    // Sending event #1000
+    //[calendar_time:2017-09-17 09:25:14.908  system_uptime:1214066]
+    // Sending event #1000
+:Sending Touch (ACTION_DOWN): 0:(142.0,1624.0)
+:Sending Touch (ACTION_UP): 0:(149.66188,1623.0629)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.habitrpg.android.habitica/.ui.activities.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.habitrpg.android.habitica/.ui.activities.MainActivity } in package com.habitrpg.android.habitica
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(268.0,1228.0)
+:Sending Touch (ACTION_UP): 0:(268.07333,1226.2539)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(929.0,338.0)
+:Sending Touch (ACTION_UP): 0:(959.73926,389.50922)
+:Sending Touch (ACTION_DOWN): 0:(787.0,794.0)
+:Sending Touch (ACTION_UP): 0:(784.13696,783.3778)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(271.0,1425.0)
+:Sending Touch (ACTION_UP): 0:(362.3078,1337.7379)
+    //[calendar_time:2017-09-17 09:25:19.733  system_uptime:1218891]
+    // Sending event #1100
+    //[calendar_time:2017-09-17 09:25:19.734  system_uptime:1218892]
+    // Sending event #1100
+    // Rejecting start of Intent { act=android.intent.action.ASSIST cmp=com.google.android.googlequicksearchbox/.SearchActivity } in package com.google.android.googlequicksearchbox
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(15.0,348.0)
+:Sending Touch (ACTION_UP): 0:(14.914468,337.90292)
+:Sending Touch (ACTION_DOWN): 0:(861.0,211.0)
+:Sending Touch (ACTION_UP): 0:(866.826,197.1542)
+:Sending Touch (ACTION_DOWN): 0:(1078.0,1759.0)
+:Sending Touch (ACTION_UP): 0:(1080.0,1747.4032)
+:Sending Touch (ACTION_DOWN): 0:(696.0,651.0)
+:Sending Touch (ACTION_UP): 0:(685.5217,654.4925)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(606.0,375.0)
+:Sending Touch (ACTION_UP): 0:(592.81006,297.16888)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(893.0,1450.0)
+:Sending Touch (ACTION_UP): 0:(886.54987,1456.9155)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+    //[calendar_time:2017-09-17 09:25:23.146  system_uptime:1222304]
+    // Sending event #1200
+    //[calendar_time:2017-09-17 09:25:23.148  system_uptime:1222306]
+    // Sending event #1200
+:Sending Touch (ACTION_DOWN): 0:(547.0,174.0)
+:Sending Touch (ACTION_UP): 0:(574.6989,203.29297)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(49.0,958.0)
+:Sending Touch (ACTION_UP): 0:(54.65785,957.9173)
+:Sending Touch (ACTION_DOWN): 0:(337.0,605.0)
+:Sending Touch (ACTION_UP): 0:(348.01846,604.4572)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(398.0,592.0)
+:Sending Touch (ACTION_UP): 0:(404.53976,617.79224)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.habitrpg.android.habitica/.ui.activities.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.habitrpg.android.habitica/.ui.activities.MainActivity } in package com.habitrpg.android.habitica
+:Sending Flip keyboardOpen=true
+:Sending Touch (ACTION_DOWN): 0:(246.0,469.0)
+    //[calendar_time:2017-09-17 09:25:29.409  system_uptime:1228567]
+    // Sending event #1300
+:Sending Touch (ACTION_UP): 0:(241.68196,463.97836)
+:Sending Touch (ACTION_DOWN): 0:(263.0,1138.0)
+:Sending Touch (ACTION_UP): 0:(250.26857,1169.7799)
+:Sending Flip keyboardOpen=false
+:Sending Touch (ACTION_DOWN): 0:(363.0,985.0)
+:Sending Touch (ACTION_UP): 0:(428.86118,982.3485)
+:Sending Touch (ACTION_DOWN): 0:(624.0,953.0)
+:Sending Touch (ACTION_UP): 0:(699.49255,1018.3487)
+:Sending Touch (ACTION_DOWN): 0:(306.0,476.0)
+:Sending Touch (ACTION_UP): 0:(298.8967,465.8711)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.habitrpg.android.habitica/.ui.activities.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.habitrpg.android.habitica/.ui.activities.MainActivity } in package com.habitrpg.android.habitica
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity } in package com.google.android.apps.nexuslauncher
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(487.0,1215.0)
+:Sending Touch (ACTION_UP): 0:(485.38873,1233.7079)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(717.0,670.0)
+:Sending Touch (ACTION_UP): 0:(714.85034,675.37256)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+    //[calendar_time:2017-09-17 09:25:33.605  system_uptime:1232763]
+    // Sending event #1400
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(759.0,243.0)
+:Sending Touch (ACTION_UP): 0:(766.8396,202.17708)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(180.0,1450.0)
+:Sending Touch (ACTION_UP): 0:(155.68022,1475.3357)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(173.0,1198.0)
+:Sending Touch (ACTION_UP): 0:(182.32515,1197.5486)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+    //[calendar_time:2017-09-17 09:25:37.312  system_uptime:1236470]
+    // Sending event #1500
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(426.0,934.0)
+:Sending Touch (ACTION_UP): 0:(430.26712,934.1339)
+:Sending Touch (ACTION_DOWN): 0:(1003.0,834.0)
+:Sending Touch (ACTION_UP): 0:(999.75616,835.4746)
+:Sending Touch (ACTION_DOWN): 0:(330.0,736.0)
+:Sending Touch (ACTION_UP): 0:(258.08218,682.9967)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(531.0,1397.0)
+:Sending Touch (ACTION_UP): 0:(531.4911,1390.1448)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(613.0,314.0)
+:Sending Touch (ACTION_UP): 0:(619.2728,298.58972)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-2.0)
+    //[calendar_time:2017-09-17 09:25:41.783  system_uptime:1240941]
+    // Sending event #1600
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(278.0,727.0)
+:Sending Touch (ACTION_UP): 0:(298.1932,743.55963)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(51.0,944.0)
+:Sending Touch (ACTION_UP): 0:(50.8751,944.67615)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.habitrpg.android.habitica/.ui.activities.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.habitrpg.android.habitica/.ui.activities.MainActivity } in package com.habitrpg.android.habitica
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(1032.0,24.0)
+:Sending Touch (ACTION_UP): 0:(1014.64185,15.013781)
+:Sending Touch (ACTION_DOWN): 0:(223.0,1792.0)
+:Sending Touch (ACTION_UP): 0:(250.6169,1794.0)
+:Sending Touch (ACTION_DOWN): 0:(790.0,259.0)
+:Sending Touch (ACTION_UP): 0:(798.8238,265.883)
+:Sending Touch (ACTION_DOWN): 0:(759.0,774.0)
+:Sending Touch (ACTION_UP): 0:(764.07245,769.46716)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+    //[calendar_time:2017-09-17 09:25:44.755  system_uptime:1243913]
+    // Sending event #1700
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(658.0,486.0)
+:Sending Touch (ACTION_UP): 0:(654.1852,485.44086)
+:Sending Touch (ACTION_DOWN): 0:(674.0,848.0)
+:Sending Touch (ACTION_UP): 0:(675.1639,842.0963)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(586.0,1632.0)
+:Sending Touch (ACTION_UP): 0:(577.5052,1623.5414)
+:Sending Touch (ACTION_DOWN): 0:(1047.0,770.0)
+:Sending Touch (ACTION_UP): 0:(1038.7776,774.8893)
+:Sending Touch (ACTION_DOWN): 0:(999.0,1057.0)
+:Sending Touch (ACTION_UP): 0:(1003.1176,1068.2805)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(326.0,68.0)
+:Sending Touch (ACTION_UP): 0:(337.36365,116.940704)
+:Sending Touch (ACTION_DOWN): 0:(1060.0,211.0)
+:Sending Touch (ACTION_UP): 0:(1060.262,202.84293)
+:Sending Touch (ACTION_DOWN): 0:(821.0,730.0)
+:Sending Touch (ACTION_UP): 0:(810.2063,729.2251)
+:Sending Touch (ACTION_DOWN): 0:(343.0,402.0)
+:Sending Touch (ACTION_UP): 0:(355.83356,411.33896)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+    //[calendar_time:2017-09-17 09:25:48.496  system_uptime:1247654]
+    // Sending event #1800
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(216.0,1789.0)
+:Sending Touch (ACTION_UP): 0:(208.77072,1784.1326)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(377.0,644.0)
+:Sending Touch (ACTION_UP): 0:(383.7422,644.3654)
+:Sending Touch (ACTION_DOWN): 0:(1015.0,683.0)
+:Sending Touch (ACTION_UP): 0:(1016.683,663.27136)
+:Sending Touch (ACTION_DOWN): 0:(972.0,1253.0)
+:Sending Touch (ACTION_UP): 0:(968.2664,1259.6664)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,4.0)
+    // Rejecting start of Intent { act=android.intent.action.CALL_BUTTON cmp=com.google.android.dialer/com.google.android.apps.dialer.extensions.GoogleDialtactsActivity } in package com.google.android.dialer
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.habitrpg.android.habitica/.ui.activities.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.habitrpg.android.habitica/.ui.activities.MainActivity } in package com.habitrpg.android.habitica
+:Sending Touch (ACTION_DOWN): 0:(119.0,89.0)
+:Sending Touch (ACTION_UP): 0:(108.52289,77.630806)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+    //[calendar_time:2017-09-17 09:25:52.171  system_uptime:1251329]
+    // Sending event #1900
+:Sending Touch (ACTION_DOWN): 0:(145.0,1593.0)
+:Sending Touch (ACTION_UP): 0:(151.2542,1588.1187)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+    // Rejecting start of Intent { act=android.intent.action.CALL_BUTTON cmp=com.google.android.dialer/com.google.android.apps.dialer.extensions.GoogleDialtactsActivity } in package com.google.android.dialer
+:Sending Touch (ACTION_DOWN): 0:(833.0,1123.0)
+:Sending Touch (ACTION_UP): 0:(848.886,1123.8743)
+:Sending Touch (ACTION_DOWN): 0:(337.0,443.0)
+:Sending Touch (ACTION_UP): 0:(248.69458,482.0528)
+:Sending Touch (ACTION_DOWN): 0:(1012.0,66.0)
+:Sending Touch (ACTION_UP): 0:(1011.65076,68.16862)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(860.0,764.0)
+:Sending Touch (ACTION_UP): 0:(868.5547,767.2859)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(264.0,954.0)
+:Sending Touch (ACTION_UP): 0:(264.43887,949.67236)
+:Sending Touch (ACTION_DOWN): 0:(227.0,1034.0)
+:Sending Touch (ACTION_UP): 0:(226.37616,1029.7312)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+    //[calendar_time:2017-09-17 09:25:55.871  system_uptime:1255029]
+    // Sending event #2000
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(996.0,1634.0)
+:Sending Touch (ACTION_UP): 0:(967.5581,1565.913)
+:Sending Touch (ACTION_DOWN): 0:(901.0,1386.0)
+:Sending Touch (ACTION_UP): 0:(897.927,1393.1072)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.habitrpg.android.habitica/.ui.activities.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.habitrpg.android.habitica/.ui.activities.MainActivity } in package com.habitrpg.android.habitica
+:Sending Touch (ACTION_DOWN): 0:(545.0,1778.0)
+:Sending Touch (ACTION_UP): 0:(547.1046,1780.89)
+    //[calendar_time:2017-09-17 09:25:59.798  system_uptime:1258956]
+    // Sending event #2100
+:Sending Touch (ACTION_DOWN): 0:(185.0,183.0)
+:Sending Touch (ACTION_UP): 0:(188.198,194.29616)
+:Sending Touch (ACTION_DOWN): 0:(505.0,894.0)
+:Sending Touch (ACTION_UP): 0:(504.69156,897.2012)
+:Sending Touch (ACTION_DOWN): 0:(463.0,1015.0)
+:Sending Touch (ACTION_UP): 0:(422.54593,974.19946)
+:Sending Touch (ACTION_DOWN): 0:(334.0,228.0)
+:Sending Touch (ACTION_UP): 0:(340.853,229.47943)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.habitrpg.android.habitica/.ui.activities.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.habitrpg.android.habitica/.ui.activities.MainActivity } in package com.habitrpg.android.habitica
+:Sending Touch (ACTION_DOWN): 0:(389.0,282.0)
+:Sending Touch (ACTION_UP): 0:(390.40604,300.411)
+:Sending Touch (ACTION_DOWN): 0:(420.0,1688.0)
+:Sending Touch (ACTION_UP): 0:(440.3547,1688.5114)
+:Sending Touch (ACTION_DOWN): 0:(698.0,53.0)
+:Sending Touch (ACTION_UP): 0:(631.93915,48.86298)
+:Sending Touch (ACTION_DOWN): 0:(219.0,410.0)
+:Sending Touch (ACTION_UP): 0:(229.06702,400.56613)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,1.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(882.0,1212.0)
+:Sending Touch (ACTION_UP): 0:(761.44775,1268.2306)
+:Sending Touch (ACTION_DOWN): 0:(1017.0,113.0)
+:Sending Touch (ACTION_UP): 0:(1017.0489,104.29998)
+:Sending Touch (ACTION_DOWN): 0:(568.0,2.0)
+:Sending Touch (ACTION_UP): 0:(568.2757,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    //[calendar_time:2017-09-17 09:26:03.116  system_uptime:1262274]
+    // Sending event #2200
+    //[calendar_time:2017-09-17 09:26:03.117  system_uptime:1262274]
+    // Sending event #2200
+:Sending Touch (ACTION_DOWN): 0:(760.0,522.0)
+:Sending Touch (ACTION_UP): 0:(755.69366,522.1599)
+:Sending Touch (ACTION_DOWN): 0:(739.0,1412.0)
+:Sending Touch (ACTION_UP): 0:(746.8483,1423.8553)
+:Sending Touch (ACTION_DOWN): 0:(720.0,1486.0)
+:Sending Touch (ACTION_UP): 0:(702.66833,1490.1891)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.habitrpg.android.habitica/.ui.activities.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.habitrpg.android.habitica/.ui.activities.MainActivity } in package com.habitrpg.android.habitica
+:Sending Touch (ACTION_DOWN): 0:(933.0,785.0)
+:Sending Touch (ACTION_UP): 0:(924.7413,794.6327)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.habitrpg.android.habitica/.ui.activities.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.habitrpg.android.habitica/.ui.activities.MainActivity } in package com.habitrpg.android.habitica
+:Sending Flip keyboardOpen=true
+:Sending Touch (ACTION_DOWN): 0:(866.0,294.0)
+:Sending Touch (ACTION_UP): 0:(921.50665,296.34506)
+:Sending Touch (ACTION_DOWN): 0:(520.0,145.0)
+:Sending Touch (ACTION_UP): 0:(533.7656,143.11278)
+:Sending Touch (ACTION_DOWN): 0:(579.0,732.0)
+:Sending Touch (ACTION_UP): 0:(557.7162,725.9945)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(791.0,539.0)
+:Sending Touch (ACTION_UP): 0:(795.512,541.75476)
+    //[calendar_time:2017-09-17 09:26:06.868  system_uptime:1266026]
+    // Sending event #2300
+    //[calendar_time:2017-09-17 09:26:06.886  system_uptime:1266044]
+    // Sending event #2300
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(969.0,1240.0)
+:Sending Touch (ACTION_UP): 0:(962.28204,1241.7838)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+:Sending Flip keyboardOpen=false
+:Sending Touch (ACTION_DOWN): 0:(631.0,1290.0)
+:Sending Touch (ACTION_UP): 0:(552.71423,1301.7415)
+:Sending Touch (ACTION_DOWN): 0:(314.0,1207.0)
+:Sending Touch (ACTION_UP): 0:(319.10028,1228.1335)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(145.0,848.0)
+:Sending Touch (ACTION_UP): 0:(140.44568,845.2682)
+:Sending Touch (ACTION_DOWN): 0:(681.0,1350.0)
+:Sending Touch (ACTION_UP): 0:(676.9712,1347.2397)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(562.0,1752.0)
+    //[calendar_time:2017-09-17 09:26:10.907  system_uptime:1270065]
+    // Sending event #2400
+:Sending Touch (ACTION_UP): 0:(591.3221,1759.4445)
+:Sending Touch (ACTION_DOWN): 0:(509.0,1588.0)
+:Sending Touch (ACTION_UP): 0:(544.8043,1565.2681)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(48.0,716.0)
+:Sending Touch (ACTION_UP): 0:(94.479095,737.2407)
+:Sending Touch (ACTION_DOWN): 0:(508.0,898.0)
+:Sending Touch (ACTION_UP): 0:(507.29108,896.36975)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(225.0,1246.0)
+:Sending Touch (ACTION_UP): 0:(229.1907,1319.9678)
+:Sending Touch (ACTION_DOWN): 0:(852.0,1481.0)
+:Sending Touch (ACTION_UP): 0:(846.9295,1491.0895)
+:Sending Touch (ACTION_DOWN): 0:(404.0,507.0)
+:Sending Touch (ACTION_UP): 0:(452.59827,433.84628)
+:Sending Touch (ACTION_DOWN): 0:(454.0,1223.0)
+:Sending Touch (ACTION_UP): 0:(470.66208,1243.8622)
+:Sending Touch (ACTION_DOWN): 0:(26.0,447.0)
+:Sending Touch (ACTION_UP): 0:(28.485922,449.0744)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+    //[calendar_time:2017-09-17 09:26:13.114  system_uptime:1272272]
+    // Sending event #2500
+:Sending Touch (ACTION_DOWN): 0:(591.0,1311.0)
+:Sending Touch (ACTION_UP): 0:(497.42725,1258.3391)
+:Sending Touch (ACTION_DOWN): 0:(982.0,1737.0)
+:Sending Touch (ACTION_UP): 0:(975.8517,1729.8884)
+:Sending Touch (ACTION_DOWN): 0:(89.0,1239.0)
+:Sending Touch (ACTION_UP): 0:(95.8123,1230.3657)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(672.0,515.0)
+:Sending Touch (ACTION_UP): 0:(673.0356,516.1976)
+:Sending Touch (ACTION_DOWN): 0:(986.0,985.0)
+:Sending Touch (ACTION_UP): 0:(989.0642,981.6244)
+:Sending Touch (ACTION_DOWN): 0:(657.0,202.0)
+:Sending Touch (ACTION_UP): 0:(600.55707,217.63846)
+:Sending Touch (ACTION_DOWN): 0:(813.0,324.0)
+:Sending Touch (ACTION_UP): 0:(815.5752,323.266)
+    // Allowing start of Intent { act=NATIVE_WITH_FALLBACK cmp=com.habitrpg.android.habitica/com.facebook.FacebookActivity } in package com.habitrpg.android.habitica
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(670.0,876.0)
+:Sending Touch (ACTION_UP): 0:(686.42426,881.9749)
+:Sending Touch (ACTION_DOWN): 0:(280.0,733.0)
+:Sending Touch (ACTION_UP): 0:(284.32516,734.33923)
+:Sending Touch (ACTION_DOWN): 0:(712.0,1754.0)
+:Sending Touch (ACTION_UP): 0:(715.7441,1751.9882)
+:Sending Touch (ACTION_DOWN): 0:(29.0,1269.0)
+:Sending Touch (ACTION_UP): 0:(28.651089,1248.3812)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+    //[calendar_time:2017-09-17 09:26:18.816  system_uptime:1277974]
+    // Sending event #2600
+:Sending Touch (ACTION_DOWN): 0:(508.0,1514.0)
+:Sending Touch (ACTION_UP): 0:(505.75058,1524.9893)
+:Sending Touch (ACTION_DOWN): 0:(384.0,156.0)
+:Sending Touch (ACTION_UP): 0:(383.4749,170.8247)
+:Sending Touch (ACTION_DOWN): 0:(672.0,577.0)
+:Sending Touch (ACTION_UP): 0:(743.6044,547.68396)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity } in package com.google.android.apps.nexuslauncher
+:Sending Touch (ACTION_DOWN): 0:(420.0,383.0)
+:Sending Touch (ACTION_UP): 0:(419.15308,382.54947)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(995.0,953.0)
+:Sending Touch (ACTION_UP): 0:(993.132,943.2946)
+:Sending Touch (ACTION_DOWN): 0:(452.0,1491.0)
+:Sending Touch (ACTION_UP): 0:(453.66223,1396.9109)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(374.0,397.0)
+:Sending Touch (ACTION_UP): 0:(443.17532,382.00134)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+    //[calendar_time:2017-09-17 09:26:20.307  system_uptime:1279464]
+    // Sending event #2700
+:Sending Touch (ACTION_DOWN): 0:(297.0,1048.0)
+:Sending Touch (ACTION_UP): 0:(300.8341,1037.1096)
+:Sending Touch (ACTION_DOWN): 0:(316.0,595.0)
+:Sending Touch (ACTION_UP): 0:(320.80713,555.83887)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.habitrpg.android.habitica/.ui.activities.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.habitrpg.android.habitica/.ui.activities.MainActivity } in package com.habitrpg.android.habitica
+:Sending Touch (ACTION_DOWN): 0:(569.0,913.0)
+:Sending Touch (ACTION_UP): 0:(580.7958,914.5968)
+:Sending Touch (ACTION_DOWN): 0:(195.0,1053.0)
+:Sending Touch (ACTION_UP): 0:(207.12544,1055.0587)
+:Sending Touch (ACTION_DOWN): 0:(267.0,838.0)
+:Sending Touch (ACTION_UP): 0:(240.1177,841.9357)
+:Sending Touch (ACTION_DOWN): 0:(968.0,949.0)
+:Sending Touch (ACTION_UP): 0:(968.5444,973.0779)
+:Sending Touch (ACTION_DOWN): 0:(493.0,1787.0)
+:Sending Touch (ACTION_UP): 0:(496.3575,1774.3112)
+:Sending Touch (ACTION_DOWN): 0:(378.0,1337.0)
+:Sending Touch (ACTION_UP): 0:(395.12158,1343.3702)
+    //[calendar_time:2017-09-17 09:26:26.855  system_uptime:1286012]
+    // Sending event #2800
+    //[calendar_time:2017-09-17 09:26:26.855  system_uptime:1286013]
+    // Sending event #2800
+:Sending Touch (ACTION_DOWN): 0:(351.0,449.0)
+:Sending Touch (ACTION_UP): 0:(339.27087,451.61182)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.habitrpg.android.habitica/.ui.activities.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.habitrpg.android.habitica/.ui.activities.MainActivity } in package com.habitrpg.android.habitica
+:Sending Touch (ACTION_DOWN): 0:(917.0,1563.0)
+:Sending Touch (ACTION_UP): 0:(911.9139,1580.7935)
+:Sending Touch (ACTION_DOWN): 0:(200.0,220.0)
+:Sending Touch (ACTION_UP): 0:(178.5443,230.06781)
+:Sending Touch (ACTION_DOWN): 0:(405.0,1696.0)
+:Sending Touch (ACTION_UP): 0:(376.51352,1676.011)
+:Sending Touch (ACTION_DOWN): 0:(910.0,823.0)
+:Sending Touch (ACTION_UP): 0:(914.11914,823.81836)
+:Sending Touch (ACTION_DOWN): 0:(215.0,1362.0)
+:Sending Touch (ACTION_UP): 0:(221.42397,1350.0646)
+:Sending Touch (ACTION_DOWN): 0:(890.0,466.0)
+:Sending Touch (ACTION_UP): 0:(890.64404,470.2929)
+:Sending Touch (ACTION_DOWN): 0:(94.0,106.0)
+:Sending Touch (ACTION_UP): 0:(97.29293,107.04763)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(30.0,1495.0)
+:Sending Touch (ACTION_UP): 0:(29.028156,1497.3818)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(343.0,644.0)
+:Sending Touch (ACTION_UP): 0:(334.73587,647.3681)
+:Sending Touch (ACTION_DOWN): 0:(716.0,1255.0)
+:Sending Touch (ACTION_UP): 0:(665.4777,1143.99)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+    //[calendar_time:2017-09-17 09:26:28.944  system_uptime:1288102]
+    // Sending event #2900
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(43.0,1377.0)
+:Sending Touch (ACTION_UP): 0:(44.054707,1374.6727)
+:Sending Touch (ACTION_DOWN): 0:(292.0,1505.0)
+:Sending Touch (ACTION_UP): 0:(286.9701,1506.5045)
+    // activityResuming(com.habitrpg.android.habitica)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(1048.0,17.0)
+:Sending Touch (ACTION_UP): 0:(1045.0217,10.715567)
+:Sending Touch (ACTION_DOWN): 0:(62.0,1130.0)
+:Sending Touch (ACTION_UP): 0:(40.325703,1185.2327)
+:Sending Touch (ACTION_DOWN): 0:(1077.0,891.0)
+:Sending Touch (ACTION_UP): 0:(1080.0,898.21936)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+    //[calendar_time:2017-09-17 09:26:34.465  system_uptime:1293623]
+    // Sending event #3000
+:Sending Touch (ACTION_DOWN): 0:(308.0,333.0)
+:Sending Touch (ACTION_UP): 0:(327.81998,331.07196)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.habitrpg.android.habitica/.ui.activities.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.habitrpg.android.habitica/.ui.activities.MainActivity } in package com.habitrpg.android.habitica
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(1070.0,878.0)
+:Sending Touch (ACTION_UP): 0:(1068.918,877.9727)
+:Sending Touch (ACTION_DOWN): 0:(35.0,1250.0)
+:Sending Touch (ACTION_UP): 0:(43.050808,1371.8208)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(419.0,0.0)
+:Sending Touch (ACTION_UP): 0:(371.01355,20.27329)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(461.0,1430.0)
+:Sending Touch (ACTION_UP): 0:(473.02762,1416.6399)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.habitrpg.android.habitica/.ui.activities.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.habitrpg.android.habitica/.ui.activities.MainActivity } in package com.habitrpg.android.habitica
+:Sending Touch (ACTION_DOWN): 0:(93.0,436.0)
+:Sending Touch (ACTION_UP): 0:(89.9811,436.0009)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(981.0,165.0)
+    //[calendar_time:2017-09-17 09:26:37.259  system_uptime:1296417]
+    // Sending event #3100
+:Sending Touch (ACTION_UP): 0:(974.4651,219.57947)
+:Sending Touch (ACTION_DOWN): 0:(590.0,1345.0)
+:Sending Touch (ACTION_UP): 0:(587.3315,1337.2294)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(1063.0,1092.0)
+:Sending Touch (ACTION_UP): 0:(1059.7223,1095.0096)
+:Sending Touch (ACTION_DOWN): 0:(885.0,803.0)
+:Sending Touch (ACTION_UP): 0:(890.0599,797.2808)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.habitrpg.android.habitica/.ui.activities.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.habitrpg.android.habitica/.ui.activities.MainActivity } in package com.habitrpg.android.habitica
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(567.0,1593.0)
+:Sending Touch (ACTION_UP): 0:(569.30975,1592.9252)
+:Sending Flip keyboardOpen=true
+:Sending Flip keyboardOpen=false
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(973.0,379.0)
+:Sending Touch (ACTION_UP): 0:(978.88324,364.8116)
+:Sending Touch (ACTION_DOWN): 0:(751.0,988.0)
+:Sending Touch (ACTION_UP): 0:(765.6414,976.8821)
+    //[calendar_time:2017-09-17 09:26:40.256  system_uptime:1299414]
+    // Sending event #3200
+    //[calendar_time:2017-09-17 09:26:40.257  system_uptime:1299415]
+    // Sending event #3200
+:Sending Touch (ACTION_DOWN): 0:(989.0,842.0)
+:Sending Touch (ACTION_UP): 0:(923.8955,942.79974)
+:Sending Touch (ACTION_DOWN): 0:(270.0,1417.0)
+:Sending Touch (ACTION_UP): 0:(270.3905,1423.1044)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(136.0,1609.0)
+:Sending Touch (ACTION_UP): 0:(135.66122,1620.805)
+:Sending Touch (ACTION_DOWN): 0:(877.0,166.0)
+:Sending Touch (ACTION_UP): 0:(874.6204,167.61302)
+:Sending Touch (ACTION_DOWN): 0:(238.0,1149.0)
+:Sending Touch (ACTION_UP): 0:(227.71442,1136.4323)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(394.0,479.0)
+:Sending Touch (ACTION_UP): 0:(394.26614,483.58868)
+    //[calendar_time:2017-09-17 09:26:44.548  system_uptime:1303706]
+    // Sending event #3300
+    //[calendar_time:2017-09-17 09:26:44.548  system_uptime:1303706]
+    // Sending event #3300
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity } in package com.google.android.apps.nexuslauncher
+:Sending Touch (ACTION_DOWN): 0:(467.0,984.0)
+:Sending Touch (ACTION_UP): 0:(465.99045,988.92145)
+:Sending Touch (ACTION_DOWN): 0:(123.0,540.0)
+:Sending Touch (ACTION_UP): 0:(100.490295,557.0969)
+    // Injection Failed
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity } in package com.google.android.apps.nexuslauncher
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(475.0,507.0)
+:Sending Touch (ACTION_UP): 0:(459.9749,515.1619)
+:Sending Touch (ACTION_DOWN): 0:(398.0,810.0)
+:Sending Touch (ACTION_UP): 0:(314.8094,709.0929)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(540.0,1113.0)
+:Sending Touch (ACTION_UP): 0:(538.0451,1113.1624)
+    // Rejecting start of Intent { act=com.google.android.gms.common.account.CHOOSE_ACCOUNT pkg=com.google.android.gms cmp=com.google.android.gms/.common.account.SimpleAccountPickerActivity } in package com.google.android.gms
+:Sending Touch (ACTION_DOWN): 0:(840.0,1449.0)
+:Sending Touch (ACTION_UP): 0:(843.55945,1442.6841)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity } in package com.google.android.apps.nexuslauncher
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+    // Rejecting start of Intent { act=android.intent.action.ASSIST cmp=com.google.android.googlequicksearchbox/.SearchActivity } in package com.google.android.googlequicksearchbox
+    //[calendar_time:2017-09-17 09:26:48.490  system_uptime:1307648]
+    // Sending event #3400
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(412.0,1562.0)
+:Sending Touch (ACTION_UP): 0:(412.6119,1560.569)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(295.0,47.0)
+:Sending Touch (ACTION_UP): 0:(311.72818,117.23427)
+:Sending Touch (ACTION_DOWN): 0:(477.0,957.0)
+:Sending Touch (ACTION_UP): 0:(436.0916,933.408)
+:Sending Touch (ACTION_DOWN): 0:(575.0,103.0)
+:Sending Touch (ACTION_UP): 0:(570.84784,102.64957)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(722.0,1173.0)
+:Sending Touch (ACTION_UP): 0:(696.13477,1244.776)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(366.0,1029.0)
+:Sending Touch (ACTION_UP): 0:(396.6827,1004.9524)
+    //[calendar_time:2017-09-17 09:26:50.486  system_uptime:1309644]
+    // Sending event #3500
+:Sending Touch (ACTION_DOWN): 0:(14.0,1399.0)
+:Sending Touch (ACTION_UP): 0:(21.322834,1410.0438)
+:Sending Touch (ACTION_DOWN): 0:(860.0,487.0)
+:Sending Touch (ACTION_UP): 0:(861.8304,479.40314)
+:Sending Touch (ACTION_DOWN): 0:(687.0,177.0)
+:Sending Touch (ACTION_UP): 0:(733.051,171.34267)
+:Sending Touch (ACTION_DOWN): 0:(109.0,929.0)
+:Sending Touch (ACTION_UP): 0:(111.978035,921.5996)
+:Sending Touch (ACTION_DOWN): 0:(232.0,205.0)
+:Sending Touch (ACTION_UP): 0:(235.41711,191.32265)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(147.0,1631.0)
+:Sending Touch (ACTION_UP): 0:(137.0313,1632.4596)
+:Sending Touch (ACTION_DOWN): 0:(66.0,55.0)
+:Sending Touch (ACTION_UP): 0:(46.06324,0.0)
+:Sending Touch (ACTION_DOWN): 0:(843.0,1417.0)
+:Sending Touch (ACTION_UP): 0:(824.72754,1500.7886)
+:Sending Touch (ACTION_DOWN): 0:(210.0,772.0)
+:Sending Touch (ACTION_UP): 0:(213.94862,779.6786)
+:Sending Touch (ACTION_DOWN): 0:(699.0,1334.0)
+:Sending Touch (ACTION_UP): 0:(699.11035,1337.1865)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+    //[calendar_time:2017-09-17 09:26:53.364  system_uptime:1312522]
+    // Sending event #3600
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(916.0,738.0)
+:Sending Touch (ACTION_UP): 0:(966.7082,812.54065)
+:Sending Touch (ACTION_DOWN): 0:(914.0,1394.0)
+:Sending Touch (ACTION_UP): 0:(925.12897,1397.1754)
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://habitica.com/... cmp=com.android.chrome/com.google.android.apps.chrome.Main } in package com.android.chrome
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(915.0,752.0)
+:Sending Touch (ACTION_UP): 0:(921.04767,754.37695)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(127.0,1410.0)
+:Sending Touch (ACTION_UP): 0:(119.92474,1408.1201)
+:Sending Touch (ACTION_DOWN): 0:(988.0,890.0)
+:Sending Touch (ACTION_UP): 0:(994.1306,879.82086)
+:Sending Touch (ACTION_DOWN): 0:(809.0,833.0)
+:Sending Touch (ACTION_UP): 0:(802.7936,829.7295)
+:Sending Touch (ACTION_DOWN): 0:(643.0,1381.0)
+:Sending Touch (ACTION_UP): 0:(762.4056,1367.301)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=https://habitica.com/... cmp=com.android.chrome/com.google.android.apps.chrome.Main } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(934.0,365.0)
+:Sending Touch (ACTION_UP): 0:(915.8026,375.91528)
+:Sending Touch (ACTION_DOWN): 0:(594.0,568.0)
+:Sending Touch (ACTION_UP): 0:(620.6711,532.3328)
+:Sending Touch (ACTION_DOWN): 0:(616.0,1021.0)
+:Sending Touch (ACTION_UP): 0:(611.88007,1031.0012)
+:Sending Touch (ACTION_DOWN): 0:(722.0,731.0)
+    //[calendar_time:2017-09-17 09:26:54.959  system_uptime:1314117]
+    // Sending event #3700
+:Sending Touch (ACTION_UP): 0:(735.44324,720.89294)
+:Sending Touch (ACTION_DOWN): 0:(275.0,1015.0)
+:Sending Touch (ACTION_UP): 0:(286.8115,1018.8038)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(687.0,1142.0)
+:Sending Touch (ACTION_UP): 0:(701.4568,1174.4247)
+:Sending Touch (ACTION_DOWN): 0:(352.0,1539.0)
+:Sending Touch (ACTION_UP): 0:(341.3082,1534.0875)
+:Sending Touch (ACTION_DOWN): 0:(90.0,870.0)
+:Sending Touch (ACTION_UP): 0:(118.3308,865.89624)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(725.0,1716.0)
+:Sending Touch (ACTION_UP): 0:(772.3973,1756.6948)
+:Sending Touch (ACTION_DOWN): 0:(979.0,1774.0)
+:Sending Touch (ACTION_UP): 0:(975.1589,1782.9752)
+:Sending Touch (ACTION_DOWN): 0:(120.0,302.0)
+:Sending Touch (ACTION_UP): 0:(120.650215,303.7987)
+:Sending Touch (ACTION_DOWN): 0:(1002.0,1539.0)
+:Sending Touch (ACTION_UP): 0:(992.32745,1531.5717)
+:Sending Touch (ACTION_DOWN): 0:(988.0,1684.0)
+:Sending Touch (ACTION_UP): 0:(993.5713,1693.8495)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(277.0,541.0)
+:Sending Touch (ACTION_UP): 0:(244.42566,580.9039)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+    //[calendar_time:2017-09-17 09:26:59.489  system_uptime:1318647]
+    // Sending event #3800
+    //[calendar_time:2017-09-17 09:26:59.490  system_uptime:1318648]
+    // Sending event #3800
+:Sending Touch (ACTION_DOWN): 0:(1040.0,916.0)
+:Sending Touch (ACTION_UP): 0:(1017.17084,933.2426)
+:Sending Touch (ACTION_DOWN): 0:(944.0,1759.0)
+:Sending Touch (ACTION_UP): 0:(947.1313,1682.9724)
+:Sending Touch (ACTION_DOWN): 0:(148.0,107.0)
+:Sending Touch (ACTION_UP): 0:(123.654236,94.18663)
+:Sending Touch (ACTION_DOWN): 0:(62.0,151.0)
+:Sending Touch (ACTION_UP): 0:(74.00788,135.16591)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(431.0,555.0)
+:Sending Touch (ACTION_UP): 0:(430.91245,561.3134)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(658.0,100.0)
+:Sending Touch (ACTION_UP): 0:(673.99066,87.78677)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    // Rejecting start of Intent { act=android.intent.action.CALL_BUTTON cmp=com.google.android.dialer/com.google.android.apps.dialer.extensions.GoogleDialtactsActivity } in package com.google.android.dialer
+:Sending Touch (ACTION_DOWN): 0:(837.0,1207.0)
+:Sending Touch (ACTION_UP): 0:(807.67773,1191.9547)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.habitrpg.android.habitica/.ui.activities.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.habitrpg.android.habitica/.ui.activities.MainActivity } in package com.habitrpg.android.habitica
+:Sending Touch (ACTION_DOWN): 0:(802.0,417.0)
+    //[calendar_time:2017-09-17 09:27:05.046  system_uptime:1324204]
+    // Sending event #3900
+:Sending Touch (ACTION_UP): 0:(808.3058,357.63312)
+:Sending Touch (ACTION_DOWN): 0:(77.0,1780.0)
+:Sending Touch (ACTION_UP): 0:(77.136444,1785.1927)
+** Monkey aborted due to error.
+Events injected: 3907
+:Sending rotation degree=0, persist=false
+:Dropped: keys=6 pointers=0 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=155899ms (0ms mobile, 0ms wifi, 155899ms not connected)
