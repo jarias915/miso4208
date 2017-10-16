@@ -1,0 +1,33 @@
+C:\Users\JC\AppData\Local\Android\sdk\platform-tools>adb shell monkey -p org.runnerup -v 1000 --ignore-crashes > RunnerUpLog(1).txt
+args: [-p, org.runnerup, -v, 1000, --ignore-crashes]
+ arg: "-p"
+ arg: "org.runnerup"
+ arg: "-v"
+ arg: "1000"
+ arg: "--ignore-crashes"
+data="org.runnerup"
+// CRASH: org.runnerup (pid 3798)
+// Short Msg: java.lang.IllegalStateException
+// Long Msg: java.lang.IllegalStateException: The specified child already has a parent. You must call removeView() on the child's parent first.
+// Build Label: google/sdk_gphone_x86/generic_x86:8.0.0/OSR1.170720.005/4205617:userdebug/dev-keys
+// Build Changelist: 4205617
+// Build Time: 1500682265000
+// java.lang.IllegalStateException: The specified child already has a parent. You must call removeView() on the child's parent first.
+//      at android.view.ViewGroup.addViewInner(ViewGroup.java:4915)
+//      at android.view.ViewGroup.addView(ViewGroup.java:4746)
+//      at android.view.ViewGroup.addView(ViewGroup.java:4686)
+//      at android.view.ViewGroup.addView(ViewGroup.java:4659)
+//      at org.runnerup.widget.TitleSpinner$4.onClick(TitleSpinner.java:279)
+//      at android.view.View.performClick(View.java:6256)
+//      at android.view.View$PerformClick.run(View.java:24697)
+//      at android.os.Handler.handleCallback(Handler.java:789)
+//      at android.os.Handler.dispatchMessage(Handler.java:98)
+//      at android.os.Looper.loop(Looper.java:164)
+//      at android.app.ActivityThread.main(ActivityThread.java:6541)
+//      at java.lang.reflect.Method.invoke(Native Method)
+//      at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+//      at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+//
+** System appears to have crashed at event 212 of 1000 using seed 1507989524086
+
+C:\Users\JC\AppData\Local\Android\sdk\platform-tools>

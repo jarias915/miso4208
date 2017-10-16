@@ -1,0 +1,52 @@
+C:\Users\JC\AppData\Local\Android\sdk\platform-tools>adb shell monkey --pct-touch 60 --pct-majornav 20 --pct-syskeys 0 --pct-appswitch 20 --pct-anyevent 0 -p org.runnerup -vvv 10000 > RunnerUpLog(11).txt
+args: [--pct-touch, 60, --pct-majornav, 20, --pct-syskeys, 0, --pct-appswitch, 20, --pct-anyevent, 0, -p, org.runnerup, -vvv, 10000]
+ arg: "--pct-touch"
+ arg: "60"
+ arg: "--pct-majornav"
+ arg: "20"
+ arg: "--pct-syskeys"
+ arg: "0"
+ arg: "--pct-appswitch"
+ arg: "20"
+ arg: "--pct-anyevent"
+ arg: "0"
+ arg: "-p"
+ arg: "org.runnerup"
+ arg: "-vvv"
+ arg: "10000"
+arg="--pct-touch" mCurArgData="null" mNextArg=1 argwas="--pct-touch" nextarg="60"
+data="60"
+arg="--pct-majornav" mCurArgData="null" mNextArg=3 argwas="--pct-majornav" nextarg="20"
+data="20"
+arg="--pct-syskeys" mCurArgData="null" mNextArg=5 argwas="--pct-syskeys" nextarg="0"
+data="0"
+arg="--pct-appswitch" mCurArgData="null" mNextArg=7 argwas="--pct-appswitch" nextarg="20"
+data="20"
+arg="--pct-anyevent" mCurArgData="null" mNextArg=9 argwas="--pct-anyevent" nextarg="0"
+data="0"
+data="org.runnerup"
+// CRASH: org.runnerup (pid 13013)
+// Short Msg: java.lang.IllegalStateException
+// Long Msg: java.lang.IllegalStateException: The specified child already has a parent. You must call removeView() on the child's parent first.
+// Build Label: google/sdk_gphone_x86/generic_x86:8.0.0/OSR1.170720.005/4205617:userdebug/dev-keys
+// Build Changelist: 4205617
+// Build Time: 1500682265000
+// java.lang.IllegalStateException: The specified child already has a parent. You must call removeView() on the child's parent first.
+//      at android.view.ViewGroup.addViewInner(ViewGroup.java:4915)
+//      at android.view.ViewGroup.addView(ViewGroup.java:4746)
+//      at android.view.ViewGroup.addView(ViewGroup.java:4686)
+//      at android.view.ViewGroup.addView(ViewGroup.java:4659)
+//      at org.runnerup.widget.TitleSpinner$7.onClick(TitleSpinner.java:418)
+//      at android.view.View.performClick(View.java:6256)
+//      at android.view.View$PerformClick.run(View.java:24697)
+//      at android.os.Handler.handleCallback(Handler.java:789)
+//      at android.os.Handler.dispatchMessage(Handler.java:98)
+//      at android.os.Looper.loop(Looper.java:164)
+//      at android.app.ActivityThread.main(ActivityThread.java:6541)
+//      at java.lang.reflect.Method.invoke(Native Method)
+//      at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+//      at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+//
+** System appears to have crashed at event 530 of 10000 using seed 1508116578599
+
+C:\Users\JC\AppData\Local\Android\sdk\platform-tools>

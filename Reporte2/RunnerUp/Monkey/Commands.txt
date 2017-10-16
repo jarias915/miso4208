@@ -1,0 +1,59 @@
+1- adb shell monkey -p org.runnerup -v 1000 --ignore-crashes > RunnerUpLog(1).txt
+2- adb shell monkey -s 1507989524086 -p org.runnerup -v 1000 --ignore-crashes > RunnerUpLog(2).txt
+3- adb shell monkey -s 1507989524086 -p org.runnerup -v 10000 --ignore-crashes > RunnerUpLog(3).txt
+4- adb shell monkey -p org.runnerup -v 10000 --ignore-crashes > RunnerUpLog(4).txt
+5- adb shell monkey -p org.runnerup -v 10000 > RunnerUpLog(5).txt
+6- adb shell monkey --pct-touch 80 -p org.runnerup -vvv 5000 > RunnerUpLog(6).txt
+7- adb shell monkey --pct-touch 80 --pct-motion 20 -p org.runnerup -vv 10000 > RunnerUpLog(7).txt
+8- adb shell monkey --pct-trackball 50 --pct-nav 50 -p org.runnerup -vvv 10000 > RunnerUpLog(8).txt
+9- adb shell monkey --pct-majornav 90 --pct-syskeys 10 -p org.runnerup -vvv 10000 > RunnerUpLog(9).txt
+10- adb shell monkey --pct-appswitch 80 --pct-anyevent 20 -p org.runnerup -vvv 10000 > RunnerUpLog(10).txt
+11- adb shell monkey --pct-touch 60 --pct-majornav 20 --pct-syskeys 0 --pct-appswitch 20 --pct-anyevent 0 -p org.runnerup -vvv 10000 > RunnerUpLog(11).txt
+12- adb shell monkey -s 1508116578599 --pct-touch 60 --pct-majornav 20 --pct-syskeys 0 --pct-appswitch 20 --pct-anyevent 0 -p org.runnerup -vvv 10000 > RunnerUpLog(12).txt
+13- adb shell monkey -s 1508116578599 --pct-touch 60 --pct-majornav 20 --pct-syskeys 0 --pct-appswitch 20 --pct-anyevent 0 -p org.runnerup -vvv 10000 > RunnerUpLog(13).txt
+14- adb shell monkey --pct-touch 80 --pct-motion 0 --pct-trackball 0 --pct-nav 0 --pct-majornav 0 --pct-syskeys 0 --pct-appswitch 0 --pct-anyevent 20 -p org.runnerup -c android.intent.category.DEFAULT -c android.intent.category.BROWSABLE -c android.intent.category.LAUNCHER -vvv 100000 > RunnerUpLog(14).txt
+
+
+Para el 14 las categorias se sacaron del AndroidManifest.xml
+
+Notas:
+
+Se ejecuto el 1 y la app dejo de funcionar, para la ejecucion de los monkeys 2 y 3 se uso la misma semilla del 1 y entonces se volvio a generar la misma excepcion.
+
+4 se ejecuto y genero una excepcion pero no era de la app.
+
+5 se ejecuto y no genero excepcion, termino normalmente.
+
+6 For example if you want to ensure that 80 percent of the events are touch events, ypou need to specify the –pct-touch argument as follows.
+6 se ejecuto y no genero excepcion, termino normalmente.
+
+7 se ejecuto y no genero excepcion, termino normalmente.
+8 se ejecuto y no genero excepcion, termino normalmente.
+9 se ejecuto y no genero excepcion, termino normalmente.
+10 se ejecuto y no genero excepcion, termino normalmente.
+11 se ejecuto y genero excepcion, la app dejo de funcionar. dejo la semilla 1508116578599 que se uso en 12 y en 13.
+12 ** Monkey aborted due to error. se ejecuto con la semilla de 11 (1508116578599) que genero excepcion, pero ahora se genero un error mucho peor en la app e incluso en la maquina virtual de android, inclusive en 
+este caso se nota que la app se desinstalo de la maquina virtual de Android y toco volver a instalar el apk.
+13 ** Monkey aborted due to error. se ejecuto con la semilla de 11 (1508116578599) que genero excepcion, pero ahora se genero un error mucho peor en la app e incluso en la maquina virtual de android, inclusive en 
+este caso se nota que la app se desinstalo de la maquina virtual de Android y toco volver a instalar el apk.
+11 se volvio a ejecutar pero no se volvio a presentar el error, el monkey se ejecuto normalmente y termino bien sin ninguna excepcion. Se ejecuto con una secuencia nueva.
+
+12 y 13 generan un error critico que hace que la VM de Android se reinicie, toco apagar la VM y encenderla de nuevo.
+
+14 se ejecuto y genero excepcion, la app dejo de funcionar. dejo la semilla 1508046346616
+
+
+Events:
+-s <seed> 	                Seed value for pseudo-random number generator. If you re-run the Monkey with the same seed value, it will generate the same sequence of events.
+--throttle <milliseconds> 	Inserts a fixed delay between events. You can use this option to slow down the Monkey. If not specified, there is no delay and the events are generated as rapidly as possible.
+--pct-touch <percent> 	        Adjust percentage of touch events. (Touch events are a down-up event in a single place on the screen.)
+--pct-motion <percent> 	        Adjust percentage of motion events. (Motion events consist of a down event somewhere on the screen, a series of pseudo-random movements, and an up event.)
+--pct-trackball <percent> 	Adjust percentage of trackball events. (Trackball events consist of one or more random movements, sometimes followed by a click.)
+--pct-nav <percent> 	        Adjust percentage of "basic" navigation events. (Navigation events consist of up/down/left/right, as input from a directional input device.)
+--pct-majornav <percent> 	Adjust percentage of "major" navigation events. (These are navigation events that will typically cause actions within your UI, such as the center button in a 5-way pad, the back key, or the menu key.)
+--pct-syskeys <percent> 	Adjust percentage of "system" key events. (These are keys that are generally reserved for use by the system, such as Home, Back, Start Call, End Call, or Volume controls.)
+--pct-appswitch <percent> 	Adjust percentage of activity launches. At random intervals, the Monkey will issue a startActivity() call, as a way of maximizing coverage of all activities within your package.
+--pct-anyevent <percent> 	Adjust percentage of other types of events. This is a catch-all for all other types of events such as keypresses, other less-used buttons on the device, and so forth.
+
+Para generar 10000 gestos, con un tiempo de espera entre cada evento de 500ms:
+    adb shell monkey -p com.habitrpg.android.habitica --throttle 500 -v 10000 > HabiticaLog(4).txt

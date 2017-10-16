@@ -1,0 +1,112 @@
+C:\Users\JC\AppData\Local\Android\sdk\platform-tools>adb shell monkey -p org.runnerup -v 10000 --ignore-crashes > RunnerUpLog(4).txt
+args: [-p, org.runnerup, -v, 10000, --ignore-crashes]
+ arg: "-p"
+ arg: "org.runnerup"
+ arg: "-v"
+ arg: "10000"
+ arg: "--ignore-crashes"
+data="org.runnerup"
+// CRASH: com.android.inputmethod.latin (pid 4721)
+// Short Msg: com.android.inputmethod.latin.utils.XmlParseUtils$ParseException
+// Long Msg: com.android.inputmethod.latin.utils.XmlParseUtils$ParseException: Empty keySpec at Binary XML file line #39
+// Build Label: google/sdk_gphone_x86/generic_x86:8.0.0/OSR1.170720.005/4205617:userdebug/dev-keys
+// Build Changelist: 4205617
+// Build Time: 1500682265000
+// com.android.inputmethod.keyboard.KeyboardLayoutSet$KeyboardLayoutSetException: java.lang.IllegalArgumentException: Empty keySpec at Binary XML file line #39
+//      at com.android.inputmethod.keyboard.KeyboardLayoutSet.getKeyboard(KeyboardLayoutSet.java:207)
+//      at com.android.inputmethod.keyboard.KeyboardSwitcher.setKeyboard(KeyboardSwitcher.java:153)
+//      at com.android.inputmethod.keyboard.KeyboardSwitcher.setSymbolsKeyboard(KeyboardSwitcher.java:258)
+//      at com.android.inputmethod.keyboard.internal.KeyboardState.setSymbolsKeyboard(KeyboardState.java:318)
+//      at com.android.inputmethod.keyboard.internal.KeyboardState.toggleAlphabetAndSymbols(KeyboardState.java:262)
+//      at com.android.inputmethod.keyboard.internal.KeyboardState.onPressSymbol(KeyboardState.java:411)
+//      at com.android.inputmethod.keyboard.internal.KeyboardState.onPressKey(KeyboardState.java:370)
+//      at com.android.inputmethod.keyboard.KeyboardSwitcher.onPressKey(KeyboardSwitcher.java:194)
+//      at com.android.inputmethod.latin.LatinIME.onPressKey(LatinIME.java:1666)
+//      at com.android.inputmethod.keyboard.PointerTracker.callListenerOnPressAndCheckKeyboardLayoutChange(PointerTracker.java:265)
+//      at com.android.inputmethod.keyboard.PointerTracker.onDownEventInternal(PointerTracker.java:687)
+//      at com.android.inputmethod.keyboard.PointerTracker.onDownEvent(PointerTracker.java:644)
+//      at com.android.inputmethod.keyboard.PointerTracker.processMotionEvent(PointerTracker.java:604)
+//      at com.android.inputmethod.keyboard.MainKeyboardView.processMotionEvent(MainKeyboardView.java:723)
+//      at com.android.inputmethod.keyboard.MainKeyboardView.onTouchEvent(MainKeyboardView.java:710)
+//      at android.view.View.dispatchTouchEvent(View.java:11721)
+//      at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2961)
+//      at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2593)
+//      at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2961)
+//      at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2593)
+//      at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2961)
+//      at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2593)
+//      at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2961)
+//      at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2593)
+//      at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2961)
+//      at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2593)
+//      at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2961)
+//      at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2593)
+//      at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2961)
+//      at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2593)
+//      at com.android.internal.policy.DecorView.superDispatchTouchEvent(DecorView.java:445)
+//      at com.android.internal.policy.PhoneWindow.superDispatchTouchEvent(PhoneWindow.java:1828)
+//      at android.app.Dialog.dispatchTouchEvent(Dialog.java:815)
+//      at android.inputmethodservice.SoftInputWindow.dispatchTouchEvent(SoftInputWindow.java:93)
+//      at com.android.internal.policy.DecorView.dispatchTouchEvent(DecorView.java:407)
+//      at android.view.View.dispatchPointerEvent(View.java:11960)
+//      at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:4776)
+//      at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:4590)
+//      at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:4128)
+//      at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:4181)
+//      at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:4147)
+//      at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:4274)
+//      at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:4155)
+//      at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:4331)
+//      at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:4128)
+//      at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:4181)
+//      at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:4147)
+//      at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:4155)
+//      at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:4128)
+//      at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:6642)
+//      at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:6616)
+//      at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:6577)
+//      at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:6745)
+//      at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+//      at android.view.InputEventReceiver.nativeConsumeBatchedInputEvents(Native Method)
+//      at android.view.InputEventReceiver.consumeBatchedInputEvents(InputEventReceiver.java:176)
+//      at android.view.ViewRootImpl.doConsumeBatchedInput(ViewRootImpl.java:6716)
+//      at android.view.ViewRootImpl$ConsumeBatchedInputRunnable.run(ViewRootImpl.java:6768)
+//      at android.view.Choreographer$CallbackRecord.run(Choreographer.java:911)
+//      at android.view.Choreographer.doCallbacks(Choreographer.java:723)
+//      at android.view.Choreographer.doFrame(Choreographer.java:652)
+//      at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:897)
+//      at android.os.Handler.handleCallback(Handler.java:789)
+//      at android.os.Handler.dispatchMessage(Handler.java:98)
+//      at android.os.Looper.loop(Looper.java:164)
+//      at android.app.ActivityThread.main(ActivityThread.java:6541)
+//      at java.lang.reflect.Method.invoke(Native Method)
+//      at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+//      at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+// Caused by: java.lang.IllegalArgumentException: Empty keySpec at Binary XML file line #39
+//      at com.android.inputmethod.keyboard.internal.KeyboardBuilder.load(KeyboardBuilder.java:175)
+//      at com.android.inputmethod.keyboard.KeyboardLayoutSet.getKeyboard(KeyboardLayoutSet.java:227)
+//      at com.android.inputmethod.keyboard.KeyboardLayoutSet.getKeyboard(KeyboardLayoutSet.java:204)
+//      ... 68 more
+// Caused by: com.android.inputmethod.latin.utils.XmlParseUtils$ParseException: Empty keySpec at Binary XML file line #39
+//      at com.android.inputmethod.keyboard.internal.KeyboardBuilder.parseKey(KeyboardBuilder.java:482)
+//      at com.android.inputmethod.keyboard.internal.KeyboardBuilder.parseRowContent(KeyboardBuilder.java:362)
+//      at com.android.inputmethod.keyboard.internal.KeyboardBuilder.parseDefault(KeyboardBuilder.java:798)
+//      at com.android.inputmethod.keyboard.internal.KeyboardBuilder.parseSwitchInternal(KeyboardBuilder.java:609)
+//      at com.android.inputmethod.keyboard.internal.KeyboardBuilder.parseSwitchRowContent(KeyboardBuilder.java:595)
+//      at com.android.inputmethod.keyboard.internal.KeyboardBuilder.parseRowContent(KeyboardBuilder.java:368)
+//      at com.android.inputmethod.keyboard.internal.KeyboardBuilder.parseMerge(KeyboardBuilder.java:578)
+//      at com.android.inputmethod.keyboard.internal.KeyboardBuilder.parseIncludeInternal(KeyboardBuilder.java:557)
+//      at com.android.inputmethod.keyboard.internal.KeyboardBuilder.parseIncludeRowContent(KeyboardBuilder.java:518)
+//      at com.android.inputmethod.keyboard.internal.KeyboardBuilder.parseRowContent(KeyboardBuilder.java:366)
+//      at com.android.inputmethod.keyboard.internal.KeyboardBuilder.parseKeyboardContent(KeyboardBuilder.java:310)
+//      at com.android.inputmethod.keyboard.internal.KeyboardBuilder.parseMerge(KeyboardBuilder.java:576)
+//      at com.android.inputmethod.keyboard.internal.KeyboardBuilder.parseIncludeInternal(KeyboardBuilder.java:557)
+//      at com.android.inputmethod.keyboard.internal.KeyboardBuilder.parseIncludeKeyboardContent(KeyboardBuilder.java:513)
+//      at com.android.inputmethod.keyboard.internal.KeyboardBuilder.parseKeyboardContent(KeyboardBuilder.java:315)
+//      at com.android.inputmethod.keyboard.internal.KeyboardBuilder.parseKeyboard(KeyboardBuilder.java:229)
+//      at com.android.inputmethod.keyboard.internal.KeyboardBuilder.load(KeyboardBuilder.java:172)
+//      ... 70 more
+//
+** System appears to have crashed at event 2530 of 10000 using seed 1508110593804
+
+C:\Users\JC\AppData\Local\Android\sdk\platform-tools>

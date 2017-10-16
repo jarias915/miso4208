@@ -1,0 +1,75 @@
+C:\Users\JC\AppData\Local\Android\sdk\platform-tools>adb shell monkey --pct-touch 80 --pct-motion 0 --pct-trackball 0 --pct-nav 0 --pct-majornav 0 --pct-syskeys 0 --pct-appswitch 0 --pct-anyevent 20 -p org.runnerup -c android.intent.category.DEFAULT -c android.
+intent.category.BROWSABLE -c android.intent.category.LAUNCHER -vvv 100000 > RunnerUpLog(14).txt
+args: [--pct-touch, 80, --pct-motion, 0, --pct-trackball, 0, --pct-nav, 0, --pct-majornav, 0, --pct-syskeys, 0, --pct-appswitch, 0, --pct-anyevent, 20, -p, org.runnerup, -c, android.intent.category.DEFAULT, -c, android.intent.category.BROWSABLE, -c, android.int
+ent.category.LAUNCHER, -vvv, 100000]
+ arg: "--pct-touch"
+ arg: "80"
+ arg: "--pct-motion"
+ arg: "0"
+ arg: "--pct-trackball"
+ arg: "0"
+ arg: "--pct-nav"
+ arg: "0"
+ arg: "--pct-majornav"
+ arg: "0"
+ arg: "--pct-syskeys"
+ arg: "0"
+ arg: "--pct-appswitch"
+ arg: "0"
+ arg: "--pct-anyevent"
+ arg: "20"
+ arg: "-p"
+ arg: "org.runnerup"
+ arg: "-c"
+ arg: "android.intent.category.DEFAULT"
+ arg: "-c"
+ arg: "android.intent.category.BROWSABLE"
+ arg: "-c"
+ arg: "android.intent.category.LAUNCHER"
+ arg: "-vvv"
+ arg: "100000"
+arg="--pct-touch" mCurArgData="null" mNextArg=1 argwas="--pct-touch" nextarg="80"
+data="80"
+arg="--pct-motion" mCurArgData="null" mNextArg=3 argwas="--pct-motion" nextarg="0"
+data="0"
+arg="--pct-trackball" mCurArgData="null" mNextArg=5 argwas="--pct-trackball" nextarg="0"
+data="0"
+arg="--pct-nav" mCurArgData="null" mNextArg=7 argwas="--pct-nav" nextarg="0"
+data="0"
+arg="--pct-majornav" mCurArgData="null" mNextArg=9 argwas="--pct-majornav" nextarg="0"
+data="0"
+arg="--pct-syskeys" mCurArgData="null" mNextArg=11 argwas="--pct-syskeys" nextarg="0"
+data="0"
+arg="--pct-appswitch" mCurArgData="null" mNextArg=13 argwas="--pct-appswitch" nextarg="0"
+data="0"
+arg="--pct-anyevent" mCurArgData="null" mNextArg=15 argwas="--pct-anyevent" nextarg="20"
+data="20"
+data="org.runnerup"
+data="android.intent.category.DEFAULT"
+data="android.intent.category.BROWSABLE"
+data="android.intent.category.LAUNCHER"
+// CRASH: org.runnerup (pid 3870)
+// Short Msg: java.lang.IllegalStateException
+// Long Msg: java.lang.IllegalStateException: The specified child already has a parent. You must call removeView() on the child's parent first.
+// Build Label: google/sdk_gphone_x86/generic_x86:8.0.0/OSR1.170720.005/4205617:userdebug/dev-keys
+// Build Changelist: 4205617
+// Build Time: 1500682265000
+// java.lang.IllegalStateException: The specified child already has a parent. You must call removeView() on the child's parent first.
+//      at android.view.ViewGroup.addViewInner(ViewGroup.java:4915)
+//      at android.view.ViewGroup.addView(ViewGroup.java:4746)
+//      at android.view.ViewGroup.addView(ViewGroup.java:4686)
+//      at android.view.ViewGroup.addView(ViewGroup.java:4659)
+//      at org.runnerup.widget.TitleSpinner$8.onClick(TitleSpinner.java:462)
+//      at android.view.View.performClick(View.java:6256)
+//      at android.view.View$PerformClick.run(View.java:24697)
+//      at android.os.Handler.handleCallback(Handler.java:789)
+//      at android.os.Handler.dispatchMessage(Handler.java:98)
+//      at android.os.Looper.loop(Looper.java:164)
+//      at android.app.ActivityThread.main(ActivityThread.java:6541)
+//      at java.lang.reflect.Method.invoke(Native Method)
+//      at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+//      at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+//
+** System appears to have crashed at event 781 of 100000 using seed 1508046346616
+
+C:\Users\JC\AppData\Local\Android\sdk\platform-tools>
