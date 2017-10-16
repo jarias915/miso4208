@@ -1,0 +1,6 @@
+en el folder features:
+calabash-android resign "org.runnerup_14000057.apk"
+
+en el folder Calabash:
+calabash-android run "D:\AndesMISO4208\06 Proyecto\RunnerUp\Reporte 2\Calabash\features\org.runnerup_14000057.apk"
+
