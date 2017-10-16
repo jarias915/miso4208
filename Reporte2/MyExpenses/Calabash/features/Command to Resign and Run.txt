@@ -1,0 +1,6 @@
+en el folder features:
+calabash-android resign "org.totschnig.myexpenses_292.apk"
+
+en el folder Calabash:
+calabash-android run "D:\AndesMISO4208\06 Proyecto\MyExpenses\Reporte 2\Calabash\features\org.totschnig.myexpenses_292.apk"
+
