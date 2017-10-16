@@ -1,0 +1,6 @@
+D Debug
+E Error
+I Information
+W Warning
+
+En el bug report buscar el process id 7189 y sacar toda esa informacion en un log aparte (analisis)
