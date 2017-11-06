@@ -1,0 +1,29 @@
+11-04 16:42:27.476: D/PersonaManagerService(3557): needVerificationForPackage com.tresastronautas.android.hometap.user
+11-04 16:42:27.476: D/PersonaManagerService(3557): needVerificationForPackage return true for  at the end com.tresastronautas.android.hometap.user
+11-04 16:42:27.499: I/MSTG(3557):  com.tresastronautas.android.hometap.user is installing..
+11-04 16:42:27.534: I/PackageManager.DexOptimizer(3557): Running dexopt (dex2oat) on: /data/app/vmdl685763275.tmp/base.apk pkg=com.tresastronautas.android.hometap.user isa=arm64 vmSafeMode=false debuggable=false target-filter=interpret-only oatDir = /data/app/vmdl685763275.tmp/oat sharedLibraries=null
+11-04 16:42:29.428: W/SELinux(3557): SELinux: set fc_digest(/data/app/com.tresastronautas.android.hometap.user-1)
+11-04 16:42:29.473: W/SELinuxMMAC(3557):  assignseinfovalue, <package name > = com.tresastronautas.android.hometap.user<seinfo> = untrusted<bbcseinfo> = untrusted<category> = 1023
+11-04 16:42:29.473: D/PackageManager(3557): Resolved nativeLibraryRoot for com.tresastronautas.android.hometap.user to root=/data/app/com.tresastronautas.android.hometap.user-1/lib, isa=true
+11-04 16:42:29.473: D/PackageManager(3557): Abis for package[com.tresastronautas.android.hometap.user] are primary=null secondary=null
+11-04 16:42:29.476: D/PackageManager(3557): EAS IT Policy destCodeFile /data/app/com.tresastronautas.android.hometap.user-1
+11-04 16:42:29.659: I/SELinux(3227): SELinux: seapp_context_lookup: seinfo=untrusted, level=s0:c512,c768, pkgname=com.tresastronautas.android.hometap.user 
+11-04 16:42:29.668: I/SELinux(3227): SELinux: seapp_context_lookup: seinfo=untrusted, level=s0:c512,c768, pkgname=com.tresastronautas.android.hometap.user 
+11-04 16:42:29.671: W/SELinux(3227): SELINUX: pkgdir_selabel_lookup, reloading seapp_contexts only once, pathname:/data/data/com.tresastronautas.android.hometap.user, uid:10195
+11-04 16:42:29.671: I/SELinux(3227): SELinux: seapp_context_lookup: seinfo=untrusted, level=s0:c512,c768, pkgname=com.tresastronautas.android.hometap.user 
+11-04 16:42:29.672: W/SELinux(3227): SELINUX: pkgdir_selabel_lookup, reloading seapp_contexts only once, pathname:/data/user_de/0/com.tresastronautas.android.hometap.user, uid:10195
+11-04 16:42:29.673: I/SELinux(3227): SELinux: seapp_context_lookup: seinfo=untrusted, level=s0:c512,c768, pkgname=com.tresastronautas.android.hometap.user 
+11-04 16:42:29.673: D/SecureStorageService(3557): apk path=/data/app/com.tresastronautas.android.hometap.user-1/base.apk
+11-04 16:42:29.742: W/ResourceType(4410): SS_ART_lib [I]: permission is absent: /data/app/com.tresastronautas.android.hometap.user-1/base.apk
+11-04 16:42:29.746: D/MountService(3557): onExternalStoragePolicyChanged : uid=10195, packageName=com.tresastronautas.android.hometap.user
+11-04 16:42:29.746: D/MountService(3557): getExternalStorageMountMode : final mountMode=2, uid : 10195, packageName : com.tresastronautas.android.hometap.user
+11-04 16:42:29.788: D/MountService(3557): onExternalStoragePolicyChanged : uid=10195, packageName=com.tresastronautas.android.hometap.user
+11-04 16:42:29.796: D/MountService(3557): getExternalStorageMountMode : final mountMode=3, uid : 10195, packageName : com.tresastronautas.android.hometap.user
+11-04 16:42:30.171: V/OMA_SmartcardService(4951): TerminalStateChanged/action:android.intent.action.PACKAGE_ADDED, pkgName:com.tresastronautas.android.hometap.user
+11-04 16:42:30.171: V/OMA_SmartcardService(4951): updateTerminals/action:android.intent.action.PACKAGE_ADDED, pkgName:com.tresastronautas.android.hometap.user
+11-04 16:42:30.204: D/UcmService(3557): isSystemUCMPlugin pkgName-com.tresastronautas.android.hometap.user
+11-04 16:42:30.204: D/UcmService(3557): isPCSCService pkgName-com.tresastronautas.android.hometap.user
+11-04 16:42:30.691: E/Launcher.Model(4825): onPackageAdded :com.tresastronautas.android.hometap.user
+11-04 16:42:30.805: D/PackageManager(3557): getComponentMetadataForIconTray : com.tresastronautas.android.hometap.user.SplashActivity does not exist in mServices
+11-04 16:42:30.805: D/PackageManager(3557): getComponentMetadataForIconTray : com.tresastronautas.android.hometap.user.SplashActivity does not exist in mProviders
+11-04 16:42:30.805: D/PackageManager(3557): getComponentMetadataForIconTray : com.tresastronautas.android.hometap.user.SplashActivity does not exist in mReceivers
