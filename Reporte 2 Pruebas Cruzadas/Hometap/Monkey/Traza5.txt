@@ -1,0 +1,40 @@
+C:\Users\JC\AppData\Local\Android\sdk\platform-tools>adb shell monkey -p com.tresastronautas.android.hometap.user -v -s 1509895797313 1000000 > HometapL
+og(5).txt
+args: [-p, com.tresastronautas.android.hometap.user, -v, -s, 1509895797313, 1000000]
+ arg: "-p"
+ arg: "com.tresastronautas.android.hometap.user"
+ arg: "-v"
+ arg: "-s"
+ arg: "1509895797313"
+ arg: "1000000"
+data="com.tresastronautas.android.hometap.user"
+data="1509895797313"
+// CRASH: com.google.android.inputmethod.latin (pid 8256)
+// Short Msg: Native crash
+// Long Msg: Native crash: Segmentation fault
+// Build Label: google/sdk_gphone_x86/generic_x86:8.0.0/OSR1.170901.008/4328566:userdebug/dev-keys
+// Build Changelist: 4328566
+// Build Time: 1505164102000
+// *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+// Build fingerprint: 'google/sdk_gphone_x86/generic_x86:8.0.0/OSR1.170901.008/4328566:userdebug/dev-keys'
+// Revision: '0'
+// ABI: 'x86'
+// pid: 8256, tid: 8256, name: putmethod.latin  >>> com.google.android.inputmethod.latin <<<
+// signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x12
+// Cause: null pointer dereference
+//     eax 00000002  ebx 94491d74  ecx a4b07594  edx 0000002c
+//     esi 9327ffc0  edi 92125aa0
+//     xcs 00000073  xds 0000007b  xes 0000007b  xfs 0000003b  xss 0000007b
+//     eip 93e79148  ebp bfdc3478  esp bfdc33f0  flags 00010202
+//
+// backtrace:
+//     #00 pc 000e4148  /system/app/LatinIMEGooglePrebuilt/LatinIMEGooglePrebuilt.apk (offset 0x17000)
+//     #01 pc 000e603b  /system/app/LatinIMEGooglePrebuilt/LatinIMEGooglePrebuilt.apk (offset 0x17000)
+//     #02 pc 000b48ec  /system/app/LatinIMEGooglePrebuilt/LatinIMEGooglePrebuilt.apk (offset 0x17000)
+//     #03 pc 000cfc31  /system/app/LatinIMEGooglePrebuilt/LatinIMEGooglePrebuilt.apk (offset 0x17000)
+//     #04 pc 00086b59  /system/app/LatinIMEGooglePrebuilt/LatinIMEGooglePrebuilt.apk (offset 0x17000)
+//     #05 pc 000797ca  /system/app/LatinIMEGooglePrebuilt/oat/x86/LatinIMEGooglePrebuilt.odex (offset 0x33000)
+//
+** System appears to have crashed at event 340361 of 1000000 using seed 1509895797313
+
+C:\Users\JC\AppData\Local\Android\sdk\platform-tools>
