@@ -1,0 +1,208 @@
+  bash arg: -s
+  bash arg: 1510021896325
+  bash arg: --pct-touch
+  bash arg: 80
+  bash arg: --pct-motion
+  bash arg: 0
+  bash arg: --pct-trackball
+  bash arg: 0
+  bash arg: --pct-nav
+  bash arg: 0
+  bash arg: --pct-majornav
+  bash arg: 0
+  bash arg: --pct-syskeys
+  bash arg: 0
+  bash arg: --pct-appswitch
+  bash arg: 0
+  bash arg: --pct-anyevent
+  bash arg: 20
+  bash arg: -p
+  bash arg: com.tresastronautas.android.hometap.user
+  bash arg: -c
+  bash arg: android.intent.category.DEFAULT
+  bash arg: -c
+  bash arg: android.intent.category.BROWSABLE
+  bash arg: -c
+  bash arg: android.intent.category.LAUNCHER
+  bash arg: -vvv
+  bash arg: 5000000
+:Monkey: seed=1510021896325 count=5000000
+:AllowPackage: com.tresastronautas.android.hometap.user
+:IncludeCategory: android.intent.category.DEFAULT
+:IncludeCategory: android.intent.category.BROWSABLE
+:IncludeCategory: android.intent.category.LAUNCHER
+// Event percentages:
+//   0: 80.0%
+//   1: -0.0%
+//   2: 0.0%
+//   3: -0.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: -0.0%
+//   7: -0.0%
+//   8: -0.0%
+//   9: -0.0%
+//   10: 0.0%
+//   11: 20.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.tresastronautas.android.hometap.user/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.tresastronautas.android.hometap.user/.SplashActivity } in package com.tresastronautas.android.hometap.user
+:Sending Touch (ACTION_DOWN): 0:(929.0,1547.0)
+:Sending Touch (ACTION_UP): 0:(924.21246,1544.3894)
+:Sending Touch (ACTION_DOWN): 0:(1005.0,920.0)
+:Sending Touch (ACTION_UP): 0:(993.1451,925.3004)
+:Sending Touch (ACTION_DOWN): 0:(861.0,74.0)
+:Sending Touch (ACTION_UP): 0:(842.0988,74.18845)
+:Sending Touch (ACTION_DOWN): 0:(55.0,873.0)
+:Sending Touch (ACTION_UP): 0:(59.410404,880.51276)
+:Sending Touch (ACTION_DOWN): 0:(740.0,509.0)
+:Sending Touch (ACTION_UP): 0:(737.7598,494.35483)
+:Sending Touch (ACTION_DOWN): 0:(614.0,298.0)
+:Sending Touch (ACTION_UP): 0:(621.2418,305.96118)
+:Sending Touch (ACTION_DOWN): 0:(814.0,1621.0)
+:Sending Touch (ACTION_UP): 0:(812.72125,1621.1315)
+:Sending Touch (ACTION_DOWN): 0:(670.0,1139.0)
+:Sending Touch (ACTION_UP): 0:(662.94977,1135.5492)
+:Sending Touch (ACTION_DOWN): 0:(829.0,1697.0)
+:Sending Touch (ACTION_UP): 0:(822.27637,1700.5096)
+:Sending Touch (ACTION_DOWN): 0:(68.0,1451.0)
+:Sending Touch (ACTION_UP): 0:(73.6619,1466.5074)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.chrome/com.google.android.apps.chrome.Main } in package com.android.chrome
+:Sending Touch (ACTION_DOWN): 0:(714.0,283.0)
+:Sending Touch (ACTION_UP): 0:(710.71295,282.59805)
+:Sending Touch (ACTION_DOWN): 0:(375.0,1725.0)
+:Sending Touch (ACTION_UP): 0:(364.90338,1731.7062)
+:Sending Touch (ACTION_DOWN): 0:(160.0,1022.0)
+:Sending Touch (ACTION_UP): 0:(157.8492,1021.9396)
+:Sending Touch (ACTION_DOWN): 0:(663.0,226.0)
+:Sending Touch (ACTION_UP): 0:(661.4724,236.64775)
+:Sending Touch (ACTION_DOWN): 0:(548.0,86.0)
+:Sending Touch (ACTION_UP): 0:(545.21857,90.88356)
+:Sending Touch (ACTION_DOWN): 0:(460.0,281.0)
+:Sending Touch (ACTION_UP): 0:(459.1463,293.1994)
+:Sending Touch (ACTION_DOWN): 0:(407.0,1403.0)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.google.android.apps.messaging/.ui.ConversationListActivity } in package com.google.android.apps.messaging
+:Sending Touch (ACTION_UP): 0:(405.48563,1395.4412)
+:Sending Touch (ACTION_DOWN): 0:(412.0,1494.0)
+:Sending Touch (ACTION_UP): 0:(406.05576,1491.3665)
+:Sending Touch (ACTION_DOWN): 0:(687.0,1381.0)
+:Sending Touch (ACTION_UP): 0:(690.24695,1381.0929)
+:Sending Touch (ACTION_DOWN): 0:(653.0,1741.0)
+:Sending Touch (ACTION_UP): 0:(647.89655,1744.4631)
+:Sending Touch (ACTION_DOWN): 0:(325.0,535.0)
+:Sending Touch (ACTION_UP): 0:(335.56274,532.33234)
+:Sending Touch (ACTION_DOWN): 0:(226.0,1365.0)
+:Sending Touch (ACTION_UP): 0:(217.57552,1342.8999)
+:Sending Touch (ACTION_DOWN): 0:(927.0,678.0)
+:Sending Touch (ACTION_UP): 0:(927.11145,670.6333)
+:Sending Touch (ACTION_DOWN): 0:(541.0,182.0)
+:Sending Touch (ACTION_UP): 0:(549.94604,160.7949)
+:Sending Touch (ACTION_DOWN): 0:(334.0,1065.0)
+:Sending Touch (ACTION_UP): 0:(332.7563,1064.2976)
+:Sending Touch (ACTION_DOWN): 0:(1022.0,355.0)
+:Sending Touch (ACTION_UP): 0:(1027.1274,352.26205)
+:Sending Touch (ACTION_DOWN): 0:(479.0,1425.0)
+:Sending Touch (ACTION_UP): 0:(502.44946,1420.577)
+:Sending Touch (ACTION_DOWN): 0:(258.0,1040.0)
+:Sending Touch (ACTION_UP): 0:(263.4996,1039.7358)
+:Sending Touch (ACTION_DOWN): 0:(215.0,1399.0)
+:Sending Touch (ACTION_UP): 0:(204.93071,1395.1593)
+:Sending Touch (ACTION_DOWN): 0:(809.0,724.0)
+:Sending Touch (ACTION_UP): 0:(808.1055,722.6625)
+:Sending Touch (ACTION_DOWN): 0:(542.0,1344.0)
+:Sending Touch (ACTION_UP): 0:(536.9447,1349.3505)
+:Sending Touch (ACTION_DOWN): 0:(268.0,669.0)
+:Sending Touch (ACTION_UP): 0:(271.0582,675.9649)
+:Sending Touch (ACTION_DOWN): 0:(939.0,1558.0)
+:Sending Touch (ACTION_UP): 0:(937.93994,1565.9697)
+:Sending Touch (ACTION_DOWN): 0:(93.0,1266.0)
+:Sending Touch (ACTION_UP): 0:(102.23901,1267.8234)
+:Sending Touch (ACTION_DOWN): 0:(627.0,324.0)
+:Sending Touch (ACTION_UP): 0:(619.3526,315.07312)
+:Sending Touch (ACTION_DOWN): 0:(122.0,449.0)
+:Sending Touch (ACTION_UP): 0:(119.38886,451.7511)
+:Sending Touch (ACTION_DOWN): 0:(1006.0,445.0)
+:Sending Touch (ACTION_UP): 0:(1008.19354,433.18634)
+:Sending Touch (ACTION_DOWN): 0:(782.0,460.0)
+:Sending Touch (ACTION_UP): 0:(775.71686,460.7129)
+:Sending Touch (ACTION_DOWN): 0:(99.0,1423.0)
+:Sending Touch (ACTION_UP): 0:(103.69979,1428.7644)
+:Sending Touch (ACTION_DOWN): 0:(94.0,661.0)
+:Sending Touch (ACTION_UP): 0:(89.069084,651.0778)
+:Sending Touch (ACTION_DOWN): 0:(40.0,1228.0)
+:Sending Touch (ACTION_UP): 0:(44.10773,1236.2488)
+:Sending Touch (ACTION_DOWN): 0:(156.0,113.0)
+:Sending Touch (ACTION_UP): 0:(157.03111,112.840805)
+:Sending Touch (ACTION_DOWN): 0:(144.0,161.0)
+:Sending Touch (ACTION_UP): 0:(144.26584,173.70529)
+:Sending Touch (ACTION_DOWN): 0:(807.0,1334.0)
+:Sending Touch (ACTION_UP): 0:(809.1268,1333.9242)
+:Sending Touch (ACTION_DOWN): 0:(284.0,1239.0)
+:Sending Touch (ACTION_UP): 0:(281.38477,1238.6018)
+    //[calendar_time:2017-11-05 21:16:14.216  system_uptime:81328081]
+    // Sending event #100
+    // Rejecting start of Intent { act=android.intent.action.ASSIST cmp=com.google.android.googlequicksearchbox/.SearchActivity } in package com.google.android.googlequicksearchbox
+:Sending Touch (ACTION_DOWN): 0:(341.0,1718.0)
+:Sending Touch (ACTION_UP): 0:(348.66,1730.4445)
+:Sending Touch (ACTION_DOWN): 0:(302.0,1460.0)
+:Sending Touch (ACTION_UP): 0:(320.9245,1475.4888)
+:Sending Touch (ACTION_DOWN): 0:(712.0,153.0)
+:Sending Touch (ACTION_UP): 0:(707.4788,146.89232)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.google.android.apps.messaging/.ui.ConversationListActivity } in package com.google.android.apps.messaging
+:Sending Touch (ACTION_DOWN): 0:(398.0,1783.0)
+:Sending Touch (ACTION_UP): 0:(397.9504,1780.5537)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.google.android.apps.messaging/.ui.ConversationListActivity } in package com.google.android.apps.messaging
+:Sending Touch (ACTION_DOWN): 0:(192.0,153.0)
+:Sending Touch (ACTION_UP): 0:(198.66171,149.57251)
+:Sending Touch (ACTION_DOWN): 0:(378.0,548.0)
+:Sending Touch (ACTION_UP): 0:(365.75455,533.86945)
+:Sending Touch (ACTION_DOWN): 0:(774.0,1545.0)
+:Sending Touch (ACTION_UP): 0:(772.18823,1541.6022)
+:Sending Touch (ACTION_DOWN): 0:(86.0,871.0)
+:Sending Touch (ACTION_UP): 0:(73.09568,878.01715)
+:Sending Touch (ACTION_DOWN): 0:(439.0,1668.0)
+:Sending Touch (ACTION_UP): 0:(442.2613,1685.5636)
+:Sending Touch (ACTION_DOWN): 0:(947.0,569.0)
+:Sending Touch (ACTION_UP): 0:(942.98865,574.1406)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.google.android.gm/.ConversationListActivityGmail } in package com.google.android.gm
+:Sending Touch (ACTION_DOWN): 0:(706.0,1472.0)
+:Sending Touch (ACTION_UP): 0:(705.9712,1472.6693)
+:Sending Touch (ACTION_DOWN): 0:(789.0,1347.0)
+:Sending Touch (ACTION_UP): 0:(788.7833,1341.8771)
+:Sending Touch (ACTION_DOWN): 0:(710.0,1222.0)
+:Sending Touch (ACTION_UP): 0:(709.2921,1227.8492)
+:Sending Touch (ACTION_DOWN): 0:(364.0,1655.0)
+:Sending Touch (ACTION_UP): 0:(369.80423,1656.2487)
+:Sending Touch (ACTION_DOWN): 0:(534.0,463.0)
+:Sending Touch (ACTION_UP): 0:(534.13336,479.10635)
+:Sending Touch (ACTION_DOWN): 0:(72.0,1389.0)
+:Sending Touch (ACTION_UP): 0:(68.1177,1391.4479)
+:Sending Touch (ACTION_DOWN): 0:(744.0,369.0)
+:Sending Touch (ACTION_UP): 0:(743.80817,372.92508)
+:Sending Touch (ACTION_DOWN): 0:(820.0,790.0)
+:Sending Touch (ACTION_UP): 0:(827.5826,788.3743)
+:Sending Touch (ACTION_DOWN): 0:(778.0,1444.0)
+:Sending Touch (ACTION_UP): 0:(778.51697,1441.015)
+:Sending Touch (ACTION_DOWN): 0:(675.0,816.0)
+:Sending Touch (ACTION_UP): 0:(673.0463,816.7426)
+:Sending Touch (ACTION_DOWN): 0:(187.0,1292.0)
+:Sending Touch (ACTION_UP): 0:(185.70442,1310.9604)
+:Sending Touch (ACTION_DOWN): 0:(141.0,1615.0)
+:Sending Touch (ACTION_UP): 0:(131.42227,1620.2473)
+:Sending Touch (ACTION_DOWN): 0:(535.0,1243.0)
+:Sending Touch (ACTION_UP): 0:(544.9406,1241.0675)
+:Sending Touch (ACTION_DOWN): 0:(1024.0,1226.0)
+:Sending Touch (ACTION_UP): 0:(1029.3042,1227.725)
+:Sending Touch (ACTION_DOWN): 0:(900.0,838.0)
+:Sending Touch (ACTION_UP): 0:(905.33514,846.6154)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.google.android.apps.messaging/.ui.ConversationListActivity } in package com.google.android.apps.messaging
+:Sending Touch (ACTION_DOWN): 0:(859.0,1717.0)
+:Sending Touch (ACTION_UP): 0:(857.83185,1717.0623)
+:Sending Touch (ACTION_DOWN): 0:(337.0,101.0)
+:Sending Touch (ACTION_UP): 0:(345.99084,101.618576)
+:Sending Touch (ACTION_DOWN): 0:(606.0,596.0)
+:Sending Touch (ACTION_UP): 0:(608.6941,601.5175)
+** Monkey aborted due to error.
+Events injected: 182
+:Sending rotation degree=0, persist=false
+:Dropped: keys=0 pointers=0 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=37097ms (0ms mobile, 0ms wifi, 37097ms not connected)
