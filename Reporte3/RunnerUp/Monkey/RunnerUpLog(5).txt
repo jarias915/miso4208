@@ -1,0 +1,75 @@
+  bash arg: -s
+  bash arg: 1510609991654
+  bash arg: --pct-touch
+  bash arg: 10
+  bash arg: --pct-motion
+  bash arg: 30
+  bash arg: --pct-trackball
+  bash arg: 0
+  bash arg: --pct-nav
+  bash arg: 0
+  bash arg: --pct-majornav
+  bash arg: 0
+  bash arg: --pct-syskeys
+  bash arg: 20
+  bash arg: --pct-appswitch
+  bash arg: 20
+  bash arg: --pct-anyevent
+  bash arg: 20
+  bash arg: -p
+  bash arg: org.runnerup
+  bash arg: -v
+  bash arg: 500000
+  bash arg: --monitor-native-crashes
+:Monkey: seed=1510609991654 count=500000
+:AllowPackage: org.runnerup
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Event percentages:
+//   0: 10.0%
+//   1: 30.0%
+//   2: 0.0%
+//   3: -0.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: -0.0%
+//   7: -0.0%
+//   8: 20.0%
+//   9: 20.0%
+//   10: 0.0%
+//   11: 20.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.runnerup/.view.MainLayout;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.runnerup/.view.MainLayout } in package org.runnerup
+:Sending Touch (ACTION_DOWN): 0:(208.0,573.0)
+:Sending Touch (ACTION_UP): 0:(214.84955,570.0549)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.runnerup/.view.MainLayout;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.runnerup/.view.MainLayout } in package org.runnerup
+:Sending Touch (ACTION_DOWN): 0:(639.0,1336.0)
+:Sending Touch (ACTION_UP): 0:(634.9863,1336.1117)
+:Sending Touch (ACTION_DOWN): 0:(1008.0,813.0)
+:Sending Touch (ACTION_UP): 0:(1017.4104,824.98096)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity } in package com.google.android.apps.nexuslauncher
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.runnerup/.view.MainLayout;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.runnerup/.view.MainLayout } in package org.runnerup
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.runnerup/.view.MainLayout;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.runnerup/.view.MainLayout } in package org.runnerup
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.runnerup/.view.MainLayout;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.runnerup/.view.MainLayout } in package org.runnerup
+:Sending Touch (ACTION_DOWN): 0:(1016.0,325.0)
+:Sending Touch (ACTION_UP): 0:(967.90015,277.47992)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(318.0,1083.0)
+:Sending Touch (ACTION_UP): 0:(351.7541,1068.1416)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.runnerup/.view.MainLayout;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.runnerup/.view.MainLayout } in package org.runnerup
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.runnerup/.view.MainLayout;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.runnerup/.view.MainLayout } in package org.runnerup
+:Sending Touch (ACTION_DOWN): 0:(609.0,1591.0)
+:Sending Touch (ACTION_UP): 0:(604.99115,1606.1958)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.runnerup/.view.MainLayout;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.runnerup/.view.MainLayout } in package org.runnerup
+** Monkey aborted due to error.
+Events injected: 49
+:Sending rotation degree=0, persist=false
+:Dropped: keys=1 pointers=0 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=1952ms (0ms mobile, 0ms wifi, 1952ms not connected)

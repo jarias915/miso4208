@@ -1,0 +1,17 @@
+adb install -r org.runnerup_14000057.apk
+
+1- adb shell monkey --pct-touch 20 --pct-motion 0 --pct-trackball 0 --pct-nav 0 --pct-majornav 0 --pct-syskeys 0 --pct-appswitch 60 --pct-anyevent 20 -p org.runnerup -v 1000000 --monitor-native-crashes > RunnerUpLog(1).txt
+2- adb shell monkey -s 1510637979456 --pct-touch 20 --pct-motion 0 --pct-trackball 0 --pct-nav 0 --pct-majornav 0 --pct-syskeys 0 --pct-appswitch 60 --pct-anyevent 20 -p org.runnerup -v 500000 --monitor-native-crashes > RunnerUpLog(2).txt
+3- adb shell monkey --pct-touch 10 --pct-motion 30 --pct-trackball 0 --pct-nav 0 --pct-majornav 0 --pct-syskeys 20 --pct-appswitch 20 --pct-anyevent 20 -p org.runnerup -v 500000 --monitor-native-crashes > RunnerUpLog(3).txt
+4- adb shell monkey --pct-touch 10 --pct-motion 30 --pct-trackball 0 --pct-nav 0 --pct-majornav 0 --pct-syskeys 20 --pct-appswitch 20 --pct-anyevent 20 -p org.runnerup -v 500000 --monitor-native-crashes > RunnerUpLog(4).txt
+5- adb shell monkey -s 1510609991654 --pct-touch 10 --pct-motion 30 --pct-trackball 0 --pct-nav 0 --pct-majornav 0 --pct-syskeys 20 --pct-appswitch 20 --pct-anyevent 20 -p org.runnerup -v 500000 --monitor-native-crashes > RunnerUpLog(5).txt
+
+1 Se genero error con semilla 1510637979456, java.lang.IllegalStateException: Cannot start assistant activity on a hidden session, no es error de la app.
+2 Se utilizo la semilla generada anteriormente, se genero un crash nativo.
+3 Genero error de crash nativo.
+4 Se ejecuto el mismo comando de Monkey anterior y genero error en la app con la semilla 1510609991654.
+5 Se ejecuto el mismo comando de Monkey anterior con la semilla generada y se genero la misma excepcion.
+
+
+
+

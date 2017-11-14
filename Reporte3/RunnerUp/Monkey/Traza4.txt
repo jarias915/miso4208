@@ -1,0 +1,62 @@
+C:\Users\JC\AppData\Local\Android\sdk\platform-tools>adb shell monkey --pct-touch 10 --pct-motion 30 --pct-trackball 0 --pct-nav 0 --pct-majornav 0 --pc
+t-syskeys 20 --pct-appswitch 20 --pct-anyevent 20 -p org.runnerup -v 500000 --monitor-native-crashes > RunnerUpLog(4).txt
+args: [--pct-touch, 10, --pct-motion, 30, --pct-trackball, 0, --pct-nav, 0, --pct-majornav, 0, --pct-syskeys, 20, --pct-appswitch, 20, --pct-anyevent, 2
+0, -p, org.runnerup, -v, 500000, --monitor-native-crashes]
+ arg: "--pct-touch"
+ arg: "10"
+ arg: "--pct-motion"
+ arg: "30"
+ arg: "--pct-trackball"
+ arg: "0"
+ arg: "--pct-nav"
+ arg: "0"
+ arg: "--pct-majornav"
+ arg: "0"
+ arg: "--pct-syskeys"
+ arg: "20"
+ arg: "--pct-appswitch"
+ arg: "20"
+ arg: "--pct-anyevent"
+ arg: "20"
+ arg: "-p"
+ arg: "org.runnerup"
+ arg: "-v"
+ arg: "500000"
+ arg: "--monitor-native-crashes"
+arg="--pct-touch" mCurArgData="null" mNextArg=1 argwas="--pct-touch" nextarg="10"
+data="10"
+arg="--pct-motion" mCurArgData="null" mNextArg=3 argwas="--pct-motion" nextarg="30"
+data="30"
+arg="--pct-trackball" mCurArgData="null" mNextArg=5 argwas="--pct-trackball" nextarg="0"
+data="0"
+arg="--pct-nav" mCurArgData="null" mNextArg=7 argwas="--pct-nav" nextarg="0"
+data="0"
+arg="--pct-majornav" mCurArgData="null" mNextArg=9 argwas="--pct-majornav" nextarg="0"
+data="0"
+arg="--pct-syskeys" mCurArgData="null" mNextArg=11 argwas="--pct-syskeys" nextarg="20"
+data="20"
+arg="--pct-appswitch" mCurArgData="null" mNextArg=13 argwas="--pct-appswitch" nextarg="20"
+data="20"
+arg="--pct-anyevent" mCurArgData="null" mNextArg=15 argwas="--pct-anyevent" nextarg="20"
+data="20"
+data="org.runnerup"
+// CRASH: org.runnerup (pid 8797)
+// Short Msg: java.lang.NullPointerException
+// Long Msg: java.lang.NullPointerException: Attempt to invoke virtual method 'float java.lang.Float.floatValue()' on a null object reference
+// Build Label: google/sdk_gphone_x86/generic_x86:8.0.0/OSR1.170901.008/4328566:userdebug/dev-keys
+// Build Changelist: 4328566
+// Build Time: 1505164102000
+// java.lang.NullPointerException: Attempt to invoke virtual method 'float java.lang.Float.floatValue()' on a null object reference
+//      at org.runnerup.tracker.component.TrackerTemperature.onSensorChanged(TrackerTemperature.java:63)
+//      at android.hardware.SystemSensorManager$SensorEventQueue.dispatchSensorEvent(SystemSensorManager.java:830)
+//      at android.os.MessageQueue.nativePollOnce(Native Method)
+//      at android.os.MessageQueue.next(MessageQueue.java:325)
+//      at android.os.Looper.loop(Looper.java:142)
+//      at android.app.ActivityThread.main(ActivityThread.java:6541)
+//      at java.lang.reflect.Method.invoke(Native Method)
+//      at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+//      at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+//
+** System appears to have crashed at event 50 of 500000 using seed 1510609991654
+
+C:\Users\JC\AppData\Local\Android\sdk\platform-tools>

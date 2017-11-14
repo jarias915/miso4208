@@ -1,0 +1,120 @@
+C:\Users\JC\AppData\Local\Android\sdk\platform-tools>adb shell monkey -s 1510637979456 --pct-touch 20 --pct-motion 0 --pct-trackball 0 --pct-nav 0 --pct
+-majornav 0 --pct-syskeys 0 --pct-appswitch 60 --pct-anyevent 20 -p org.runnerup -v 500000 --monitor-native-crashes > RunnerUpLog(2).txt
+args: [-s, 1510637979456, --pct-touch, 20, --pct-motion, 0, --pct-trackball, 0, --pct-nav, 0, --pct-majornav, 0, --pct-syskeys, 0, --pct-appswitch, 60,
+--pct-anyevent, 20, -p, org.runnerup, -v, 500000, --monitor-native-crashes]
+ arg: "-s"
+ arg: "1510637979456"
+ arg: "--pct-touch"
+ arg: "20"
+ arg: "--pct-motion"
+ arg: "0"
+ arg: "--pct-trackball"
+ arg: "0"
+ arg: "--pct-nav"
+ arg: "0"
+ arg: "--pct-majornav"
+ arg: "0"
+ arg: "--pct-syskeys"
+ arg: "0"
+ arg: "--pct-appswitch"
+ arg: "60"
+ arg: "--pct-anyevent"
+ arg: "20"
+ arg: "-p"
+ arg: "org.runnerup"
+ arg: "-v"
+ arg: "500000"
+ arg: "--monitor-native-crashes"
+data="1510637979456"
+arg="--pct-touch" mCurArgData="null" mNextArg=3 argwas="--pct-touch" nextarg="20"
+data="20"
+arg="--pct-motion" mCurArgData="null" mNextArg=5 argwas="--pct-motion" nextarg="0"
+data="0"
+arg="--pct-trackball" mCurArgData="null" mNextArg=7 argwas="--pct-trackball" nextarg="0"
+data="0"
+arg="--pct-nav" mCurArgData="null" mNextArg=9 argwas="--pct-nav" nextarg="0"
+data="0"
+arg="--pct-majornav" mCurArgData="null" mNextArg=11 argwas="--pct-majornav" nextarg="0"
+data="0"
+arg="--pct-syskeys" mCurArgData="null" mNextArg=13 argwas="--pct-syskeys" nextarg="0"
+data="0"
+arg="--pct-appswitch" mCurArgData="null" mNextArg=15 argwas="--pct-appswitch" nextarg="60"
+data="60"
+arg="--pct-anyevent" mCurArgData="null" mNextArg=17 argwas="--pct-anyevent" nextarg="20"
+data="20"
+data="org.runnerup"
+// CRASH: org.runnerup (pid 7790)
+// Short Msg: Native crash
+// Long Msg: Native crash: Aborted
+// Build Label: google/sdk_gphone_x86/generic_x86:8.0.0/OSR1.170901.008/4328566:userdebug/dev-keys
+// Build Changelist: 4328566
+// Build Time: 1505164102000
+// *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+// Build fingerprint: 'google/sdk_gphone_x86/generic_x86:8.0.0/OSR1.170901.008/4328566:userdebug/dev-keys'
+// Revision: '0'
+// ABI: 'x86'
+// pid: 7790, tid: 7790, name: org.runnerup  >>> org.runnerup <<<
+// signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+// Abort message: 'java_vm_ext.cc:504] JNI DETECTED ERROR IN APPLICATION: JNI CallObjectMethod called with pending exception java.lang.NullPointerExcept
+ion: Attempt to invoke virtual method 'float java.lang.Float.floatValue()' on a null object reference'
+//     eax 00000000  ebx 00001e6e  ecx 00001e6e  edx 00000006
+//     esi 00001e6e  edi bfe33088
+//     xcs 00000073  xds 0000007b  xes 0000007b  xfs 0000003b  xss 0000007b
+//     eip aacecac4  ebp bfe330a8  esp bfe3303c  flags 00000296
+//
+// backtrace:
+//     #00 pc 00000ac4  [vdso:aacec000] (__kernel_vsyscall+16)
+//     #01 pc 00075b3c  /system/lib/libc.so (tgkill+28)
+//     #02 pc 0001f04e  /system/lib/libc.so (abort+110)
+//     #03 pc 0053bc8d  /system/lib/libart.so (_ZN3art7Runtime5AbortEPKc+669)
+//     #04 pc 0053c569  /system/lib/libart.so (_ZN3art7Runtime7AborterEPKc+41)
+//     #05 pc 0011c3d3  /system/lib/libart.so (_ZNSt3__110__function6__funcIPFvPKcENS_9allocatorIS5_EES4_EclEOS3_+35)
+//     #06 pc 0065156a  /system/lib/libart.so (_ZN7android4base10LogMessageD1Ev+1034)
+//     #07 pc 00386922  /system/lib/libart.so (_ZN3art9JavaVMExt8JniAbortEPKcS2_+2146)
+//     #08 pc 00386ba1  /system/lib/libart.so (_ZN3art9JavaVMExt9JniAbortVEPKcS2_Pc+113)
+//     #09 pc 0014ec45  /system/lib/libart.so (_ZN3art11ScopedCheck6AbortFEPKcz+69)
+//     #10 pc 0014e710  /system/lib/libart.so (_ZN3art11ScopedCheck11CheckThreadEP7_JNIEnv+544)
+//     #11 pc 0014d311  /system/lib/libart.so (_ZN3art11ScopedCheck22CheckPossibleHeapValueERNS_18ScopedObjectAccessEcNS_12JniValueTypeE+161)
+//     #12 pc 0014c8b3  /system/lib/libart.so (_ZN3art11ScopedCheck5CheckERNS_18ScopedObjectAccessEbPKcPNS_12JniValueTypeE+1155)
+//     #13 pc 001526d9  /system/lib/libart.so (_ZN3art8CheckJNI13CheckCallArgsERNS_18ScopedObjectAccessERNS_11ScopedCheckEP7_JNIEnvP8_jobjectP7_jclassP1
+0_jmethodIDNS_10InvokeTypeEPKNS_7VarArgsE+185)
+//     #14 pc 0015181d  /system/lib/libart.so (_ZN3art8CheckJNI11CallMethodVEPKcP7_JNIEnvP8_jobjectP7_jclassP10_jmethodIDPcNS_9Primitive4TypeENS_10Invok
+eTypeE+1133)
+//     #15 pc 0013b8bf  /system/lib/libart.so (_ZN3art8CheckJNI16CallObjectMethodEP7_JNIEnvP8_jobjectP10_jmethodIDz+79)
+//     #16 pc 00002db3  /system/lib/libnativehelper.so (jniGetReferent+147)
+//     #17 pc 0014688d  /system/lib/libandroid_runtime.so (_ZN12_GLOBAL__N_18Receiver11handleEventEiiPv+93)
+//     #18 pc 000157ac  /system/lib/libutils.so (_ZN7android6Looper9pollInnerEi+988)
+//     #19 pc 00015346  /system/lib/libutils.so (_ZN7android6Looper8pollOnceEiPiS1_PPv+118)
+//     #20 pc 000e4cbb  /system/lib/libandroid_runtime.so (_ZN7androidL38android_os_MessageQueue_nativePollOnceEP7_JNIEnvP8_jobjectxi+59)
+//     #21 pc 007b4198  /system/framework/x86/boot-framework.oat (offset 0x5e6000) (android.app.NativeActivity.onWindowFocusChangedNative [DEDUPED]+136)
+//     #22 pc 00efb528  /system/framework/x86/boot-framework.oat (offset 0x5e6000) (android.os.MessageQueue.next+232)
+//     #23 pc 00ef5107  /system/framework/x86/boot-framework.oat (offset 0x5e6000) (android.os.Looper.loop+487)
+//     #24 pc 006a90f2  /system/framework/x86/boot-framework.oat (offset 0x5e6000) (android.app.ActivityThread.main+866)
+//     #25 pc 00638ea2  /system/lib/libart.so (art_quick_invoke_static_stub+418)
+//     #26 pc 00112b92  /system/lib/libart.so (_ZN3art9ArtMethod6InvokeEPNS_6ThreadEPjjPNS_6JValueEPKc+306)
+//     #27 pc 00533035  /system/lib/libart.so (_ZN3artL18InvokeWithArgArrayERKNS_33ScopedObjectAccessAlreadyRunnableEPNS_9ArtMethodEPNS_8ArgArrayEPNS_6J
+ValueEPKc+101)
+//     #28 pc 005350c6  /system/lib/libart.so (_ZN3art12InvokeMethodERKNS_33ScopedObjectAccessAlreadyRunnableEP8_jobjectS4_S4_j+1478)
+//     #29 pc 004a2420  /system/lib/libart.so (_ZN3artL13Method_invokeEP7_JNIEnvP8_jobjectS3_S3_+80)
+//     #30 pc 0026dbd8  /system/framework/x86/boot.oat (offset 0x1df000) (java.lang.Class.getDeclaredMethodInternal [DEDUPED]+168)
+//     #31 pc 0160d385  /system/framework/x86/boot-framework.oat (offset 0x5e6000) (com.android.internal.os.Zygote$MethodAndArgsCaller.run+133)
+//     #32 pc 01611063  /system/framework/x86/boot-framework.oat (offset 0x5e6000) (com.android.internal.os.ZygoteInit.main+2707)
+//     #33 pc 00638ea2  /system/lib/libart.so (art_quick_invoke_static_stub+418)
+//     #34 pc 00112b92  /system/lib/libart.so (_ZN3art9ArtMethod6InvokeEPNS_6ThreadEPjjPNS_6JValueEPKc+306)
+//     #35 pc 00533035  /system/lib/libart.so (_ZN3artL18InvokeWithArgArrayERKNS_33ScopedObjectAccessAlreadyRunnableEPNS_9ArtMethodEPNS_8ArgArrayEPNS_6J
+ValueEPKc+101)
+//     #36 pc 00532cf9  /system/lib/libart.so (_ZN3art17InvokeWithVarArgsERKNS_33ScopedObjectAccessAlreadyRunnableEP8_jobjectP10_jmethodIDPc+441)
+//     #37 pc 004116a0  /system/lib/libart.so (_ZN3art3JNI21CallStaticVoidMethodVEP7_JNIEnvP7_jclassP10_jmethodIDPc+992)
+//     #38 pc 00152055  /system/lib/libart.so (_ZN3art8CheckJNI11CallMethodVEPKcP7_JNIEnvP8_jobjectP7_jclassP10_jmethodIDPcNS_9Primitive4TypeENS_10Invok
+eTypeE+3237)
+//     #39 pc 0013eb0b  /system/lib/libart.so (_ZN3art8CheckJNI21CallStaticVoidMethodVEP7_JNIEnvP7_jclassP10_jmethodIDPc+75)
+//     #40 pc 000819be  /system/lib/libandroid_runtime.so (_ZN7_JNIEnv20CallStaticVoidMethodEP7_jclassP10_jmethodIDz+62)
+//     #41 pc 00083e96  /system/lib/libandroid_runtime.so (_ZN7android14AndroidRuntime5startEPKcRKNS_6VectorINS_7String8EEEb+838)
+//     #42 pc 00001db3  /system/bin/app_process32 (main+1603)
+//     #43 pc 00015f34  /system/lib/libc.so (__libc_init+100)
+//     #44 pc 000016be  /system/bin/app_process32 (_start+97)
+//     #45 pc 00000004  <unknown>
+//
+** System appears to have crashed at event 2884 of 500000 using seed 1510637979456
+
+C:\Users\JC\AppData\Local\Android\sdk\platform-tools>

@@ -1,0 +1,67 @@
+C:\Users\JC\AppData\Local\Android\sdk\platform-tools>adb shell monkey --pct-touch 20 --pct-motion 0 --pct-trackball 0 --pct-nav 0 --pct-majornav 0 --pct
+-syskeys 0 --pct-appswitch 60 --pct-anyevent 20 -p org.runnerup -v 1000000 --monitor-native-crashes > RunnerUpLog(1).txt
+args: [--pct-touch, 20, --pct-motion, 0, --pct-trackball, 0, --pct-nav, 0, --pct-majornav, 0, --pct-syskeys, 0, --pct-appswitch, 60, --pct-anyevent, 20,
+ -p, org.runnerup, -v, 1000000, --monitor-native-crashes]
+ arg: "--pct-touch"
+ arg: "20"
+ arg: "--pct-motion"
+ arg: "0"
+ arg: "--pct-trackball"
+ arg: "0"
+ arg: "--pct-nav"
+ arg: "0"
+ arg: "--pct-majornav"
+ arg: "0"
+ arg: "--pct-syskeys"
+ arg: "0"
+ arg: "--pct-appswitch"
+ arg: "60"
+ arg: "--pct-anyevent"
+ arg: "20"
+ arg: "-p"
+ arg: "org.runnerup"
+ arg: "-v"
+ arg: "1000000"
+ arg: "--monitor-native-crashes"
+arg="--pct-touch" mCurArgData="null" mNextArg=1 argwas="--pct-touch" nextarg="20"
+data="20"
+arg="--pct-motion" mCurArgData="null" mNextArg=3 argwas="--pct-motion" nextarg="0"
+data="0"
+arg="--pct-trackball" mCurArgData="null" mNextArg=5 argwas="--pct-trackball" nextarg="0"
+data="0"
+arg="--pct-nav" mCurArgData="null" mNextArg=7 argwas="--pct-nav" nextarg="0"
+data="0"
+arg="--pct-majornav" mCurArgData="null" mNextArg=9 argwas="--pct-majornav" nextarg="0"
+data="0"
+arg="--pct-syskeys" mCurArgData="null" mNextArg=11 argwas="--pct-syskeys" nextarg="0"
+data="0"
+arg="--pct-appswitch" mCurArgData="null" mNextArg=13 argwas="--pct-appswitch" nextarg="60"
+data="60"
+arg="--pct-anyevent" mCurArgData="null" mNextArg=15 argwas="--pct-anyevent" nextarg="20"
+data="20"
+data="org.runnerup"
+// CRASH: com.google.android.googlequicksearchbox:search (pid 4920)
+// Short Msg: java.lang.IllegalStateException
+// Long Msg: java.lang.IllegalStateException: Cannot start assistant activity on a hidden session
+// Build Label: google/sdk_gphone_x86/generic_x86:8.0.0/OSR1.170901.008/4328566:userdebug/dev-keys
+// Build Changelist: 4328566
+// Build Time: 1505164102000
+// java.lang.IllegalStateException: Cannot start assistant activity on a hidden session
+//      at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1960)
+//      at android.service.voice.VoiceInteractionSession.startAssistantActivity(VoiceInteractionSession.java:1291)
+//      at com.google.android.apps.gsa.assist.GsaVoiceInteractionSession.e(SourceFile:561)
+//      at com.google.android.apps.gsa.staticplugins.opa.k.a(SourceFile:181)
+//      at com.google.android.apps.gsa.assist.GsaVoiceInteractionSession.onShow(SourceFile:385)
+//      at android.service.voice.VoiceInteractionSession.doShow(VoiceInteractionSession.java:1011)
+//      at android.service.voice.VoiceInteractionSession$MyCallbacks.executeMessage(VoiceInteractionSession.java:872)
+//      at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:37)
+//      at android.os.Handler.dispatchMessage(Handler.java:105)
+//      at android.os.Looper.loop(Looper.java:164)
+//      at android.app.ActivityThread.main(ActivityThread.java:6541)
+//      at java.lang.reflect.Method.invoke(Native Method)
+//      at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+//      at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+//
+** System appears to have crashed at event 83666 of 1000000 using seed 1510637979456
+
+C:\Users\JC\AppData\Local\Android\sdk\platform-tools>
