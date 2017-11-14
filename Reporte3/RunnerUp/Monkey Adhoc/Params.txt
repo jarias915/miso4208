@@ -1,0 +1,10 @@
+"D:\\AndesMISO4208\\03 Talleres\\07 Taller 7\\Monkey\\"
+
+org.runnerup_14000057.apk
+
+org.runnerup
+
+java -cp commons-cli-1.4.jar;commons-net-3.6.jar;. Main -Events 40 -Keyevent 10 -Swipe 10 -Tap 10 -Text 10 -Rotate 20 -Sensor 20 -Network 20 -APKSourcePath "D:\\AndesMISO4208\\03 Talleres\\07 Taller 7\\Monkey\\" -APKName org.runnerup_14000057.apk -APKPackageName org.runnerup
+java -cp commons-cli-1.4.jar;commons-net-3.6.jar;. Main -Events 100 -Keyevent 10 -Swipe 20 -Tap 20 -Text 50 -APKSourcePath "D:\\AndesMISO4208\\03 Talleres\\07 Taller 7\\Monkey\\" -APKName org.runnerup_14000057.apk -APKPackageName org.runnerup
+
+
