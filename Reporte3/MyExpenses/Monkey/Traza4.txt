@@ -1,0 +1,52 @@
+C:\Users\JC\AppData\Local\Android\sdk\platform-tools>adb shell monkey --pct-touch 20 --pct-syskeys 10 --pct-appswitch 60 --pct-anyevent 10
+ -p org.totschnig.myexpenses -v 5000000 --ignore-crashes --monitor-native-crashes > MyExpensesLog(4).txt
+args: [--pct-touch, 20, --pct-syskeys, 10, --pct-appswitch, 60, --pct-anyevent, 10, -p, org.totschnig.myexpenses, -v, 5000000, --ignore-cr
+ashes, --monitor-native-crashes]
+ arg: "--pct-touch"
+ arg: "20"
+ arg: "--pct-syskeys"
+ arg: "10"
+ arg: "--pct-appswitch"
+ arg: "60"
+ arg: "--pct-anyevent"
+ arg: "10"
+ arg: "-p"
+ arg: "org.totschnig.myexpenses"
+ arg: "-v"
+ arg: "5000000"
+ arg: "--ignore-crashes"
+ arg: "--monitor-native-crashes"
+arg="--pct-touch" mCurArgData="null" mNextArg=1 argwas="--pct-touch" nextarg="20"
+data="20"
+arg="--pct-syskeys" mCurArgData="null" mNextArg=3 argwas="--pct-syskeys" nextarg="10"
+data="10"
+arg="--pct-appswitch" mCurArgData="null" mNextArg=5 argwas="--pct-appswitch" nextarg="60"
+data="60"
+arg="--pct-anyevent" mCurArgData="null" mNextArg=7 argwas="--pct-anyevent" nextarg="10"
+data="10"
+data="org.totschnig.myexpenses"
+// CRASH: com.google.android.googlequicksearchbox:search (pid 11058)
+// Short Msg: java.lang.IllegalStateException
+// Long Msg: java.lang.IllegalStateException: Cannot start assistant activity on a hidden session
+// Build Label: google/sdk_gphone_x86/generic_x86:8.0.0/OSR1.170901.008/4328566:userdebug/dev-keys
+// Build Changelist: 4328566
+// Build Time: 1505164102000
+// java.lang.IllegalStateException: Cannot start assistant activity on a hidden session
+//      at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1960)
+//      at android.service.voice.VoiceInteractionSession.startAssistantActivity(VoiceInteractionSession.java:1291)
+//      at com.google.android.apps.gsa.assist.GsaVoiceInteractionSession.e(SourceFile:561)
+//      at com.google.android.apps.gsa.staticplugins.opa.k.a(SourceFile:181)
+//      at com.google.android.apps.gsa.assist.GsaVoiceInteractionSession.onShow(SourceFile:385)
+//      at android.service.voice.VoiceInteractionSession.doShow(VoiceInteractionSession.java:1011)
+//      at android.service.voice.VoiceInteractionSession$MyCallbacks.executeMessage(VoiceInteractionSession.java:872)
+//      at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:37)
+//      at android.os.Handler.dispatchMessage(Handler.java:105)
+//      at android.os.Looper.loop(Looper.java:164)
+//      at android.app.ActivityThread.main(ActivityThread.java:6541)
+//      at java.lang.reflect.Method.invoke(Native Method)
+//      at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+//      at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+//
+** System appears to have crashed at event 28457 of 5000000 using seed 1510523382180
+
+C:\Users\JC\AppData\Local\Android\sdk\platform-tools>
